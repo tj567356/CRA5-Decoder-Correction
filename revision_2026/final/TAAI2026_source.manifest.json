@@ -1,0 +1,21 @@
+{
+  "source_files": {
+    "figs/main_result.pdf": "dc51f6c0225eb28e498057bbc2e7a9b403820550ef9a87481969cf86651c0a45",
+    "figs/terrain_roughness_main_curve.pdf": "f430b77430a29ee6ca1349782749f3f7a8f6b71bf3348cd881e263c940494e05",
+    "llncs.cls": "adcc3c8ac09373578638ff3043d0defaa06d22199c1dbd06e5d0326e1763f0c6",
+    "main.bbl": "6c0e9b83f2ab591d040fb31239195a805aa7c595c64c61e03de87220b797ec1c",
+    "main.tex": "46264ce80f9a6dba5a8559ea5bed5451b046c61bf8cebe5c4869d0bb6f144451",
+    "refs.bib": "6cc5db959b51e56d4eb6ae271b9b87eab3140c2505a338978a2fd029ea8b4e1e",
+    "sec1_intro.tex": "e1e8b99a59c29f5757a9afc8bd99f5ac05b2df3420c48d20b17ecfe5aac6978c",
+    "sec2_related.tex": "5a84f837a64e3bd38cdf027062c10730977736b50ad9249658195fdf9c6598aa",
+    "sec3_setup.tex": "08cb2ed6e21817cc495656f1f5953c8b039bd8018bb27ed5052b7372694872ed",
+    "sec4_encoder.tex": "d4d2e9064c1c195eaca6f946f269b27c4ef72a7e991021f49d8293771c3e143a",
+    "sec5_results.tex": "5a29fbad100ef9ae585b8cad747d1dbea5dc596b4a423e5ae3810013dc3ed1ac",
+    "sec6_where.tex": "deaa2177d865d90e44a55782d9669e788be11a6e4b07dc808a59dcd2d0b632c3",
+    "sec7_terrain.tex": "363e6132886cb30df0ce96ad83d21363eaf1a7e152030e47ead3841d73ca9145",
+    "sec8_limitations.tex": "341535d36d02bd29fe4f76dfb5da24adecb7c87dbb2b15476190e39653de264d",
+    "sec9_conclusion.tex": "3d5f563dd5d477973de7c8ea4a8e572305ada3d24acbca9de59e4d22b405c734",
+    "splncs04.bst": "88fb30cda155882c94942456576f77b189c22a5a20511b8f1b9686909068f453"
+  },
+  "zip_sha256": "53f1b95be300e5f2c2cfc4ea9ec2d4fd6c73a5ea898d0acd805b63804013dd5e"
+}

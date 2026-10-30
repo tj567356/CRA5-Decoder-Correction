@@ -1,0 +1,172 @@
+{
+  "year": 2018,
+  "channel": "sp",
+  "west_of": -100.0,
+  "rows": [
+    {
+      "stratum": "\u672a\u63a7\u5236\uff08\u5168\u90e8\u683c\u9ede\uff09",
+      "band": "0-200",
+      "cells": 11424,
+      "CRA5_before_Pa": 419.2,
+      "CRA5_after_Pa": 126.1,
+      "CRA5_vs_lowest": 1.0,
+      "MPCA+PCA e995_before_Pa": 533.6,
+      "MPCA+PCA e995_after_Pa": 159.1,
+      "MPCA+PCA e995_vs_lowest": 1.0
+    },
+    {
+      "stratum": "\u672a\u63a7\u5236\uff08\u5168\u90e8\u683c\u9ede\uff09",
+      "band": "200-600",
+      "cells": 5270,
+      "CRA5_before_Pa": 693.5,
+      "CRA5_after_Pa": 185.6,
+      "CRA5_vs_lowest": 1.65,
+      "MPCA+PCA e995_before_Pa": 771.5,
+      "MPCA+PCA e995_after_Pa": 232.4,
+      "MPCA+PCA e995_vs_lowest": 1.45
+    },
+    {
+      "stratum": "\u672a\u63a7\u5236\uff08\u5168\u90e8\u683c\u9ede\uff09",
+      "band": "600-1200",
+      "cells": 2584,
+      "CRA5_before_Pa": 974.7,
+      "CRA5_after_Pa": 233.5,
+      "CRA5_vs_lowest": 2.33,
+      "MPCA+PCA e995_before_Pa": 1011.3,
+      "MPCA+PCA e995_after_Pa": 277.0,
+      "MPCA+PCA e995_vs_lowest": 1.9
+    },
+    {
+      "stratum": "\u672a\u63a7\u5236\uff08\u5168\u90e8\u683c\u9ede\uff09",
+      "band": "1200-2000",
+      "cells": 3115,
+      "CRA5_before_Pa": 1056.6,
+      "CRA5_after_Pa": 249.2,
+      "CRA5_vs_lowest": 2.52,
+      "MPCA+PCA e995_before_Pa": 996.2,
+      "MPCA+PCA e995_after_Pa": 284.0,
+      "MPCA+PCA e995_vs_lowest": 1.87
+    },
+    {
+      "stratum": "\u672a\u63a7\u5236\uff08\u5168\u90e8\u683c\u9ede\uff09",
+      "band": "2000-9999",
+      "cells": 984,
+      "CRA5_before_Pa": 1356.1,
+      "CRA5_after_Pa": 282.0,
+      "CRA5_vs_lowest": 3.23,
+      "MPCA+PCA e995_before_Pa": 1116.4,
+      "MPCA+PCA e995_after_Pa": 310.0,
+      "MPCA+PCA e995_vs_lowest": 2.09
+    },
+    {
+      "stratum": "\u53ea\u770b\u9678\u5730",
+      "band": "0-200",
+      "cells": 3661,
+      "CRA5_before_Pa": 594.3,
+      "CRA5_after_Pa": 158.6,
+      "CRA5_vs_lowest": 1.0,
+      "MPCA+PCA e995_before_Pa": 655.7,
+      "MPCA+PCA e995_after_Pa": 195.2,
+      "MPCA+PCA e995_vs_lowest": 1.0
+    },
+    {
+      "stratum": "\u53ea\u770b\u9678\u5730",
+      "band": "200-600",
+      "cells": 5255,
+      "CRA5_before_Pa": 693.8,
+      "CRA5_after_Pa": 185.5,
+      "CRA5_vs_lowest": 1.17,
+      "MPCA+PCA e995_before_Pa": 771.5,
+      "MPCA+PCA e995_after_Pa": 232.2,
+      "MPCA+PCA e995_vs_lowest": 1.18
+    },
+    {
+      "stratum": "\u53ea\u770b\u9678\u5730",
+      "band": "600-1200",
+      "cells": 2584,
+      "CRA5_before_Pa": 974.7,
+      "CRA5_after_Pa": 233.5,
+      "CRA5_vs_lowest": 1.64,
+      "MPCA+PCA e995_before_Pa": 1011.3,
+      "MPCA+PCA e995_after_Pa": 277.0,
+      "MPCA+PCA e995_vs_lowest": 1.54
+    },
+    {
+      "stratum": "\u53ea\u770b\u9678\u5730",
+      "band": "1200-2000",
+      "cells": 3113,
+      "CRA5_before_Pa": 1056.6,
+      "CRA5_after_Pa": 249.2,
+      "CRA5_vs_lowest": 1.78,
+      "MPCA+PCA e995_before_Pa": 996.3,
+      "MPCA+PCA e995_after_Pa": 284.0,
+      "MPCA+PCA e995_vs_lowest": 1.52
+    },
+    {
+      "stratum": "\u53ea\u770b\u9678\u5730",
+      "band": "2000-9999",
+      "cells": 984,
+      "CRA5_before_Pa": 1356.1,
+      "CRA5_after_Pa": 282.0,
+      "CRA5_vs_lowest": 2.28,
+      "MPCA+PCA e995_before_Pa": 1116.4,
+      "MPCA+PCA e995_after_Pa": 310.0,
+      "MPCA+PCA e995_vs_lowest": 1.7
+    },
+    {
+      "stratum": "\u9678\u5730 + \u897f\u90e8",
+      "band": "0-200",
+      "cells": 415,
+      "CRA5_before_Pa": 1194.5,
+      "CRA5_after_Pa": 250.1,
+      "CRA5_vs_lowest": 1.0,
+      "MPCA+PCA e995_before_Pa": 1174.4,
+      "MPCA+PCA e995_after_Pa": 287.1,
+      "MPCA+PCA e995_vs_lowest": 1.0
+    },
+    {
+      "stratum": "\u9678\u5730 + \u897f\u90e8",
+      "band": "200-600",
+      "cells": 850,
+      "CRA5_before_Pa": 1156.8,
+      "CRA5_after_Pa": 259.3,
+      "CRA5_vs_lowest": 0.97,
+      "MPCA+PCA e995_before_Pa": 1120.5,
+      "MPCA+PCA e995_after_Pa": 302.5,
+      "MPCA+PCA e995_vs_lowest": 0.95
+    },
+    {
+      "stratum": "\u9678\u5730 + \u897f\u90e8",
+      "band": "600-1200",
+      "cells": 2311,
+      "CRA5_before_Pa": 977.0,
+      "CRA5_after_Pa": 234.6,
+      "CRA5_vs_lowest": 0.82,
+      "MPCA+PCA e995_before_Pa": 987.1,
+      "MPCA+PCA e995_after_Pa": 278.6,
+      "MPCA+PCA e995_vs_lowest": 0.84
+    },
+    {
+      "stratum": "\u9678\u5730 + \u897f\u90e8",
+      "band": "1200-2000",
+      "cells": 3113,
+      "CRA5_before_Pa": 1056.6,
+      "CRA5_after_Pa": 249.2,
+      "CRA5_vs_lowest": 0.88,
+      "MPCA+PCA e995_before_Pa": 996.3,
+      "MPCA+PCA e995_after_Pa": 284.0,
+      "MPCA+PCA e995_vs_lowest": 0.85
+    },
+    {
+      "stratum": "\u9678\u5730 + \u897f\u90e8",
+      "band": "2000-9999",
+      "cells": 984,
+      "CRA5_before_Pa": 1356.1,
+      "CRA5_after_Pa": 282.0,
+      "CRA5_vs_lowest": 1.14,
+      "MPCA+PCA e995_before_Pa": 1116.4,
+      "MPCA+PCA e995_after_Pa": 310.0,
+      "MPCA+PCA e995_vs_lowest": 0.95
+    }
+  ]
+}

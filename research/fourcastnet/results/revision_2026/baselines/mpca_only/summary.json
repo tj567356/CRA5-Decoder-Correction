@@ -1,0 +1,127 @@
+{
+  "status": "newly_executed_frozen_forward_evaluation",
+  "frames": 1460,
+  "year": 2018,
+  "frozen_step": 0.7659035172375452,
+  "step_selected_on": 2017,
+  "no_bisection_or_training": true,
+  "checkpoint": "/home/tong/new_20/checkpoints/s99_stage1only/unet_d2_c64_lr3e-4_clip1/best.pt",
+  "checkpoint_sha256": "aee68485d07018e0c9acbb1dd2cb7585ed3895f945d88e6232b516ba42876a76",
+  "stats": "/home/tong/fourcastnet_us_mpca/mpca_train_basis_bundle/stats/train_2014_2016_channel_stats.npz",
+  "stats_sha256": "272cc45d231ec349025c4fa1e9f69366ae874739c98299ce666921821f13dba2",
+  "precision": "original float32 physical reconstruction; float16 autocast correction; float64 error aggregation",
+  "rows": [
+    {
+      "family": "single-stage 99%",
+      "n": 10193,
+      "step": 0.7659035172375452,
+      "bisected_on": 2017,
+      "val_bytes": 3969.1629686867022,
+      "val_ratio": 471.1723894317168,
+      "test_bytes": 3952.8643385497157,
+      "test_ratio": 473.11514887104664,
+      "test_vs_cra5_pct": 0.3221012964253367,
+      "pre_cnn": 0.12728844380005333,
+      "post_cnn": 0.08687819856088126,
+      "roundtrip_exact": true,
+      "group_gains": {
+        "near_surface": {
+          "n_channels": 13,
+          "before_nrmse": 0.1291303021728192,
+          "after_nrmse": 0.08206987614872399,
+          "G_pct": 36.44413838752792,
+          "Gbar_pct": 37.858622753910446
+        },
+        "upper_air": {
+          "n_channels": 6,
+          "before_nrmse": 0.12288826830437623,
+          "after_nrmse": 0.09690387477239093,
+          "G_pct": 21.144730811590385,
+          "Gbar_pct": 22.943065151930732
+        }
+      },
+      "channels": {
+        "u10": {
+          "before_nrmse": 0.14520746214754987,
+          "after_nrmse": 0.10690607241390702
+        },
+        "v10": {
+          "before_nrmse": 0.13774616826454023,
+          "after_nrmse": 0.09923561548084033
+        },
+        "t2m": {
+          "before_nrmse": 0.12362663488204735,
+          "after_nrmse": 0.0794322698669976
+        },
+        "sp": {
+          "before_nrmse": 0.1049879836420735,
+          "after_nrmse": 0.0333057869902264
+        },
+        "msl": {
+          "before_nrmse": 0.11930891391109581,
+          "after_nrmse": 0.05303755956666268
+        },
+        "t850": {
+          "before_nrmse": 0.11622682207210676,
+          "after_nrmse": 0.06693260917940166
+        },
+        "u1000": {
+          "before_nrmse": 0.14429516761354874,
+          "after_nrmse": 0.10368447846584303
+        },
+        "v1000": {
+          "before_nrmse": 0.1372938591665256,
+          "after_nrmse": 0.09355876198826374
+        },
+        "z1000": {
+          "before_nrmse": 0.12016781310847967,
+          "after_nrmse": 0.051689659786932525
+        },
+        "u850": {
+          "before_nrmse": 0.13595879078244238,
+          "after_nrmse": 0.1055691208758654
+        },
+        "v850": {
+          "before_nrmse": 0.13443756836227475,
+          "after_nrmse": 0.10518081934572263
+        },
+        "z850": {
+          "before_nrmse": 0.11854249745248988,
+          "after_nrmse": 0.042963306527152974
+        },
+        "u500": {
+          "before_nrmse": 0.1303579165035823,
+          "after_nrmse": 0.11968941951930898
+        },
+        "v500": {
+          "before_nrmse": 0.13265092493385655,
+          "after_nrmse": 0.12242568700922588
+        },
+        "z500": {
+          "before_nrmse": 0.10463279485232406,
+          "after_nrmse": 0.03656489305581084
+        },
+        "t500": {
+          "before_nrmse": 0.11695824742520887,
+          "after_nrmse": 0.08416434331241818
+        },
+        "z50": {
+          "before_nrmse": 0.11127457559087008,
+          "after_nrmse": 0.08764656536913416
+        },
+        "r500": {
+          "before_nrmse": 0.1414551505204155,
+          "after_nrmse": 0.13093234036844753
+        },
+        "r850": {
+          "before_nrmse": 0.1408942468414754,
+          "after_nrmse": 0.12541232944559597
+        },
+        "tcwv": {
+          "before_nrmse": 0.1297453379281593,
+          "after_nrmse": 0.0892323326498678
+        }
+      }
+    }
+  ]
+}

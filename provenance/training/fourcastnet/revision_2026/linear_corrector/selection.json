@@ -1,0 +1,9 @@
+{
+  "selected_epoch": 125,
+  "validation_MSE": 0.010027516709610086,
+  "checkpoint_sha256": "31743a1a03669a6b20f7a39c79c7ae3738fa059468ea789a56e6ab7588c64f5d",
+  "criterion": "2017 normalized validation MSE",
+  "epochs_executed": 137,
+  "test_access_before_selection": false,
+  "selected_utc": "2026-10-26T06:36:47.802961+00:00"
+}

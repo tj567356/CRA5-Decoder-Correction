@@ -1,0 +1,12 @@
+{
+  "source": "/home/tong/fourcastnet_us_mpca/scripts/analysis/codec_all_cnn.py",
+  "source_sha256": "e8d4edfd5b71fe73b55cf29b5ce5bad9b82dcbd6a0e156969c23e4928da96e24",
+  "effective_source_sha256": "ff145eaa9b75de01a5f2e915939ed0f6d47a94b07d39e9599221c417a1230b3d",
+  "changes": [
+    "remove test-based checkpoint reproduction/selection",
+    "fixed pre-existing checkpoint path per compressor",
+    "exact existing quant_step from pca_codec_all.json",
+    "add full precision group/channel errors",
+    "revision output only"
+  ]
+}

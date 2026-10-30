@@ -1,0 +1,118 @@
+{
+  "parameters_original": 1646548,
+  "parameters_dilated": 1646548,
+  "original_UNet2_AST_unchanged": true,
+  "forward_inherited_unchanged": true,
+  "identical_initial_weights_and_state_keys": true,
+  "only_conv_metadata_changes": [
+    {
+      "module": "bottleneck.0",
+      "original": {
+        "in_channels": 128,
+        "out_channels": 128,
+        "kernel_size": [
+          3,
+          3
+        ],
+        "stride": [
+          1,
+          1
+        ],
+        "padding": [
+          1,
+          1
+        ],
+        "dilation": [
+          1,
+          1
+        ],
+        "groups": 1,
+        "padding_mode": "zeros"
+      },
+      "dilated": {
+        "in_channels": 128,
+        "out_channels": 128,
+        "kernel_size": [
+          3,
+          3
+        ],
+        "stride": [
+          1,
+          1
+        ],
+        "padding": [
+          2,
+          2
+        ],
+        "dilation": [
+          2,
+          2
+        ],
+        "groups": 1,
+        "padding_mode": "zeros"
+      }
+    },
+    {
+      "module": "bottleneck.2",
+      "original": {
+        "in_channels": 128,
+        "out_channels": 128,
+        "kernel_size": [
+          3,
+          3
+        ],
+        "stride": [
+          1,
+          1
+        ],
+        "padding": [
+          1,
+          1
+        ],
+        "dilation": [
+          1,
+          1
+        ],
+        "groups": 1,
+        "padding_mode": "zeros"
+      },
+      "dilated": {
+        "in_channels": 128,
+        "out_channels": 128,
+        "kernel_size": [
+          3,
+          3
+        ],
+        "stride": [
+          1,
+          1
+        ],
+        "padding": [
+          3,
+          3
+        ],
+        "dilation": [
+          3,
+          3
+        ],
+        "groups": 1,
+        "padding_mode": "zeros"
+      }
+    }
+  ],
+  "tested_shapes": [
+    [
+      1,
+      20,
+      97,
+      241
+    ],
+    [
+      8,
+      20,
+      97,
+      241
+    ]
+  ],
+  "passed": true
+}

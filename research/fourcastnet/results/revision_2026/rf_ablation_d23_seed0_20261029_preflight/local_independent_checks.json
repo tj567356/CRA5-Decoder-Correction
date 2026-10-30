@@ -1,0 +1,7 @@
+{
+  "original_UNet2_AST_equals_git_baseline": true,
+  "original_logged_epochs": 187,
+  "original_sum_rounded_epoch_train_validation_seconds": 3394.3,
+  "training_cost_scope": "historical original log, not contemporaneous retraining; model checkpoints remain unchanged",
+  "log_sha256": "105d036ea18832acbaa939bfc7ca5321efc87eb0ebee30dad9873a4d44279dc4"
+}

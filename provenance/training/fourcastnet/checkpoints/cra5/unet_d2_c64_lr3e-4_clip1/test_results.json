@@ -1,0 +1,216 @@
+{
+  "energy": "cra5",
+  "test_overall_rmse": 41.20634367002732,
+  "test_per_variable_rmse": {
+    "u10": 0.3287039686466076,
+    "v10": 0.33539799902316814,
+    "t2m": 0.789203946643772,
+    "sp": 182.1797990760983,
+    "msl": 15.50821429931998,
+    "t850": 0.36312686744241224,
+    "u1000": 0.3384143388973165,
+    "v1000": 0.34200113155578815,
+    "z1000": 11.270506227744951,
+    "u850": 0.5405354233446946,
+    "v850": 0.5420516582526381,
+    "z850": 7.11970159555489,
+    "u500": 0.8003094661030601,
+    "v500": 0.7588363627458276,
+    "z500": 8.423896337402272,
+    "t500": 0.22401150670459014,
+    "z50": 15.477938418106465,
+    "r500": 4.843404255912742,
+    "r850": 3.7699721012060485,
+    "tcwv": 0.5456272779264779
+  },
+  "test_nrmse": 0.06320807457267297,
+  "test_per_variable_nrmse": {
+    "u10": 0.10300924370396516,
+    "v10": 0.08602360730123018,
+    "t2m": 0.07175535015693409,
+    "sp": 0.024876356608354862,
+    "msl": 0.022840586141428768,
+    "t850": 0.037821502002373275,
+    "u1000": 0.09637073870457058,
+    "v1000": 0.07808020399383006,
+    "z1000": 0.021208213938574232,
+    "u850": 0.09263303031934819,
+    "v850": 0.08504727229474707,
+    "z850": 0.012374401703507206,
+    "u500": 0.0747804954159593,
+    "v500": 0.07504409081433495,
+    "z500": 0.005374555275351781,
+    "t500": 0.031979025506068307,
+    "z50": 0.008391101839157767,
+    "r500": 0.1604711655871842,
+    "r850": 0.13379053560500268,
+    "tcwv": 0.04229001454153683
+  },
+  "best_val_loss": 0.005705181753537694,
+  "args": {
+    "energy": "cra5",
+    "kernel_size": 3,
+    "mid_channels": 64,
+    "branch_channels": null,
+    "depth": 2,
+    "bottleneck_channels": 128,
+    "dilations": null,
+    "fno_width": 24,
+    "fno_modes": "18,18",
+    "fno_layers": 4,
+    "fno_project": 128,
+    "fno_no_grid": false,
+    "arch": "unet",
+    "block_dilations": null,
+    "tag": "unet_d2_c64_lr3e-4_clip1",
+    "decoded_dir": "/home/tong/fourcastnet_us_mpca/decoded",
+    "orig_dir": "/home/tong/fourcastnet_us_mpca/data/processed/fourcastnet20_conus",
+    "stats_path": "/home/tong/fourcastnet_us_mpca/mpca_train_basis_bundle/stats/train_2014_2016_channel_stats.npz",
+    "batch_size": 8,
+    "lr": 0.0003,
+    "grad_clip": 1.0,
+    "epochs": 200,
+    "patience": 12,
+    "weight_decay": 0.0001,
+    "num_workers": 4,
+    "preload": false,
+    "cache_dir": "/home/tong/fourcastnet_us_mpca/data/memmap_cra5",
+    "allow_unlabelled_cache": false,
+    "seed": 0,
+    "amp": true,
+    "lr_finder": false,
+    "start_lr": 1e-06,
+    "end_lr": 0.003
+  },
+  "n_params": 1646548,
+  "cache_manifest": {
+    "created": "2026-08-18T07:04:10+00:00",
+    "decoded_dir": "/home/tong/fourcastnet_us_mpca/cra5_conus",
+    "orig_dir": "/home/tong/fourcastnet_us_mpca/data/processed/fourcastnet20_conus",
+    "stats_path": "/home/tong/fourcastnet_us_mpca/mpca_train_basis_bundle/stats/train_2014_2016_channel_stats.npz",
+    "input_is": "(recon - mean) / std",
+    "target_is": "(orig - recon) / std",
+    "years": {
+      "2014": {
+        "input": {
+          "shape": [
+            1460,
+            20,
+            97,
+            241
+          ],
+          "dtype": "float16",
+          "bytes": 1365216928,
+          "sha1_frame0": "14ed4c68f855d237e0800324349321756c647f18"
+        },
+        "target": {
+          "shape": [
+            1460,
+            20,
+            97,
+            241
+          ],
+          "dtype": "float16",
+          "bytes": 1365216928,
+          "sha1_frame0": "10dc4f1e46195588828957ac0377a1cdbc7dbc08"
+        }
+      },
+      "2015": {
+        "input": {
+          "shape": [
+            1460,
+            20,
+            97,
+            241
+          ],
+          "dtype": "float16",
+          "bytes": 1365216928,
+          "sha1_frame0": "5ba0b8169eec63785c1897653b9e94c1a3f1f81b"
+        },
+        "target": {
+          "shape": [
+            1460,
+            20,
+            97,
+            241
+          ],
+          "dtype": "float16",
+          "bytes": 1365216928,
+          "sha1_frame0": "d6d40bb2ecab3bab594a0262df540973a72a4f51"
+        }
+      },
+      "2016": {
+        "input": {
+          "shape": [
+            1464,
+            20,
+            97,
+            241
+          ],
+          "dtype": "float16",
+          "bytes": 1368957248,
+          "sha1_frame0": "0b598c5b62ca0df788260362b61360b4cdbd1824"
+        },
+        "target": {
+          "shape": [
+            1464,
+            20,
+            97,
+            241
+          ],
+          "dtype": "float16",
+          "bytes": 1368957248,
+          "sha1_frame0": "6afc1936f8b176e383f3573579aee3b7e7b335cb"
+        }
+      },
+      "2017": {
+        "input": {
+          "shape": [
+            1460,
+            20,
+            97,
+            241
+          ],
+          "dtype": "float16",
+          "bytes": 1365216928,
+          "sha1_frame0": "9166a377297255953c22d43cba4d68e1b8895697"
+        },
+        "target": {
+          "shape": [
+            1460,
+            20,
+            97,
+            241
+          ],
+          "dtype": "float16",
+          "bytes": 1365216928,
+          "sha1_frame0": "1ed32f18345617a245eb14a72d6c61bfa3883acd"
+        }
+      },
+      "2018": {
+        "input": {
+          "shape": [
+            1460,
+            20,
+            97,
+            241
+          ],
+          "dtype": "float16",
+          "bytes": 1365216928,
+          "sha1_frame0": "68bd83a294563a414e4dc77db72992a466f2b774"
+        },
+        "target": {
+          "shape": [
+            1460,
+            20,
+            97,
+            241
+          ],
+          "dtype": "float16",
+          "bytes": 1365216928,
+          "sha1_frame0": "79659b0fd028177ca9dcd2d1129079ca3e4f9907"
+        }
+      }
+    }
+  }
+}

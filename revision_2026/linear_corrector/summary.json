@@ -1,0 +1,85 @@
+{
+  "status": "complete",
+  "test_year": 2018,
+  "frames": 1460,
+  "test_evaluations": 1,
+  "protocol": {
+    "architecture": "Conv2d(20,20,kernel_size=3,padding=1,bias=True)",
+    "nonlinear_activation": false,
+    "parameters": 3620,
+    "receptive_field": "3x3 grid cells; affine map including bias",
+    "train_years": [
+      2014,
+      2015,
+      2016
+    ],
+    "validation_years": [
+      2017
+    ],
+    "test_years": [
+      2018
+    ],
+    "normalization": "frozen 2014-2016 cache/statistics",
+    "recipe": {
+      "seed": 0,
+      "batch_size": 8,
+      "learning_rate": 0.0003,
+      "weight_decay": 0.0001,
+      "grad_clip": 1.0,
+      "maximum_epochs": 200,
+      "patience": 12,
+      "amp": true,
+      "optimizer": "AdamW",
+      "objective": "normalized residual MSE",
+      "selection": "2017 validation MSE only",
+      "workers": 4
+    },
+    "test_evaluations": 1,
+    "caveat": "U-Net comparison changes capacity and receptive field as well as nonlinearity; no isolated nonlinearity attribution."
+  },
+  "groups": {
+    "direct19": {
+      "before_nrmse": 0.08661415352484518,
+      "after_nrmse": 0.08549336621069215,
+      "G_pct": 1.2940001934343748,
+      "Gbar_pct": 0.6075414840300158
+    },
+    "all20": {
+      "before_nrmse": 0.08751807925647051,
+      "after_nrmse": 0.08471497270687042,
+      "G_pct": 3.2028885613286984,
+      "Gbar_pct": 2.237604086981416
+    },
+    "near": {
+      "before_nrmse": 0.09820222859264621,
+      "after_nrmse": 0.09679610949197551,
+      "G_pct": 1.4318606826159264,
+      "Gbar_pct": 1.306530971494758
+    },
+    "upper": {
+      "before_nrmse": 0.06150665754460962,
+      "after_nrmse": 0.06100408910124486,
+      "G_pct": 0.8170960078594081,
+      "Gbar_pct": -0.9069357388102587
+    },
+    "tcwv": {
+      "before_nrmse": 0.1046926681573516,
+      "after_nrmse": 0.06992549613425786,
+      "G_pct": 33.20879354305802,
+      "Gbar_pct": 33.20879354305802
+    }
+  },
+  "checkpoint_sha256": "31743a1a03669a6b20f7a39c79c7ae3738fa059468ea789a56e6ab7588c64f5d",
+  "selected_epoch": 125,
+  "best_validation_MSE": 0.010027516709610086,
+  "epochs_executed": 137,
+  "timings_seconds": {
+    "preparation": 36.59509198300657,
+    "training": 1375.292469715001,
+    "test": 6.869265853019897,
+    "total": 1426.885346155992
+  },
+  "precision": "AMP training/validation, float32 test inference, float64 normalized error aggregation",
+  "test_data_not_used_for_selection": true,
+  "finished_utc": "2026-10-26T06:37:02.800601+00:00"
+}

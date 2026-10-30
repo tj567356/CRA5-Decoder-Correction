@@ -1,0 +1,45 @@
+\section{Introduction}
+\label{sec:intro}
+
+ERA5~\cite{hersbach2020} exceeds 400\,TB in float32, making storage and data
+movement practical constraints. CRA5~\cite{han2024,cra5journal} uses a transformer
+variational autoencoder to reduce this archive to about 0.85\,TB. Its published
+evaluation describes reconstruction error by variable, pressure level, spatial
+location, and spectrum. A separate question is how much error remains predictable
+from the decoded fields themselves.
+
+We attach a 1.65\,M-parameter U-Net to CRA5's decoded output. On the 2018 CONUS
+test year, mean normalised RMSE (nRMSE) decreases by 25.8\% over the 19
+FourCastNet variables directly represented by CRA5, without changing the
+per-frame bitstream. Including derived total column water vapour gives 27.8\%.
+We call this reduction \emph{model-recoverable error}: it depends on the chosen
+network and training protocol and is not an information-theoretic bound.
+On the complete 2022 year outside CRA5's published training window, the same
+frozen corrector reduces direct-channel nRMSE by 26.4\% without fine-tuning.
+
+The reduction is uneven: 32.2\% for near-surface fields versus 3.5\% aloft.
+Their 9.1-fold ratio compares correction gains, not compression ratios. We apply
+the same correction architecture, with separately fitted weights, to classical
+transform codecs. A single-stage MPCA-only codec matched to CRA5's mean bits per
+value gives a near/upper gain ratio of 1.7; three MPCA+PCA settings at higher
+compression give 1.32--1.35. These controls help assess whether the asymmetry is
+specific to the tested codec and corrector combination.
+
+Terrain is a plausible contributor: small-scale topography may be difficult to
+represent on a coarse latent grid. However, error magnitude and correction gain
+are different quantities. Our existing elevation analysis retains an instructive
+negative result: the apparent mountain/lowland surface-pressure error ratio
+falls from 3.23 to 1.14 after restricting to western land. Elevation alone does
+not establish a terrain mechanism. A new actual-orography analysis finds larger
+baseline errors and gains on rougher western land: $G$ increases from 18.1\% to
+36.9\% between roughness endpoint deciles. This association persists in several
+elevation bands but does not isolate a causal mechanism.
+
+Our contributions are (i) measured bitstream comparisons at closely matched mean
+rates, with explicit global-versus-regional scope; (ii) a decoder-side measure of
+error predictability resolved by variable and pressure level; and (iii) spatial
+controls separating ground elevation from field altitude. All correction models
+are selected using 2017 validation data, with 2018 and 2022 reserved for evaluation.
+Paired temporal block-bootstrap intervals quantify uncertainty conditional on
+the fitted checkpoint and each yearly sample.
+

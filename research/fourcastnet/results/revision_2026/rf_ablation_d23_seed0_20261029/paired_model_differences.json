@@ -1,0 +1,62 @@
+{
+  "method": "paired circular7-day block percentile bootstrap,1000 draws,seed20261026",
+  "scope": "conditional temporal uncertainty, excludes retraining seeds/spatial sampling",
+  "results": [
+    {
+      "year": 2018,
+      "metric": "direct19",
+      "dilated_minus_original_pp": -0.3753972735755049,
+      "lower95_pp": -0.4022033390977697,
+      "upper95_pp": -0.35298752779773734
+    },
+    {
+      "year": 2018,
+      "metric": "near",
+      "dilated_minus_original_pp": -0.5698017398109698,
+      "lower95_pp": -0.6039504512793713,
+      "upper95_pp": -0.5396960386781973
+    },
+    {
+      "year": 2018,
+      "metric": "upper",
+      "dilated_minus_original_pp": 0.2971108844368686,
+      "lower95_pp": 0.2669774111380921,
+      "upper95_pp": 0.3256691577508969
+    },
+    {
+      "year": 2018,
+      "metric": "near_minus_upper",
+      "dilated_minus_original_pp": -0.8669126242478384,
+      "lower95_pp": -0.9188904697691954,
+      "upper95_pp": -0.8165215094974614
+    },
+    {
+      "year": 2022,
+      "metric": "direct19",
+      "dilated_minus_original_pp": -0.38823363550686096,
+      "lower95_pp": -0.4165584452833914,
+      "upper95_pp": -0.3601743395835434
+    },
+    {
+      "year": 2022,
+      "metric": "near",
+      "dilated_minus_original_pp": -0.5833693437140681,
+      "lower95_pp": -0.6212267837598299,
+      "upper95_pp": -0.5467546597425137
+    },
+    {
+      "year": 2022,
+      "metric": "upper",
+      "dilated_minus_original_pp": 0.3072287290854181,
+      "lower95_pp": 0.27567239043790104,
+      "upper95_pp": 0.33989297752004727
+    },
+    {
+      "year": 2022,
+      "metric": "near_minus_upper",
+      "dilated_minus_original_pp": -0.8905980727994844,
+      "lower95_pp": -0.9481538673220695,
+      "upper95_pp": -0.8348618000472701
+    }
+  ]
+}

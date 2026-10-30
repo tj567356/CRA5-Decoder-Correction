@@ -1,0 +1,574 @@
+{
+  "records": [
+    {
+      "year": 2014,
+      "truth": "/home/tong/fourcastnet_us_mpca/data/processed/fourcastnet20_conus/2014.zarr",
+      "truth_shape": [
+        1460,
+        20,
+        97,
+        241
+      ],
+      "truth_time_metadata": {
+        "lon": {
+          "shape": [
+            241
+          ],
+          "attrs": {}
+        },
+        "lat": {
+          "shape": [
+            97
+          ],
+          "attrs": {}
+        },
+        "channel": {
+          "shape": [
+            20
+          ],
+          "attrs": {}
+        },
+        "time": {
+          "shape": [
+            1460
+          ],
+          "attrs": {}
+        }
+      },
+      "validation": "shape, coordinates, all cache finite, original/reconstruction sample consistency",
+      "arrays": [
+        {
+          "kind": "input",
+          "shape": [
+            1460,
+            20,
+            97,
+            241
+          ],
+          "dtype": "float16",
+          "finite_all": true
+        },
+        {
+          "kind": "target",
+          "shape": [
+            1460,
+            20,
+            97,
+            241
+          ],
+          "dtype": "float16",
+          "finite_all": true
+        },
+        {
+          "kind": "decoded",
+          "shape": [
+            1460,
+            20,
+            97,
+            241
+          ],
+          "dtype": "float32",
+          "finite_all": true
+        }
+      ],
+      "sample_alignment": [
+        {
+          "frame": 0,
+          "input_exact_float16": true,
+          "target_exact_float16": true,
+          "input_max_abs_diff": 0.0,
+          "target_max_abs_diff": 0.0
+        },
+        {
+          "frame": 730,
+          "input_exact_float16": true,
+          "target_exact_float16": true,
+          "input_max_abs_diff": 0.0,
+          "target_max_abs_diff": 0.0
+        },
+        {
+          "frame": 1459,
+          "input_exact_float16": true,
+          "target_exact_float16": true,
+          "input_max_abs_diff": 0.0,
+          "target_max_abs_diff": 0.0
+        }
+      ],
+      "cra5_timestamps_exact": true,
+      "raw_truth_timestamps_verified": true
+    },
+    {
+      "year": 2015,
+      "truth": "/home/tong/fourcastnet_us_mpca/data/processed/fourcastnet20_conus/2015.zarr",
+      "truth_shape": [
+        1460,
+        20,
+        97,
+        241
+      ],
+      "truth_time_metadata": {
+        "lon": {
+          "shape": [
+            241
+          ],
+          "attrs": {}
+        },
+        "time": {
+          "shape": [
+            1460
+          ],
+          "attrs": {}
+        },
+        "lat": {
+          "shape": [
+            97
+          ],
+          "attrs": {}
+        },
+        "channel": {
+          "shape": [
+            20
+          ],
+          "attrs": {}
+        }
+      },
+      "validation": "shape, coordinates, all cache finite, original/reconstruction sample consistency",
+      "arrays": [
+        {
+          "kind": "input",
+          "shape": [
+            1460,
+            20,
+            97,
+            241
+          ],
+          "dtype": "float16",
+          "finite_all": true
+        },
+        {
+          "kind": "target",
+          "shape": [
+            1460,
+            20,
+            97,
+            241
+          ],
+          "dtype": "float16",
+          "finite_all": true
+        },
+        {
+          "kind": "decoded",
+          "shape": [
+            1460,
+            20,
+            97,
+            241
+          ],
+          "dtype": "float32",
+          "finite_all": true
+        }
+      ],
+      "sample_alignment": [
+        {
+          "frame": 0,
+          "input_exact_float16": true,
+          "target_exact_float16": true,
+          "input_max_abs_diff": 0.0,
+          "target_max_abs_diff": 0.0
+        },
+        {
+          "frame": 730,
+          "input_exact_float16": true,
+          "target_exact_float16": true,
+          "input_max_abs_diff": 0.0,
+          "target_max_abs_diff": 0.0
+        },
+        {
+          "frame": 1459,
+          "input_exact_float16": true,
+          "target_exact_float16": true,
+          "input_max_abs_diff": 0.0,
+          "target_max_abs_diff": 0.0
+        }
+      ],
+      "cra5_timestamps_exact": true,
+      "raw_truth_timestamps_verified": true
+    },
+    {
+      "year": 2016,
+      "truth": "/home/tong/fourcastnet_us_mpca/data/processed/fourcastnet20_conus/2016.zarr",
+      "truth_shape": [
+        1464,
+        20,
+        97,
+        241
+      ],
+      "truth_time_metadata": {
+        "lon": {
+          "shape": [
+            241
+          ],
+          "attrs": {}
+        },
+        "lat": {
+          "shape": [
+            97
+          ],
+          "attrs": {}
+        },
+        "channel": {
+          "shape": [
+            20
+          ],
+          "attrs": {}
+        },
+        "time": {
+          "shape": [
+            1464
+          ],
+          "attrs": {}
+        }
+      },
+      "validation": "shape, coordinates, all cache finite, original/reconstruction sample consistency",
+      "arrays": [
+        {
+          "kind": "input",
+          "shape": [
+            1464,
+            20,
+            97,
+            241
+          ],
+          "dtype": "float16",
+          "finite_all": true
+        },
+        {
+          "kind": "target",
+          "shape": [
+            1464,
+            20,
+            97,
+            241
+          ],
+          "dtype": "float16",
+          "finite_all": true
+        },
+        {
+          "kind": "decoded",
+          "shape": [
+            1464,
+            20,
+            97,
+            241
+          ],
+          "dtype": "float32",
+          "finite_all": true
+        }
+      ],
+      "sample_alignment": [
+        {
+          "frame": 0,
+          "input_exact_float16": true,
+          "target_exact_float16": true,
+          "input_max_abs_diff": 0.0,
+          "target_max_abs_diff": 0.0
+        },
+        {
+          "frame": 732,
+          "input_exact_float16": true,
+          "target_exact_float16": true,
+          "input_max_abs_diff": 0.0,
+          "target_max_abs_diff": 0.0
+        },
+        {
+          "frame": 1463,
+          "input_exact_float16": true,
+          "target_exact_float16": true,
+          "input_max_abs_diff": 0.0,
+          "target_max_abs_diff": 0.0
+        }
+      ],
+      "cra5_timestamps_exact": true,
+      "raw_truth_timestamps_verified": true
+    },
+    {
+      "year": 2017,
+      "truth": "/home/tong/fourcastnet_us_mpca/data/processed/fourcastnet20_conus/2017.zarr",
+      "truth_shape": [
+        1460,
+        20,
+        97,
+        241
+      ],
+      "truth_time_metadata": {
+        "lat": {
+          "shape": [
+            97
+          ],
+          "attrs": {}
+        },
+        "lon": {
+          "shape": [
+            241
+          ],
+          "attrs": {}
+        },
+        "channel": {
+          "shape": [
+            20
+          ],
+          "attrs": {}
+        },
+        "time": {
+          "shape": [
+            1460
+          ],
+          "attrs": {}
+        }
+      },
+      "validation": "shape, coordinates, all cache finite, original/reconstruction sample consistency",
+      "arrays": [
+        {
+          "kind": "input",
+          "shape": [
+            1460,
+            20,
+            97,
+            241
+          ],
+          "dtype": "float16",
+          "finite_all": true
+        },
+        {
+          "kind": "target",
+          "shape": [
+            1460,
+            20,
+            97,
+            241
+          ],
+          "dtype": "float16",
+          "finite_all": true
+        },
+        {
+          "kind": "decoded",
+          "shape": [
+            1460,
+            20,
+            97,
+            241
+          ],
+          "dtype": "float32",
+          "finite_all": true
+        }
+      ],
+      "sample_alignment": [
+        {
+          "frame": 0,
+          "input_exact_float16": true,
+          "target_exact_float16": true,
+          "input_max_abs_diff": 0.0,
+          "target_max_abs_diff": 0.0
+        },
+        {
+          "frame": 730,
+          "input_exact_float16": true,
+          "target_exact_float16": true,
+          "input_max_abs_diff": 0.0,
+          "target_max_abs_diff": 0.0
+        },
+        {
+          "frame": 1459,
+          "input_exact_float16": true,
+          "target_exact_float16": true,
+          "input_max_abs_diff": 0.0,
+          "target_max_abs_diff": 0.0
+        }
+      ],
+      "cra5_timestamps_exact": true,
+      "raw_truth_timestamps_verified": true
+    },
+    {
+      "year": 2018,
+      "truth": "/home/tong/fourcastnet_us_mpca/data/processed/fourcastnet20_conus/2018.zarr",
+      "truth_shape": [
+        1460,
+        20,
+        97,
+        241
+      ],
+      "truth_time_metadata": {
+        "lon": {
+          "shape": [
+            241
+          ],
+          "attrs": {}
+        },
+        "lat": {
+          "shape": [
+            97
+          ],
+          "attrs": {}
+        },
+        "time": {
+          "shape": [
+            1460
+          ],
+          "attrs": {}
+        },
+        "channel": {
+          "shape": [
+            20
+          ],
+          "attrs": {}
+        }
+      },
+      "validation": "shape, coordinates, all cache finite, original/reconstruction sample consistency",
+      "arrays": [
+        {
+          "kind": "input",
+          "shape": [
+            1460,
+            20,
+            97,
+            241
+          ],
+          "dtype": "float16",
+          "finite_all": true
+        },
+        {
+          "kind": "target",
+          "shape": [
+            1460,
+            20,
+            97,
+            241
+          ],
+          "dtype": "float16",
+          "finite_all": true
+        },
+        {
+          "kind": "decoded",
+          "shape": [
+            1460,
+            20,
+            97,
+            241
+          ],
+          "dtype": "float32",
+          "finite_all": true
+        }
+      ],
+      "sample_alignment": [
+        {
+          "frame": 0,
+          "input_exact_float16": true,
+          "target_exact_float16": true,
+          "input_max_abs_diff": 0.0,
+          "target_max_abs_diff": 0.0
+        },
+        {
+          "frame": 730,
+          "input_exact_float16": true,
+          "target_exact_float16": true,
+          "input_max_abs_diff": 0.0,
+          "target_max_abs_diff": 0.0
+        },
+        {
+          "frame": 1459,
+          "input_exact_float16": true,
+          "target_exact_float16": true,
+          "input_max_abs_diff": 0.0,
+          "target_max_abs_diff": 0.0
+        }
+      ],
+      "cra5_timestamps_exact": true,
+      "raw_truth_timestamps_verified": true
+    },
+    {
+      "year": 2022,
+      "truth": "/home/tong/fourcastnet_us_mpca/revision_2026/data/era5_2022",
+      "decoded": "/home/tong/fourcastnet_us_mpca/revision_2026/data/cra5_decoded_2022",
+      "native_rh": "/home/tong/fourcastnet_us_mpca/revision_2026/data/native_rh_2022",
+      "truth_shape": [
+        1460,
+        20,
+        97,
+        241
+      ],
+      "frames": 1460,
+      "channels": [
+        "u10",
+        "v10",
+        "t2m",
+        "sp",
+        "msl",
+        "t850",
+        "u1000",
+        "v1000",
+        "z1000",
+        "u850",
+        "v850",
+        "z850",
+        "u500",
+        "v500",
+        "z500",
+        "t500",
+        "z50",
+        "r500",
+        "r850",
+        "tcwv"
+      ],
+      "alignment_verified": true,
+      "timestamp_first": "2022-01-01T00:00:00",
+      "timestamp_last": "2022-12-31T18:00:00",
+      "missing_timestamps": 0,
+      "duplicate_timestamps": 0,
+      "validation": "executed full-year frozen evaluation; independent full receipt chain and SSE/CSV/JSON metric reconstruction",
+      "cache_manifest": "revision_2026/2022_cache_manifest.json",
+      "acceptance_report": "revision_2026/2022_acceptance_verification.json",
+      "source_manifests": [
+        "revision_2026/2022_truth_preparation_manifest.json",
+        "revision_2026/2022_cra5_download_manifest.json",
+        "revision_2026/2022_decoded_preparation_manifest.json",
+        "revision_2026/2022_native_rh_validation.json"
+      ],
+      "stats_sha256": "272cc45d231ec349025c4fa1e9f69366ae874739c98299ce666921821f13dba2",
+      "checkpoint_sha256": "44c57a0f2a18e92c9c0745cfe75337079627ab8729e93c6ec098a5ddeb007435",
+      "codec_weight_sha256": "812a6d09ff039e4ab468915942e7fd00f11e7c58b839cd1b60fe1d0586a40dad",
+      "input_sha256": "69f9f1159f35a99773777a8fb29d81bbf810d61e2b1a785c79c578f8222a52d7",
+      "target_sha256": "8a56d9bdfd93e8998eff23bf2f8983eae5c78f95f54af6b775a5bf8322463d53",
+      "timestamps_sha256": "a2bfc394a1ead5932bc588c7ad21d6f35a17e1e1f61cbb666e4b101a7c86f939",
+      "native_rh_metadata_scopes": {
+        "native ECMWF ERA5 parameter 157 file family, same calendar month": 235,
+        "same-day file metadata": 130
+      },
+      "source_precision_note": "2018 validation:18 ARCOchannels small archivepacking differences;2nativeRH channels bitwise equal; all2022fields native ERA5, frozen float32 arithmetic then float16cache",
+      "status": "newly_executed_and_independently_verified"
+    }
+  ],
+  "stats": "/home/tong/fourcastnet_us_mpca/mpca_train_basis_bundle/stats/train_2014_2016_channel_stats.npz",
+  "stats_sha256": "272cc45d231ec349025c4fa1e9f69366ae874739c98299ce666921821f13dba2",
+  "channel_names": [
+    "u10",
+    "v10",
+    "t2m",
+    "sp",
+    "msl",
+    "t850",
+    "u1000",
+    "v1000",
+    "z1000",
+    "u850",
+    "v850",
+    "z850",
+    "u500",
+    "v500",
+    "z500",
+    "t500",
+    "z50",
+    "r500",
+    "r850",
+    "tcwv"
+  ]
+}

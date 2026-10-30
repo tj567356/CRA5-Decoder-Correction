@@ -1,0 +1,42 @@
+[
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/checkpoints/cra5/unet_d2_c64_lr3e-4_clip1/best.pt",
+    "bytes": 6595229,
+    "sha256": "44c57a0f2a18e92c9c0745cfe75337079627ab8729e93c6ec098a5ddeb007435",
+    "tensor_count": 30,
+    "parameter_elements": 1646548,
+    "status": "readable and hashed; original unmodified"
+  },
+  {
+    "path": "/home/tong/new_20/checkpoints/s99_stage1only/unet_d2_c64_lr3e-4_clip1/best.pt",
+    "bytes": 6595229,
+    "sha256": "aee68485d07018e0c9acbb1dd2cb7585ed3895f945d88e6232b516ba42876a76",
+    "tensor_count": 30,
+    "parameter_elements": 1646548,
+    "status": "readable and hashed; original unmodified"
+  },
+  {
+    "path": "/home/tong/.cache/torch/hub/checkpoints/cra5_268v_300k.pth",
+    "bytes": 1619702223,
+    "sha256": "812a6d09ff039e4ab468915942e7fd00f11e7c58b839cd1b60fe1d0586a40dad",
+    "status": "hashed; training-period identity requires upstream mapping"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/best.pt",
+    "local_path": "research\\fourcastnet\\results\\revision_2026\\rf_ablation_d23_seed0_20261029\\best.pt",
+    "sha256": "e63b764fde93a504d7d5a80863883a91a231542be38d2b173e3bc7ab8133de82",
+    "bytes": 6595229,
+    "parameter_elements": 1646548,
+    "architecture": "DilatedUNet2",
+    "intervention": "only bottleneck convolution dilation/padding2,3",
+    "seed": 0,
+    "best_epoch": 125,
+    "stopped_epoch": 137,
+    "selection": "2017 validation loss only",
+    "test_years": [
+      2018,
+      2022
+    ],
+    "original_checkpoint_unchanged": true
+  }
+]

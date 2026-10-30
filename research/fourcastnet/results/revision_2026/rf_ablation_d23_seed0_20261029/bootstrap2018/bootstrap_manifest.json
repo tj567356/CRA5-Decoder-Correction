@@ -1,0 +1,8 @@
+{
+  "source": "results/revision_2026/rf_ablation_d23_seed0_20261029/eval2018/sufficient_statistics.npz",
+  "method": "paired circular moving block percentile bootstrap",
+  "block_frames": 28,
+  "repetitions": 1000,
+  "seed": 20261026,
+  "scope": "temporal uncertainty conditional on this fitted checkpoint, year and CONUS grid; not spatial or training-seed uncertainty"
+}

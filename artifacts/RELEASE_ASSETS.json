@@ -1,0 +1,32 @@
+{
+  "repository": "tj567356/NEWTAAI2026",
+  "tag": "camera-ready-2026-10-31",
+  "release_url": "https://github.com/tj567356/NEWTAAI2026/releases/tag/camera-ready-2026-10-31",
+  "private_repository_authentication_required": true,
+  "assets": [
+    {
+      "name": "pca-e97.joblib",
+      "bytes": 25980346,
+      "sha256": "c521ca79cee2a9aef2bd96391bbd4c8c42b07076229aa17018c637b37869733f",
+      "install_path": "artifacts/transforms/fourcastnet/pca/e97/pca_model.joblib"
+    },
+    {
+      "name": "pca-e99.joblib",
+      "bytes": 59137726,
+      "sha256": "fd04a64187091998d67cd0d2bac416702b9eb9797d2863908a74d2839c2c2088",
+      "install_path": "artifacts/transforms/fourcastnet/pca/e99/pca_model.joblib"
+    },
+    {
+      "name": "pca-e995.joblib",
+      "bytes": 82058342,
+      "sha256": "c197d87bbed3a65a17c8305e1b84ef28a8a639ae0565dbe1c93c978bebb75691",
+      "install_path": "artifacts/transforms/fourcastnet/pca/e995/pca_model.joblib"
+    },
+    {
+      "name": "pca-n4384.joblib",
+      "bytes": 806788263,
+      "sha256": "5bcd7c141843d38f362bd5df61d3436da1cd25baa3112d4678e05bebb28eb88e",
+      "install_path": "artifacts/transforms/new_20/pca/n4384/pca_model.joblib"
+    }
+  ]
+}

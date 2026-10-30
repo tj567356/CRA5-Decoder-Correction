@@ -1,0 +1,12 @@
+{
+  "original_source": "/home/tong/new_20/scripts/rate_matched_val.py",
+  "original_source_sha256": "00d92ef1bf02e14813aae18315e254a732bc75c84d14f1331622bd654271053f",
+  "effective_source_sha256": "d17f299397629b592ddc78599c7b1e901d46fc13f633df401cc8e345af760fac",
+  "modifications": [
+    "first configuration only",
+    "exact frozen quantizer step; search removed",
+    "ground truth test year only",
+    "add unrounded group and channel metrics",
+    "write only independent revision directory"
+  ]
+}

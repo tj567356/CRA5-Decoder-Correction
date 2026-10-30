@@ -1,0 +1,70 @@
+[
+  {
+    "step": null,
+    "bits_per_coeff": 32.0,
+    "bytes_per_frame": 40772.0,
+    "ratio": 45.86873344452075,
+    "pre_cnn": 0.12332168864998867,
+    "post_cnn": 0.08190684376986479
+  },
+  {
+    "step": 0.08,
+    "entropy_bound_bits": 6.122780720425353,
+    "bits_per_coeff": 6.328338644588261,
+    "bytes_per_frame": 8063.094475536017,
+    "ratio": 231.94072767895676,
+    "pre_cnn": 0.1233664712103341,
+    "post_cnn": 0.08196470452050839,
+    "roundtrip_exact": true
+  },
+  {
+    "step": 0.16,
+    "entropy_bound_bits": 5.143390986004938,
+    "bits_per_coeff": 5.33009246704767,
+    "bytes_per_frame": 6791.204064577113,
+    "ratio": 275.3797385878515,
+    "pre_cnn": 0.12350056840654049,
+    "post_cnn": 0.08213691928575424,
+    "roundtrip_exact": true
+  },
+  {
+    "step": 0.32,
+    "entropy_bound_bits": 4.161366325064435,
+    "bits_per_coeff": 4.330947472295699,
+    "bytes_per_frame": 5518.1684481387565,
+    "ratio": 338.9095526126596,
+    "pre_cnn": 0.12403328911418932,
+    "post_cnn": 0.08280996712271742,
+    "roundtrip_exact": true
+  },
+  {
+    "step": 0.64,
+    "entropy_bound_bits": 3.1929753886022794,
+    "bits_per_coeff": 3.3560898947747297,
+    "bytes_per_frame": 4276.078037179853,
+    "ratio": 437.35403885037675,
+    "pre_cnn": 0.12611848671689363,
+    "post_cnn": 0.08543209195753686,
+    "roundtrip_exact": true
+  },
+  {
+    "step": 1.28,
+    "entropy_bound_bits": 2.2657155869040313,
+    "bits_per_coeff": 2.4003053044905034,
+    "bytes_per_frame": 3058.2889960839625,
+    "ratio": 611.5053228765096,
+    "pre_cnn": 0.13378651850168682,
+    "post_cnn": 0.09473792905806953,
+    "roundtrip_exact": true
+  },
+  {
+    "step": 2.56,
+    "entropy_bound_bits": 1.3820154219878193,
+    "bits_per_coeff": 1.4999721454194779,
+    "bytes_per_frame": 1911.1520097825924,
+    "ratio": 978.5511515710069,
+    "pre_cnn": 0.15608076177227528,
+    "post_cnn": 0.12102600928981566,
+    "roundtrip_exact": true
+  }
+]

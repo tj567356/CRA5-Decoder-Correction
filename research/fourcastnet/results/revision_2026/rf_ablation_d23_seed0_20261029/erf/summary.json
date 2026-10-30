@@ -1,0 +1,858 @@
+{
+  "method": "squared gradient ERF of individual correction-output channels; per-probe unit-mass normalization",
+  "normalization": "sum squared gradients over all20 standardized input channels, then normalize each probe",
+  "inputs": "2017 validation only; fixed in advance, no model selection",
+  "frames": [
+    0,
+    208,
+    416,
+    625,
+    833,
+    1042,
+    1250,
+    1459
+  ],
+  "positions": [
+    [
+      48,
+      120
+    ],
+    [
+      24,
+      60
+    ],
+    [
+      72,
+      180
+    ]
+  ],
+  "probes_per_model": 480,
+  "units": "input-grid pixels; Chebyshev radius centered at output position",
+  "checkpoint_original_sha256": "44c57a0f2a18e92c9c0745cfe75337079627ab8729e93c6ec098a5ddeb007435",
+  "checkpoint_dilated_sha256": "e63b764fde93a504d7d5a80863883a91a231542be38d2b173e3bc7ab8133de82",
+  "source_sha256": "3ff45a1088859ef67e39e7ee743713c868593a4a7b0f4a58f8bcf0df219a0195",
+  "torch": "2.11.0+cu128",
+  "dtype": "float32",
+  "cudnn_allow_tf32": true,
+  "summaries": {
+    "original_all20": {
+      "probes": 480,
+      "nonzero_probes": 480,
+      "zero_probes": 0,
+      "energy_r50_chebyshev_pixels": {
+        "mean": 0.8833333333333333,
+        "median": 1.0,
+        "minimum": 0.0,
+        "maximum": 5.0
+      },
+      "energy_r90_chebyshev_pixels": {
+        "mean": 4.327083333333333,
+        "median": 3.0,
+        "minimum": 2.0,
+        "maximum": 13.0
+      },
+      "energy_r95_chebyshev_pixels": {
+        "mean": 6.483333333333333,
+        "median": 5.0,
+        "minimum": 3.0,
+        "maximum": 16.0
+      },
+      "mass_outside_original_structural_support": {
+        "mean": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      }
+    },
+    "original_near": {
+      "probes": 312,
+      "nonzero_probes": 312,
+      "zero_probes": 0,
+      "energy_r50_chebyshev_pixels": {
+        "mean": 0.7948717948717948,
+        "median": 1.0,
+        "minimum": 0.0,
+        "maximum": 5.0
+      },
+      "energy_r90_chebyshev_pixels": {
+        "mean": 4.711538461538462,
+        "median": 4.0,
+        "minimum": 2.0,
+        "maximum": 13.0
+      },
+      "energy_r95_chebyshev_pixels": {
+        "mean": 7.131410256410256,
+        "median": 7.0,
+        "minimum": 3.0,
+        "maximum": 16.0
+      },
+      "mass_outside_original_structural_support": {
+        "mean": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      }
+    },
+    "original_upper": {
+      "probes": 144,
+      "nonzero_probes": 144,
+      "zero_probes": 0,
+      "energy_r50_chebyshev_pixels": {
+        "mean": 1.1180555555555556,
+        "median": 1.0,
+        "minimum": 0.0,
+        "maximum": 3.0
+      },
+      "energy_r90_chebyshev_pixels": {
+        "mean": 3.5972222222222223,
+        "median": 3.0,
+        "minimum": 2.0,
+        "maximum": 13.0
+      },
+      "energy_r95_chebyshev_pixels": {
+        "mean": 5.159722222222222,
+        "median": 4.0,
+        "minimum": 3.0,
+        "maximum": 16.0
+      },
+      "mass_outside_original_structural_support": {
+        "mean": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      }
+    },
+    "original_tcwv": {
+      "probes": 24,
+      "nonzero_probes": 24,
+      "zero_probes": 0,
+      "energy_r50_chebyshev_pixels": {
+        "mean": 0.625,
+        "median": 1.0,
+        "minimum": 0.0,
+        "maximum": 1.0
+      },
+      "energy_r90_chebyshev_pixels": {
+        "mean": 3.7083333333333335,
+        "median": 3.0,
+        "minimum": 2.0,
+        "maximum": 9.0
+      },
+      "energy_r95_chebyshev_pixels": {
+        "mean": 6.0,
+        "median": 4.0,
+        "minimum": 3.0,
+        "maximum": 12.0
+      },
+      "mass_outside_original_structural_support": {
+        "mean": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      }
+    },
+    "dilated_all20": {
+      "probes": 480,
+      "nonzero_probes": 480,
+      "zero_probes": 0,
+      "energy_r50_chebyshev_pixels": {
+        "mean": 0.85625,
+        "median": 1.0,
+        "minimum": 0.0,
+        "maximum": 4.0
+      },
+      "energy_r90_chebyshev_pixels": {
+        "mean": 3.83125,
+        "median": 3.0,
+        "minimum": 1.0,
+        "maximum": 18.0
+      },
+      "energy_r95_chebyshev_pixels": {
+        "mean": 6.110416666666667,
+        "median": 4.0,
+        "minimum": 2.0,
+        "maximum": 22.0
+      },
+      "mass_outside_original_structural_support": {
+        "mean": 3.267505137996782e-05,
+        "median": 2.5478983864345696e-05,
+        "minimum": 9.493219608140378e-07,
+        "maximum": 0.00014767831103472333
+      }
+    },
+    "dilated_near": {
+      "probes": 312,
+      "nonzero_probes": 312,
+      "zero_probes": 0,
+      "energy_r50_chebyshev_pixels": {
+        "mean": 0.7403846153846154,
+        "median": 1.0,
+        "minimum": 0.0,
+        "maximum": 4.0
+      },
+      "energy_r90_chebyshev_pixels": {
+        "mean": 4.1506410256410255,
+        "median": 3.0,
+        "minimum": 1.0,
+        "maximum": 18.0
+      },
+      "energy_r95_chebyshev_pixels": {
+        "mean": 6.778846153846154,
+        "median": 5.0,
+        "minimum": 2.0,
+        "maximum": 22.0
+      },
+      "mass_outside_original_structural_support": {
+        "mean": 3.844604301130194e-05,
+        "median": 3.2268157079332814e-05,
+        "minimum": 4.170937327270172e-06,
+        "maximum": 0.00014767831103472333
+      }
+    },
+    "dilated_upper": {
+      "probes": 144,
+      "nonzero_probes": 144,
+      "zero_probes": 0,
+      "energy_r50_chebyshev_pixels": {
+        "mean": 1.1597222222222223,
+        "median": 1.0,
+        "minimum": 0.0,
+        "maximum": 2.0
+      },
+      "energy_r90_chebyshev_pixels": {
+        "mean": 3.125,
+        "median": 3.0,
+        "minimum": 2.0,
+        "maximum": 11.0
+      },
+      "energy_r95_chebyshev_pixels": {
+        "mean": 4.604166666666667,
+        "median": 3.0,
+        "minimum": 3.0,
+        "maximum": 17.0
+      },
+      "mass_outside_original_structural_support": {
+        "mean": 1.8940466153428007e-05,
+        "median": 8.856875735544541e-06,
+        "minimum": 9.493219608140378e-07,
+        "maximum": 8.7648109975577e-05
+      }
+    },
+    "dilated_tcwv": {
+      "probes": 24,
+      "nonzero_probes": 24,
+      "zero_probes": 0,
+      "energy_r50_chebyshev_pixels": {
+        "mean": 0.5416666666666666,
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 2.0
+      },
+      "energy_r90_chebyshev_pixels": {
+        "mean": 3.9166666666666665,
+        "median": 3.0,
+        "minimum": 2.0,
+        "maximum": 16.0
+      },
+      "energy_r95_chebyshev_pixels": {
+        "mean": 6.458333333333333,
+        "median": 4.0,
+        "minimum": 3.0,
+        "maximum": 20.0
+      },
+      "mass_outside_original_structural_support": {
+        "mean": 4.005967153186314e-05,
+        "median": 3.1708045475759906e-05,
+        "minimum": 9.68238813484699e-06,
+        "maximum": 0.0001162422065677969
+      }
+    }
+  },
+  "per_position_summaries": {
+    "original_all20_position0": {
+      "nonzero_probes": 160,
+      "energy_r50_chebyshev_pixels": {
+        "mean": 0.775,
+        "median": 1.0
+      },
+      "energy_r90_chebyshev_pixels": {
+        "mean": 3.40625,
+        "median": 3.0
+      },
+      "energy_r95_chebyshev_pixels": {
+        "mean": 5.0875,
+        "median": 4.0
+      },
+      "mass_outside_original_structural_support": {
+        "mean": 0.0,
+        "median": 0.0
+      }
+    },
+    "original_near_position0": {
+      "nonzero_probes": 104,
+      "energy_r50_chebyshev_pixels": {
+        "mean": 0.6346153846153846,
+        "median": 1.0
+      },
+      "energy_r90_chebyshev_pixels": {
+        "mean": 3.6826923076923075,
+        "median": 3.0
+      },
+      "energy_r95_chebyshev_pixels": {
+        "mean": 5.625,
+        "median": 5.0
+      },
+      "mass_outside_original_structural_support": {
+        "mean": 0.0,
+        "median": 0.0
+      }
+    },
+    "original_upper_position0": {
+      "nonzero_probes": 48,
+      "energy_r50_chebyshev_pixels": {
+        "mean": 1.1041666666666667,
+        "median": 1.0
+      },
+      "energy_r90_chebyshev_pixels": {
+        "mean": 3.0,
+        "median": 3.0
+      },
+      "energy_r95_chebyshev_pixels": {
+        "mean": 4.166666666666667,
+        "median": 3.0
+      },
+      "mass_outside_original_structural_support": {
+        "mean": 0.0,
+        "median": 0.0
+      }
+    },
+    "original_tcwv_position0": {
+      "nonzero_probes": 8,
+      "energy_r50_chebyshev_pixels": {
+        "mean": 0.625,
+        "median": 1.0
+      },
+      "energy_r90_chebyshev_pixels": {
+        "mean": 2.25,
+        "median": 2.0
+      },
+      "energy_r95_chebyshev_pixels": {
+        "mean": 3.625,
+        "median": 3.0
+      },
+      "mass_outside_original_structural_support": {
+        "mean": 0.0,
+        "median": 0.0
+      }
+    },
+    "original_all20_position1": {
+      "nonzero_probes": 160,
+      "energy_r50_chebyshev_pixels": {
+        "mean": 0.81875,
+        "median": 1.0
+      },
+      "energy_r90_chebyshev_pixels": {
+        "mean": 4.09375,
+        "median": 3.0
+      },
+      "energy_r95_chebyshev_pixels": {
+        "mean": 6.4125,
+        "median": 6.0
+      },
+      "mass_outside_original_structural_support": {
+        "mean": 0.0,
+        "median": 0.0
+      }
+    },
+    "original_near_position1": {
+      "nonzero_probes": 104,
+      "energy_r50_chebyshev_pixels": {
+        "mean": 0.7403846153846154,
+        "median": 1.0
+      },
+      "energy_r90_chebyshev_pixels": {
+        "mean": 4.413461538461538,
+        "median": 4.0
+      },
+      "energy_r95_chebyshev_pixels": {
+        "mean": 7.173076923076923,
+        "median": 8.0
+      },
+      "mass_outside_original_structural_support": {
+        "mean": 0.0,
+        "median": 0.0
+      }
+    },
+    "original_upper_position1": {
+      "nonzero_probes": 48,
+      "energy_r50_chebyshev_pixels": {
+        "mean": 1.0833333333333333,
+        "median": 1.0
+      },
+      "energy_r90_chebyshev_pixels": {
+        "mean": 3.6458333333333335,
+        "median": 3.0
+      },
+      "energy_r95_chebyshev_pixels": {
+        "mean": 5.145833333333333,
+        "median": 4.0
+      },
+      "mass_outside_original_structural_support": {
+        "mean": 0.0,
+        "median": 0.0
+      }
+    },
+    "original_tcwv_position1": {
+      "nonzero_probes": 8,
+      "energy_r50_chebyshev_pixels": {
+        "mean": 0.25,
+        "median": 0.0
+      },
+      "energy_r90_chebyshev_pixels": {
+        "mean": 2.625,
+        "median": 3.0
+      },
+      "energy_r95_chebyshev_pixels": {
+        "mean": 4.125,
+        "median": 4.0
+      },
+      "mass_outside_original_structural_support": {
+        "mean": 0.0,
+        "median": 0.0
+      }
+    },
+    "original_all20_position2": {
+      "nonzero_probes": 160,
+      "energy_r50_chebyshev_pixels": {
+        "mean": 1.05625,
+        "median": 1.0
+      },
+      "energy_r90_chebyshev_pixels": {
+        "mean": 5.48125,
+        "median": 3.5
+      },
+      "energy_r95_chebyshev_pixels": {
+        "mean": 7.95,
+        "median": 7.0
+      },
+      "mass_outside_original_structural_support": {
+        "mean": 0.0,
+        "median": 0.0
+      }
+    },
+    "original_near_position2": {
+      "nonzero_probes": 104,
+      "energy_r50_chebyshev_pixels": {
+        "mean": 1.0096153846153846,
+        "median": 1.0
+      },
+      "energy_r90_chebyshev_pixels": {
+        "mean": 6.038461538461538,
+        "median": 5.5
+      },
+      "energy_r95_chebyshev_pixels": {
+        "mean": 8.596153846153847,
+        "median": 9.0
+      },
+      "mass_outside_original_structural_support": {
+        "mean": 0.0,
+        "median": 0.0
+      }
+    },
+    "original_upper_position2": {
+      "nonzero_probes": 48,
+      "energy_r50_chebyshev_pixels": {
+        "mean": 1.1666666666666667,
+        "median": 1.0
+      },
+      "energy_r90_chebyshev_pixels": {
+        "mean": 4.145833333333333,
+        "median": 3.0
+      },
+      "energy_r95_chebyshev_pixels": {
+        "mean": 6.166666666666667,
+        "median": 4.0
+      },
+      "mass_outside_original_structural_support": {
+        "mean": 0.0,
+        "median": 0.0
+      }
+    },
+    "original_tcwv_position2": {
+      "nonzero_probes": 8,
+      "energy_r50_chebyshev_pixels": {
+        "mean": 1.0,
+        "median": 1.0
+      },
+      "energy_r90_chebyshev_pixels": {
+        "mean": 6.25,
+        "median": 6.0
+      },
+      "energy_r95_chebyshev_pixels": {
+        "mean": 10.25,
+        "median": 10.0
+      },
+      "mass_outside_original_structural_support": {
+        "mean": 0.0,
+        "median": 0.0
+      }
+    },
+    "dilated_all20_position0": {
+      "nonzero_probes": 160,
+      "energy_r50_chebyshev_pixels": {
+        "mean": 0.70625,
+        "median": 1.0
+      },
+      "energy_r90_chebyshev_pixels": {
+        "mean": 2.78125,
+        "median": 3.0
+      },
+      "energy_r95_chebyshev_pixels": {
+        "mean": 3.95625,
+        "median": 3.0
+      },
+      "mass_outside_original_structural_support": {
+        "mean": 3.325842801366434e-05,
+        "median": 2.910650644839859e-05
+      }
+    },
+    "dilated_near_position0": {
+      "nonzero_probes": 104,
+      "energy_r50_chebyshev_pixels": {
+        "mean": 0.5384615384615384,
+        "median": 1.0
+      },
+      "energy_r90_chebyshev_pixels": {
+        "mean": 2.875,
+        "median": 3.0
+      },
+      "energy_r95_chebyshev_pixels": {
+        "mean": 4.211538461538462,
+        "median": 4.0
+      },
+      "mass_outside_original_structural_support": {
+        "mean": 3.971517252742485e-05,
+        "median": 3.538825926021247e-05
+      }
+    },
+    "dilated_upper_position0": {
+      "nonzero_probes": 48,
+      "energy_r50_chebyshev_pixels": {
+        "mean": 1.125,
+        "median": 1.0
+      },
+      "energy_r90_chebyshev_pixels": {
+        "mean": 2.6458333333333335,
+        "median": 3.0
+      },
+      "energy_r95_chebyshev_pixels": {
+        "mean": 3.4583333333333335,
+        "median": 3.0
+      },
+      "mass_outside_original_structural_support": {
+        "mean": 1.867765905604525e-05,
+        "median": 6.99634887915064e-06
+      }
+    },
+    "dilated_tcwv_position0": {
+      "nonzero_probes": 8,
+      "energy_r50_chebyshev_pixels": {
+        "mean": 0.375,
+        "median": 0.0
+      },
+      "energy_r90_chebyshev_pixels": {
+        "mean": 2.375,
+        "median": 2.0
+      },
+      "energy_r95_chebyshev_pixels": {
+        "mean": 3.625,
+        "median": 3.0
+      },
+      "mass_outside_original_structural_support": {
+        "mean": 3.680536308049226e-05,
+        "median": 3.467029738169736e-05
+      }
+    },
+    "dilated_all20_position1": {
+      "nonzero_probes": 160,
+      "energy_r50_chebyshev_pixels": {
+        "mean": 0.86875,
+        "median": 1.0
+      },
+      "energy_r90_chebyshev_pixels": {
+        "mean": 3.59375,
+        "median": 3.0
+      },
+      "energy_r95_chebyshev_pixels": {
+        "mean": 6.04375,
+        "median": 5.0
+      },
+      "mass_outside_original_structural_support": {
+        "mean": 3.1796897410677466e-05,
+        "median": 2.626605975430616e-05
+      }
+    },
+    "dilated_near_position1": {
+      "nonzero_probes": 104,
+      "energy_r50_chebyshev_pixels": {
+        "mean": 0.7884615384615384,
+        "median": 1.0
+      },
+      "energy_r90_chebyshev_pixels": {
+        "mean": 3.9134615384615383,
+        "median": 3.0
+      },
+      "energy_r95_chebyshev_pixels": {
+        "mean": 6.971153846153846,
+        "median": 6.0
+      },
+      "mass_outside_original_structural_support": {
+        "mean": 3.836282115515708e-05,
+        "median": 3.5143972842970175e-05
+      }
+    },
+    "dilated_upper_position1": {
+      "nonzero_probes": 48,
+      "energy_r50_chebyshev_pixels": {
+        "mean": 1.1875,
+        "median": 1.0
+      },
+      "energy_r90_chebyshev_pixels": {
+        "mean": 3.1041666666666665,
+        "median": 3.0
+      },
+      "energy_r95_chebyshev_pixels": {
+        "mean": 4.458333333333333,
+        "median": 3.0
+      },
+      "mass_outside_original_structural_support": {
+        "mean": 1.9840475639035024e-05,
+        "median": 1.1678285943225138e-05
+      }
+    },
+    "dilated_tcwv_position1": {
+      "nonzero_probes": 8,
+      "energy_r50_chebyshev_pixels": {
+        "mean": 0.0,
+        "median": 0.0
+      },
+      "energy_r90_chebyshev_pixels": {
+        "mean": 2.375,
+        "median": 2.0
+      },
+      "energy_r95_chebyshev_pixels": {
+        "mean": 3.5,
+        "median": 3.0
+      },
+      "mass_outside_original_structural_support": {
+        "mean": 1.8178419362297154e-05,
+        "median": 1.533138203310657e-05
+      }
+    },
+    "dilated_all20_position2": {
+      "nonzero_probes": 160,
+      "energy_r50_chebyshev_pixels": {
+        "mean": 0.99375,
+        "median": 1.0
+      },
+      "energy_r90_chebyshev_pixels": {
+        "mean": 5.11875,
+        "median": 3.0
+      },
+      "energy_r95_chebyshev_pixels": {
+        "mean": 8.33125,
+        "median": 5.0
+      },
+      "mass_outside_original_structural_support": {
+        "mean": 3.296982871556166e-05,
+        "median": 2.1009006913147292e-05
+      }
+    },
+    "dilated_near_position2": {
+      "nonzero_probes": 104,
+      "energy_r50_chebyshev_pixels": {
+        "mean": 0.8942307692307693,
+        "median": 1.0
+      },
+      "energy_r90_chebyshev_pixels": {
+        "mean": 5.663461538461538,
+        "median": 3.0
+      },
+      "energy_r95_chebyshev_pixels": {
+        "mean": 9.153846153846153,
+        "median": 7.0
+      },
+      "mass_outside_original_structural_support": {
+        "mean": 3.7260135351323884e-05,
+        "median": 2.4361658751739223e-05
+      }
+    },
+    "dilated_upper_position2": {
+      "nonzero_probes": 48,
+      "energy_r50_chebyshev_pixels": {
+        "mean": 1.1666666666666667,
+        "median": 1.0
+      },
+      "energy_r90_chebyshev_pixels": {
+        "mean": 3.625,
+        "median": 3.0
+      },
+      "energy_r95_chebyshev_pixels": {
+        "mean": 5.895833333333333,
+        "median": 3.5
+      },
+      "mass_outside_original_structural_support": {
+        "mean": 1.8303263765203757e-05,
+        "median": 8.311196469362503e-06
+      }
+    },
+    "dilated_tcwv_position2": {
+      "nonzero_probes": 8,
+      "energy_r50_chebyshev_pixels": {
+        "mean": 1.25,
+        "median": 1.0
+      },
+      "energy_r90_chebyshev_pixels": {
+        "mean": 7.0,
+        "median": 4.5
+      },
+      "energy_r95_chebyshev_pixels": {
+        "mean": 12.25,
+        "median": 12.0
+      },
+      "mass_outside_original_structural_support": {
+        "mean": 6.519523215280004e-05,
+        "median": 5.755502660224233e-05
+      }
+    }
+  },
+  "limitations": "Local input/weight-dependent sensitivities, not proof of use of every theoretically reachable location; eight frames, fixed probes, one seed. Zero gradients reported, not replaced.",
+  "theory": {
+    "method": "exact discrete structural dependency propagation",
+    "architecture": "depth2 UNet2, all kernels3, pool2, pre-interpolation up conv, bilinear align_corners=False, skips, kernel3 head",
+    "input_shape_spatial": [
+      97,
+      241
+    ],
+    "scope": "theoretical potential input dependencies; ignores ReLU gates, maxpool winner selection, trained weights and gradient magnitude",
+    "units": "input-grid pixels, not kilometres or independent observations",
+    "padding": "constant-zero positions excluded from real-input support",
+    "models": {
+      "original": {
+        "bottleneck_dilations": [
+          1,
+          1
+        ],
+        "height": {
+          "input_size": 97,
+          "center": {
+            "output_index": 48,
+            "input_min": 12,
+            "input_max": 83,
+            "support_count": 72,
+            "bounding_span": 72,
+            "contiguous": true
+          },
+          "max_support_count": 76,
+          "max_bounding_span": 76,
+          "all_supports_contiguous": true
+        },
+        "width": {
+          "input_size": 241,
+          "center": {
+            "output_index": 120,
+            "input_min": 84,
+            "input_max": 155,
+            "support_count": 72,
+            "bounding_span": 72,
+            "contiguous": true
+          },
+          "max_support_count": 76,
+          "max_bounding_span": 76,
+          "all_supports_contiguous": true
+        },
+        "unclipped_probe": {
+          "input_size": 513,
+          "center": {
+            "output_index": 256,
+            "input_min": 220,
+            "input_max": 291,
+            "support_count": 72,
+            "bounding_span": 72,
+            "contiguous": true
+          },
+          "max_support_count": 76,
+          "max_bounding_span": 76,
+          "all_supports_contiguous": true
+        },
+        "center_bounding_box_hw": [
+          72,
+          72
+        ],
+        "max_actual_axis_spans_hw": [
+          76,
+          76
+        ],
+        "unclipped_max_axis_span": 76
+      },
+      "dilated": {
+        "bottleneck_dilations": [
+          2,
+          3
+        ],
+        "height": {
+          "input_size": 97,
+          "center": {
+            "output_index": 48,
+            "input_min": 0,
+            "input_max": 95,
+            "support_count": 96,
+            "bounding_span": 96,
+            "contiguous": true
+          },
+          "max_support_count": 97,
+          "max_bounding_span": 97,
+          "all_supports_contiguous": true
+        },
+        "width": {
+          "input_size": 241,
+          "center": {
+            "output_index": 120,
+            "input_min": 72,
+            "input_max": 167,
+            "support_count": 96,
+            "bounding_span": 96,
+            "contiguous": true
+          },
+          "max_support_count": 100,
+          "max_bounding_span": 100,
+          "all_supports_contiguous": true
+        },
+        "unclipped_probe": {
+          "input_size": 513,
+          "center": {
+            "output_index": 256,
+            "input_min": 208,
+            "input_max": 303,
+            "support_count": 96,
+            "bounding_span": 96,
+            "contiguous": true
+          },
+          "max_support_count": 100,
+          "max_bounding_span": 100,
+          "all_supports_contiguous": true
+        },
+        "center_bounding_box_hw": [
+          96,
+          96
+        ],
+        "max_actual_axis_spans_hw": [
+          97,
+          100
+        ],
+        "unclipped_max_axis_span": 100
+      }
+    },
+    "implementation_sha256": "6de8b6f531c394dd2b7e8a9f1f2cff2d3231102424e1358dfb08ac4a7e0fe95a"
+  }
+}

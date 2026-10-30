@@ -1,0 +1,242 @@
+{
+  "method": "spatial MPCA via mode covariance eigendecomposition",
+  "sample_axis": "time",
+  "feature_modes": [
+    "latitude",
+    "longitude"
+  ],
+  "rank_selection": "smallest rank with cumulative eigenvalue energy >= 0.99",
+  "energy_threshold": 0.99,
+  "years": [
+    2014,
+    2015,
+    2016
+  ],
+  "input_dir": "C:\\Users\\user\\era5_cra5\\fourcastnet_us_mpca\\data\\processed\\fourcastnet20_conus",
+  "stats_path": "C:\\Users\\user\\era5_cra5\\fourcastnet_us_mpca\\stats\\train_2014_2016_channel_stats.npz",
+  "total_time_steps": 4384,
+  "n_lat": 97,
+  "n_lon": 241,
+  "channels": [
+    {
+      "name": "u10",
+      "model_path": "C:\\Users\\user\\era5_cra5\\fourcastnet_us_mpca\\models\\mpca_spatial_99energy\\u10.npz",
+      "lat_rank": 26,
+      "lon_rank": 54,
+      "lat_retained_energy": 0.9900303523196713,
+      "lon_retained_energy": 0.990005697065934,
+      "spatial_core_elements": 1404,
+      "spatial_original_elements": 23377,
+      "spatial_core_ratio": 0.060059032382256065
+    },
+    {
+      "name": "v10",
+      "model_path": "C:\\Users\\user\\era5_cra5\\fourcastnet_us_mpca\\models\\mpca_spatial_99energy\\v10.npz",
+      "lat_rank": 25,
+      "lon_rank": 43,
+      "lat_retained_energy": 0.9908345065793583,
+      "lon_retained_energy": 0.9900868665516923,
+      "spatial_core_elements": 1075,
+      "spatial_original_elements": 23377,
+      "spatial_core_ratio": 0.04598537023570176
+    },
+    {
+      "name": "t2m",
+      "model_path": "C:\\Users\\user\\era5_cra5\\fourcastnet_us_mpca\\models\\mpca_spatial_99energy\\t2m.npz",
+      "lat_rank": 11,
+      "lon_rank": 20,
+      "lat_retained_energy": 0.9906432227021009,
+      "lon_retained_energy": 0.9906703501126707,
+      "spatial_core_elements": 220,
+      "spatial_original_elements": 23377,
+      "spatial_core_ratio": 0.009410959490097104
+    },
+    {
+      "name": "sp",
+      "model_path": "C:\\Users\\user\\era5_cra5\\fourcastnet_us_mpca\\models\\mpca_spatial_99energy\\sp.npz",
+      "lat_rank": 14,
+      "lon_rank": 16,
+      "lat_retained_energy": 0.9909939033220377,
+      "lon_retained_energy": 0.991053245805572,
+      "spatial_core_elements": 224,
+      "spatial_original_elements": 23377,
+      "spatial_core_ratio": 0.009582067844462507
+    },
+    {
+      "name": "msl",
+      "model_path": "C:\\Users\\user\\era5_cra5\\fourcastnet_us_mpca\\models\\mpca_spatial_99energy\\msl.npz",
+      "lat_rank": 7,
+      "lon_rank": 13,
+      "lat_retained_energy": 0.9920528691218085,
+      "lon_retained_energy": 0.991074253809075,
+      "spatial_core_elements": 91,
+      "spatial_original_elements": 23377,
+      "spatial_core_ratio": 0.003892715061812893
+    },
+    {
+      "name": "t850",
+      "model_path": "C:\\Users\\user\\era5_cra5\\fourcastnet_us_mpca\\models\\mpca_spatial_99energy\\t850.npz",
+      "lat_rank": 6,
+      "lon_rank": 11,
+      "lat_retained_energy": 0.9918488720305372,
+      "lon_retained_energy": 0.9910584203193156,
+      "spatial_core_elements": 66,
+      "spatial_original_elements": 23377,
+      "spatial_core_ratio": 0.002823287847029131
+    },
+    {
+      "name": "u1000",
+      "model_path": "C:\\Users\\user\\era5_cra5\\fourcastnet_us_mpca\\models\\mpca_spatial_99energy\\u1000.npz",
+      "lat_rank": 26,
+      "lon_rank": 57,
+      "lat_retained_energy": 0.9904764071291593,
+      "lon_retained_energy": 0.9901725125215792,
+      "spatial_core_elements": 1482,
+      "spatial_original_elements": 23377,
+      "spatial_core_ratio": 0.0633956452923814
+    },
+    {
+      "name": "v1000",
+      "model_path": "C:\\Users\\user\\era5_cra5\\fourcastnet_us_mpca\\models\\mpca_spatial_99energy\\v1000.npz",
+      "lat_rank": 23,
+      "lon_rank": 46,
+      "lat_retained_energy": 0.9906502635048272,
+      "lon_retained_energy": 0.9902619459195278,
+      "spatial_core_elements": 1058,
+      "spatial_original_elements": 23377,
+      "spatial_core_ratio": 0.0452581597296488
+    },
+    {
+      "name": "z1000",
+      "model_path": "C:\\Users\\user\\era5_cra5\\fourcastnet_us_mpca\\models\\mpca_spatial_99energy\\z1000.npz",
+      "lat_rank": 7,
+      "lon_rank": 13,
+      "lat_retained_energy": 0.9919753709109264,
+      "lon_retained_energy": 0.9908279055125933,
+      "spatial_core_elements": 91,
+      "spatial_original_elements": 23377,
+      "spatial_core_ratio": 0.003892715061812893
+    },
+    {
+      "name": "u850",
+      "model_path": "C:\\Users\\user\\era5_cra5\\fourcastnet_us_mpca\\models\\mpca_spatial_99energy\\u850.npz",
+      "lat_rank": 21,
+      "lon_rank": 38,
+      "lat_retained_energy": 0.990755066363278,
+      "lon_retained_energy": 0.9902706919396205,
+      "spatial_core_elements": 798,
+      "spatial_original_elements": 23377,
+      "spatial_core_ratio": 0.034136116695897674
+    },
+    {
+      "name": "v850",
+      "model_path": "C:\\Users\\user\\era5_cra5\\fourcastnet_us_mpca\\models\\mpca_spatial_99energy\\v850.npz",
+      "lat_rank": 17,
+      "lon_rank": 39,
+      "lat_retained_energy": 0.990302007423254,
+      "lon_retained_energy": 0.9903201070305431,
+      "spatial_core_elements": 663,
+      "spatial_original_elements": 23377,
+      "spatial_core_ratio": 0.028361209736065363
+    },
+    {
+      "name": "z850",
+      "model_path": "C:\\Users\\user\\era5_cra5\\fourcastnet_us_mpca\\models\\mpca_spatial_99energy\\z850.npz",
+      "lat_rank": 4,
+      "lon_rank": 7,
+      "lat_retained_energy": 0.9929110908368995,
+      "lon_retained_energy": 0.990933353954071,
+      "spatial_core_elements": 28,
+      "spatial_original_elements": 23377,
+      "spatial_core_ratio": 0.0011977584805578133
+    },
+    {
+      "name": "u500",
+      "model_path": "C:\\Users\\user\\era5_cra5\\fourcastnet_us_mpca\\models\\mpca_spatial_99energy\\u500.npz",
+      "lat_rank": 11,
+      "lon_rank": 16,
+      "lat_retained_energy": 0.9901973733771509,
+      "lon_retained_energy": 0.9908823605483645,
+      "spatial_core_elements": 176,
+      "spatial_original_elements": 23377,
+      "spatial_core_ratio": 0.007528767592077683
+    },
+    {
+      "name": "v500",
+      "model_path": "C:\\Users\\user\\era5_cra5\\fourcastnet_us_mpca\\models\\mpca_spatial_99energy\\v500.npz",
+      "lat_rank": 9,
+      "lon_rank": 21,
+      "lat_retained_energy": 0.9902901444132488,
+      "lon_retained_energy": 0.9900916033468656,
+      "spatial_core_elements": 189,
+      "spatial_original_elements": 23377,
+      "spatial_core_ratio": 0.00808486974376524
+    },
+    {
+      "name": "z500",
+      "model_path": "C:\\Users\\user\\era5_cra5\\fourcastnet_us_mpca\\models\\mpca_spatial_99energy\\z500.npz",
+      "lat_rank": 3,
+      "lon_rank": 5,
+      "lat_retained_energy": 0.9937770634601718,
+      "lon_retained_energy": 0.9947113591655611,
+      "spatial_core_elements": 15,
+      "spatial_original_elements": 23377,
+      "spatial_core_ratio": 0.0006416563288702571
+    },
+    {
+      "name": "t500",
+      "model_path": "C:\\Users\\user\\era5_cra5\\fourcastnet_us_mpca\\models\\mpca_spatial_99energy\\t500.npz",
+      "lat_rank": 5,
+      "lon_rank": 7,
+      "lat_retained_energy": 0.9931231531885394,
+      "lon_retained_energy": 0.9902430734158045,
+      "spatial_core_elements": 35,
+      "spatial_original_elements": 23377,
+      "spatial_core_ratio": 0.0014971981006972666
+    },
+    {
+      "name": "z50",
+      "model_path": "C:\\Users\\user\\era5_cra5\\fourcastnet_us_mpca\\models\\mpca_spatial_99energy\\z50.npz",
+      "lat_rank": 2,
+      "lon_rank": 2,
+      "lat_retained_energy": 0.9975943662092653,
+      "lon_retained_energy": 0.9926935887162378,
+      "spatial_core_elements": 4,
+      "spatial_original_elements": 23377,
+      "spatial_core_ratio": 0.00017110835436540188
+    },
+    {
+      "name": "r500",
+      "model_path": "C:\\Users\\user\\era5_cra5\\fourcastnet_us_mpca\\models\\mpca_spatial_99energy\\r500.npz",
+      "lat_rank": 23,
+      "lon_rank": 43,
+      "lat_retained_energy": 0.9912398409488894,
+      "lon_retained_energy": 0.9900149023272776,
+      "spatial_core_elements": 989,
+      "spatial_original_elements": 23377,
+      "spatial_core_ratio": 0.04230654061684562
+    },
+    {
+      "name": "r850",
+      "model_path": "C:\\Users\\user\\era5_cra5\\fourcastnet_us_mpca\\models\\mpca_spatial_99energy\\r850.npz",
+      "lat_rank": 25,
+      "lon_rank": 55,
+      "lat_retained_energy": 0.9903691022444004,
+      "lon_retained_energy": 0.9901782072246125,
+      "spatial_core_elements": 1375,
+      "spatial_original_elements": 23377,
+      "spatial_core_ratio": 0.0588184968131069
+    },
+    {
+      "name": "tcwv",
+      "model_path": "C:\\Users\\user\\era5_cra5\\fourcastnet_us_mpca\\models\\mpca_spatial_99energy\\tcwv.npz",
+      "lat_rank": 10,
+      "lon_rank": 21,
+      "lat_retained_energy": 0.9901583347864465,
+      "lon_retained_energy": 0.9906625804279068,
+      "spatial_core_elements": 210,
+      "spatial_original_elements": 23377,
+      "spatial_core_ratio": 0.008983188604183599
+    }
+  ]
+}

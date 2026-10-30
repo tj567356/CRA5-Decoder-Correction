@@ -1,0 +1,62 @@
+[
+  {
+    "energy": "e995",
+    "n_components": 2011,
+    "quant_step": 0.33129400364160516,
+    "bytes_per_frame": 1402.739670512686,
+    "bits_per_coeff": 5.58026721238264,
+    "ratio_measured": 1333.219584013388,
+    "ratio_old": 232.5,
+    "understated_by": 5.734277780702744,
+    "post_cnn_nrmse": 0.13964,
+    "roundtrip_exact": true
+  },
+  {
+    "energy": "e99",
+    "n_components": 1449,
+    "quant_step": 0.5512586328670662,
+    "bytes_per_frame": 934.8538117601165,
+    "bits_per_coeff": 5.161373701919207,
+    "ratio_measured": 2000.483900770448,
+    "ratio_old": 322.7,
+    "understated_by": 6.199206386025559,
+    "post_cnn_nrmse": 0.15257,
+    "roundtrip_exact": true
+  },
+  {
+    "energy": "e97",
+    "n_components": 636,
+    "quant_step": 1.4360081661151702,
+    "bytes_per_frame": 367.1921379165479,
+    "bits_per_coeff": 4.6187690303968285,
+    "ratio_measured": 5093.13737110851,
+    "ratio_old": 735.1,
+    "understated_by": 6.9284959476377495,
+    "post_cnn_nrmse": 0.18828,
+    "roundtrip_exact": true
+  },
+  {
+    "energy": "e95",
+    "n_components": 359,
+    "quant_step": 2.456287649877694,
+    "bytes_per_frame": 199.22948131254782,
+    "bits_per_coeff": 4.439654179666804,
+    "ratio_measured": 9386.964156505155,
+    "ratio_old": 1302.3,
+    "understated_by": 7.207989062815907,
+    "post_cnn_nrmse": 0.21772,
+    "roundtrip_exact": true
+  },
+  {
+    "energy": "e90",
+    "n_components": 129,
+    "quant_step": 5.7912550210947344,
+    "bytes_per_frame": 69.07064622124864,
+    "bits_per_coeff": 4.283450928449528,
+    "ratio_measured": 27076.046081999317,
+    "ratio_old": 3624.3,
+    "understated_by": 7.470696708881526,
+    "post_cnn_nrmse": 0.27882,
+    "roundtrip_exact": true
+  }
+]

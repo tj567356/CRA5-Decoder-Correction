@@ -1,0 +1,218 @@
+Device: cuda
+Cache: /home/tong/fourcastnet_us_mpca/data/memmap_cra5
+       built from /home/tong/fourcastnet_us_mpca/cra5_conus (2026-08-18T07:04:10+00:00)
+Train: 4384 samples, Val: 1460 samples, Test: 1460 samples
+Model params: 1,646,548  amp=True
+Epoch   1/200  train=0.009632  val=0.009158  val_rmse=140.519  18.8s *saved*
+Epoch   2/200  train=0.008023  val=0.007720  val_rmse=83.213  18.3s *saved*
+Epoch   3/200  train=0.007204  val=0.007275  val_rmse=70.453  18.1s *saved*
+Epoch   4/200  train=0.006875  val=0.007032  val_rmse=65.048  18.1s *saved*
+Epoch   5/200  train=0.006699  val=0.006894  val_rmse=62.195  18.1s *saved*
+Epoch   6/200  train=0.006581  val=0.006799  val_rmse=60.453  18.3s *saved*
+Epoch   7/200  train=0.006489  val=0.006701  val_rmse=57.847  18.1s *saved*
+Epoch   8/200  train=0.006413  val=0.006651  val_rmse=57.389  18.0s *saved*
+Epoch   9/200  train=0.006345  val=0.006568  val_rmse=56.018  18.1s *saved*
+Epoch  10/200  train=0.006285  val=0.006532  val_rmse=55.848  18.1s *saved*
+Epoch  11/200  train=0.006228  val=0.006467  val_rmse=55.189  18.2s *saved*
+Epoch  12/200  train=0.006184  val=0.006437  val_rmse=54.068  18.1s *saved*
+Epoch  13/200  train=0.006141  val=0.006397  val_rmse=53.777  18.3s *saved*
+Epoch  14/200  train=0.006103  val=0.006362  val_rmse=54.565  18.1s *saved*
+Epoch  15/200  train=0.006072  val=0.006333  val_rmse=52.826  18.2s *saved*
+Epoch  16/200  train=0.006040  val=0.006299  val_rmse=52.118  18.0s *saved*
+Epoch  17/200  train=0.006010  val=0.006292  val_rmse=51.719  18.1s *saved*
+Epoch  18/200  train=0.005984  val=0.006253  val_rmse=51.326  18.0s *saved*
+Epoch  19/200  train=0.005957  val=0.006227  val_rmse=51.555  18.2s *saved*
+Epoch  20/200  train=0.005937  val=0.006221  val_rmse=50.766  18.1s *saved*
+Epoch  21/200  train=0.005914  val=0.006185  val_rmse=50.190  18.2s *saved*
+Epoch  22/200  train=0.005899  val=0.006185  val_rmse=52.591  18.0s *saved*
+Epoch  23/200  train=0.005873  val=0.006156  val_rmse=50.370  18.2s *saved*
+Epoch  24/200  train=0.005852  val=0.006129  val_rmse=49.668  18.1s *saved*
+Epoch  25/200  train=0.005833  val=0.006118  val_rmse=49.618  18.1s *saved*
+Epoch  26/200  train=0.005814  val=0.006112  val_rmse=49.035  18.1s *saved*
+Epoch  27/200  train=0.005801  val=0.006097  val_rmse=48.863  18.1s *saved*
+Epoch  28/200  train=0.005784  val=0.006077  val_rmse=49.306  18.3s *saved*
+Epoch  29/200  train=0.005769  val=0.006068  val_rmse=49.237  18.1s *saved*
+Epoch  30/200  train=0.005756  val=0.006074  val_rmse=48.537  18.0s
+Epoch  31/200  train=0.005741  val=0.006033  val_rmse=48.390  18.1s *saved*
+Epoch  32/200  train=0.005729  val=0.006074  val_rmse=48.776  18.5s
+Epoch  33/200  train=0.005719  val=0.006011  val_rmse=48.348  18.2s *saved*
+Epoch  34/200  train=0.005707  val=0.006013  val_rmse=47.819  18.2s
+Epoch  35/200  train=0.005698  val=0.006010  val_rmse=47.528  18.3s *saved*
+Epoch  36/200  train=0.005689  val=0.005997  val_rmse=47.408  18.1s *saved*
+Epoch  37/200  train=0.005677  val=0.005993  val_rmse=47.728  18.3s *saved*
+Epoch  38/200  train=0.005667  val=0.006000  val_rmse=47.226  18.3s
+Epoch  39/200  train=0.005661  val=0.005969  val_rmse=47.539  18.0s *saved*
+Epoch  40/200  train=0.005650  val=0.005959  val_rmse=46.628  18.0s *saved*
+Epoch  41/200  train=0.005638  val=0.005962  val_rmse=46.734  18.1s
+Epoch  42/200  train=0.005632  val=0.005955  val_rmse=48.931  18.1s *saved*
+Epoch  43/200  train=0.005622  val=0.005952  val_rmse=46.767  18.1s *saved*
+Epoch  44/200  train=0.005615  val=0.005936  val_rmse=46.779  18.1s *saved*
+Epoch  45/200  train=0.005608  val=0.005935  val_rmse=46.628  18.3s *saved*
+Epoch  46/200  train=0.005599  val=0.005962  val_rmse=47.407  18.1s
+Epoch  47/200  train=0.005594  val=0.005963  val_rmse=46.811  18.2s
+Epoch  48/200  train=0.005584  val=0.005925  val_rmse=46.451  18.0s *saved*
+Epoch  49/200  train=0.005574  val=0.005918  val_rmse=46.771  18.3s *saved*
+Epoch  50/200  train=0.005572  val=0.005920  val_rmse=46.339  18.2s
+Epoch  51/200  train=0.005566  val=0.005942  val_rmse=46.797  18.1s
+Epoch  52/200  train=0.005559  val=0.005920  val_rmse=46.712  18.0s
+Epoch  53/200  train=0.005550  val=0.005899  val_rmse=45.586  18.0s *saved*
+Epoch  54/200  train=0.005545  val=0.005893  val_rmse=45.499  18.1s *saved*
+Epoch  55/200  train=0.005543  val=0.005887  val_rmse=45.375  18.0s *saved*
+Epoch  56/200  train=0.005533  val=0.005895  val_rmse=45.539  18.1s
+Epoch  57/200  train=0.005530  val=0.005879  val_rmse=45.394  18.2s *saved*
+Epoch  58/200  train=0.005527  val=0.005891  val_rmse=45.704  18.0s
+Epoch  59/200  train=0.005516  val=0.005874  val_rmse=45.330  18.0s *saved*
+Epoch  60/200  train=0.005512  val=0.005871  val_rmse=44.961  18.0s *saved*
+Epoch  61/200  train=0.005511  val=0.005868  val_rmse=45.193  18.0s *saved*
+Epoch  62/200  train=0.005502  val=0.005859  val_rmse=45.728  18.2s *saved*
+Epoch  63/200  train=0.005498  val=0.005864  val_rmse=44.715  18.3s
+Epoch  64/200  train=0.005496  val=0.005861  val_rmse=45.596  18.1s
+Epoch  65/200  train=0.005487  val=0.005856  val_rmse=45.660  18.1s *saved*
+Epoch  66/200  train=0.005486  val=0.005859  val_rmse=45.494  18.1s
+Epoch  67/200  train=0.005481  val=0.005863  val_rmse=44.684  18.1s
+Epoch  68/200  train=0.005476  val=0.005858  val_rmse=44.828  18.0s
+Epoch  69/200  train=0.005472  val=0.005851  val_rmse=46.318  18.0s *saved*
+Epoch  70/200  train=0.005467  val=0.005854  val_rmse=44.555  18.2s
+Epoch  71/200  train=0.005464  val=0.005848  val_rmse=44.602  18.2s *saved*
+Epoch  72/200  train=0.005463  val=0.005870  val_rmse=45.257  18.3s
+Epoch  73/200  train=0.005456  val=0.005855  val_rmse=44.426  18.3s
+Epoch  74/200  train=0.005451  val=0.005842  val_rmse=44.590  18.0s *saved*
+Epoch  75/200  train=0.005448  val=0.005846  val_rmse=45.081  18.3s
+Epoch  76/200  train=0.005448  val=0.005837  val_rmse=44.680  18.0s *saved*
+Epoch  77/200  train=0.005442  val=0.005841  val_rmse=45.964  18.0s
+Epoch  78/200  train=0.005440  val=0.005839  val_rmse=48.307  18.2s
+Epoch  79/200  train=0.005434  val=0.005832  val_rmse=45.565  18.0s *saved*
+Epoch  80/200  train=0.005431  val=0.005830  val_rmse=43.952  18.2s *saved*
+Epoch  81/200  train=0.005428  val=0.005839  val_rmse=44.772  18.2s
+Epoch  82/200  train=0.005426  val=0.005825  val_rmse=44.905  18.1s *saved*
+Epoch  83/200  train=0.005423  val=0.005836  val_rmse=44.605  18.0s
+Epoch  84/200  train=0.005420  val=0.005820  val_rmse=44.338  18.1s *saved*
+Epoch  85/200  train=0.005417  val=0.005834  val_rmse=44.199  18.1s
+Epoch  86/200  train=0.005411  val=0.005821  val_rmse=44.644  18.1s
+Epoch  87/200  train=0.005407  val=0.005819  val_rmse=44.224  18.0s *saved*
+Epoch  88/200  train=0.005405  val=0.005825  val_rmse=44.075  18.2s
+Epoch  89/200  train=0.005400  val=0.005803  val_rmse=43.671  18.2s *saved*
+Epoch  90/200  train=0.005400  val=0.005814  val_rmse=43.803  18.0s
+Epoch  91/200  train=0.005391  val=0.005791  val_rmse=44.505  18.0s *saved*
+Epoch  92/200  train=0.005388  val=0.005803  val_rmse=43.115  18.3s
+Epoch  93/200  train=0.005385  val=0.005790  val_rmse=43.336  18.0s *saved*
+Epoch  94/200  train=0.005383  val=0.005802  val_rmse=43.631  18.2s
+Epoch  95/200  train=0.005380  val=0.005807  val_rmse=43.438  18.0s
+Epoch  96/200  train=0.005380  val=0.005804  val_rmse=44.281  18.3s
+Epoch  97/200  train=0.005372  val=0.005810  val_rmse=43.393  18.0s
+Epoch  98/200  train=0.005369  val=0.005795  val_rmse=43.888  18.1s
+Epoch  99/200  train=0.005367  val=0.005799  val_rmse=43.400  18.1s
+Epoch 100/200  train=0.005365  val=0.005774  val_rmse=43.531  18.1s *saved*
+Epoch 101/200  train=0.005362  val=0.005792  val_rmse=43.228  18.1s
+Epoch 102/200  train=0.005356  val=0.005791  val_rmse=44.195  18.1s
+Epoch 103/200  train=0.005351  val=0.005780  val_rmse=43.615  18.0s
+Epoch 104/200  train=0.005353  val=0.005779  val_rmse=43.503  18.3s
+Epoch 105/200  train=0.005349  val=0.005772  val_rmse=43.373  18.0s *saved*
+Epoch 106/200  train=0.005344  val=0.005797  val_rmse=43.634  18.2s
+Epoch 107/200  train=0.005344  val=0.005776  val_rmse=43.102  18.2s
+Epoch 108/200  train=0.005338  val=0.005791  val_rmse=43.393  18.1s
+Epoch 109/200  train=0.005342  val=0.005797  val_rmse=43.375  18.1s
+Epoch 110/200  train=0.005333  val=0.005771  val_rmse=42.728  18.1s *saved*
+Epoch 111/200  train=0.005332  val=0.005769  val_rmse=42.827  18.1s *saved*
+Epoch 112/200  train=0.005329  val=0.005767  val_rmse=43.793  18.2s *saved*
+Epoch 113/200  train=0.005327  val=0.005780  val_rmse=43.145  18.0s
+Epoch 114/200  train=0.005325  val=0.005768  val_rmse=42.582  18.1s
+Epoch 115/200  train=0.005321  val=0.005782  val_rmse=44.090  18.1s
+Epoch 116/200  train=0.005323  val=0.005777  val_rmse=43.061  18.2s
+Epoch 117/200  train=0.005318  val=0.005762  val_rmse=42.729  18.4s *saved*
+Epoch 118/200  train=0.005316  val=0.005765  val_rmse=42.913  18.2s
+Epoch 119/200  train=0.005313  val=0.005797  val_rmse=42.956  18.2s
+Epoch 120/200  train=0.005313  val=0.005777  val_rmse=42.637  18.4s
+Epoch 121/200  train=0.005309  val=0.005759  val_rmse=42.871  18.0s *saved*
+Epoch 122/200  train=0.005308  val=0.005762  val_rmse=42.670  18.1s
+Epoch 123/200  train=0.005303  val=0.005770  val_rmse=43.056  18.3s
+Epoch 124/200  train=0.005301  val=0.005757  val_rmse=42.716  18.1s *saved*
+Epoch 125/200  train=0.005303  val=0.005767  val_rmse=44.608  18.2s
+Epoch 126/200  train=0.005300  val=0.005759  val_rmse=43.187  18.0s
+Epoch 127/200  train=0.005296  val=0.005754  val_rmse=43.456  18.1s *saved*
+Epoch 128/200  train=0.005293  val=0.005748  val_rmse=42.776  18.2s *saved*
+Epoch 129/200  train=0.005292  val=0.005757  val_rmse=44.042  18.1s
+Epoch 130/200  train=0.005291  val=0.005742  val_rmse=42.987  18.4s *saved*
+Epoch 131/200  train=0.005289  val=0.005764  val_rmse=42.805  18.0s
+Epoch 132/200  train=0.005287  val=0.005765  val_rmse=42.672  18.1s
+Epoch 133/200  train=0.005283  val=0.005743  val_rmse=42.549  18.1s
+Epoch 134/200  train=0.005282  val=0.005756  val_rmse=42.824  18.0s
+Epoch 135/200  train=0.005281  val=0.005749  val_rmse=42.668  18.2s
+Epoch 136/200  train=0.005276  val=0.005746  val_rmse=42.730  18.1s
+Epoch 137/200  train=0.005276  val=0.005746  val_rmse=43.301  18.1s
+Epoch 138/200  train=0.005274  val=0.005744  val_rmse=42.440  18.1s
+Epoch 139/200  train=0.005277  val=0.005755  val_rmse=42.791  18.1s
+Epoch 140/200  train=0.005270  val=0.005757  val_rmse=44.200  18.1s
+Epoch 141/200  train=0.005268  val=0.005737  val_rmse=42.049  18.3s *saved*
+Epoch 142/200  train=0.005269  val=0.005741  val_rmse=42.141  18.3s
+Epoch 143/200  train=0.005262  val=0.005736  val_rmse=42.263  18.0s *saved*
+Epoch 144/200  train=0.005267  val=0.005755  val_rmse=42.483  18.2s
+Epoch 145/200  train=0.005260  val=0.005731  val_rmse=42.630  18.0s *saved*
+Epoch 146/200  train=0.005262  val=0.005734  val_rmse=42.813  18.3s
+Epoch 147/200  train=0.005257  val=0.005747  val_rmse=42.788  18.3s
+Epoch 148/200  train=0.005261  val=0.005746  val_rmse=42.423  18.0s
+Epoch 149/200  train=0.005256  val=0.005747  val_rmse=41.975  18.0s
+Epoch 150/200  train=0.005254  val=0.005726  val_rmse=41.875  18.1s *saved*
+Epoch 151/200  train=0.005256  val=0.005734  val_rmse=42.193  18.2s
+Epoch 152/200  train=0.005251  val=0.005739  val_rmse=42.035  18.1s
+Epoch 153/200  train=0.005251  val=0.005740  val_rmse=41.767  18.3s
+Epoch 154/200  train=0.005250  val=0.005736  val_rmse=41.992  18.1s
+Epoch 155/200  train=0.005248  val=0.005741  val_rmse=41.923  18.0s
+Epoch 156/200  train=0.005248  val=0.005743  val_rmse=42.498  18.2s
+Epoch 157/200  train=0.005245  val=0.005724  val_rmse=42.782  18.1s *saved*
+Epoch 158/200  train=0.005243  val=0.005738  val_rmse=42.298  18.0s
+Epoch 159/200  train=0.005242  val=0.005779  val_rmse=42.154  18.1s
+Epoch 160/200  train=0.005242  val=0.005757  val_rmse=41.754  18.1s
+Epoch 161/200  train=0.005241  val=0.005723  val_rmse=42.058  18.0s *saved*
+Epoch 162/200  train=0.005237  val=0.005740  val_rmse=42.517  18.1s
+Epoch 163/200  train=0.005235  val=0.005742  val_rmse=42.294  18.0s
+Epoch 164/200  train=0.005235  val=0.005736  val_rmse=42.148  20.8s
+Epoch 165/200  train=0.005234  val=0.005755  val_rmse=41.250  18.7s
+Epoch 166/200  train=0.005232  val=0.005731  val_rmse=41.933  18.1s
+Epoch 167/200  train=0.005233  val=0.005718  val_rmse=42.152  18.2s *saved*
+Epoch 168/200  train=0.005229  val=0.005723  val_rmse=41.836  18.2s
+Epoch 169/200  train=0.005233  val=0.005720  val_rmse=42.254  18.1s
+Epoch 170/200  train=0.005225  val=0.005727  val_rmse=41.771  18.1s
+Epoch 171/200  train=0.005227  val=0.005717  val_rmse=41.416  18.1s *saved*
+Epoch 172/200  train=0.005225  val=0.005749  val_rmse=43.103  18.2s
+Epoch 173/200  train=0.005226  val=0.005730  val_rmse=41.630  18.2s
+Epoch 174/200  train=0.005222  val=0.005740  val_rmse=42.383  18.2s
+Epoch 175/200  train=0.005222  val=0.005705  val_rmse=41.392  18.3s *saved*
+Epoch 176/200  train=0.005217  val=0.005736  val_rmse=42.635  18.2s
+Epoch 177/200  train=0.005222  val=0.005740  val_rmse=42.644  18.1s
+Epoch 178/200  train=0.005215  val=0.005717  val_rmse=41.700  18.2s
+Epoch 179/200  train=0.005216  val=0.005719  val_rmse=41.441  18.2s
+Epoch 180/200  train=0.005213  val=0.005715  val_rmse=41.873  18.0s
+Epoch 181/200  train=0.005214  val=0.005721  val_rmse=41.423  18.2s
+Epoch 182/200  train=0.005213  val=0.005727  val_rmse=43.480  18.1s
+Epoch 183/200  train=0.005214  val=0.005720  val_rmse=41.598  18.1s
+Epoch 184/200  train=0.005212  val=0.005708  val_rmse=41.734  18.2s
+Epoch 185/200  train=0.005207  val=0.005726  val_rmse=42.287  18.1s
+Epoch 186/200  train=0.005208  val=0.005718  val_rmse=42.417  18.1s
+Epoch 187/200  train=0.005206  val=0.005712  val_rmse=42.355  18.1s
+Early stopping at epoch 187 (patience=12)
+
+=== TEST (cra5) ===
+  Overall RMSE (physical): 41.206
+  u10   : 0.329
+  v10   : 0.335
+  t2m   : 0.789
+  sp    : 182.180
+  msl   : 15.508
+  t850  : 0.363
+  u1000 : 0.338
+  v1000 : 0.342
+  z1000 : 11.271
+  u850  : 0.541
+  v850  : 0.542
+  z850  : 7.120
+  u500  : 0.800
+  v500  : 0.759
+  z500  : 8.424
+  t500  : 0.224
+  z50   : 15.478
+  r500  : 4.843
+  r850  : 3.770
+  tcwv  : 0.546
+
+Results saved to /home/tong/fourcastnet_us_mpca/checkpoints/cra5/unet_d2_c64_lr3e-4_clip1/

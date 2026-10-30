@@ -1,0 +1,29 @@
+{
+  "pages": 11,
+  "all_fonts_embedded": true,
+  "unchanged_table_data_rows": {
+    "sec5_results.tex": true,
+    "sec6_where.tex": true,
+    "sec7_terrain.tex": true
+  },
+  "table3_precedes_limitations": true,
+  "disclosure_page10_references_page11": true,
+  "manifest_verified": true,
+  "identical_normalized_text": true,
+  "identical_page_renders": {
+    "1": true,
+    "2": true,
+    "3": true,
+    "4": true,
+    "5": true,
+    "6": true,
+    "7": true,
+    "8": true,
+    "9": true,
+    "10": true,
+    "11": true
+  },
+  "pdf_sha256": "bf0b2746a83a37c54325b707c8d62d92f8de0344a79f8a553a6d91dec607872e",
+  "zip_sha256": "53f1b95be300e5f2c2cfc4ea9ec2d4fd6c73a5ea898d0acd805b63804013dd5e",
+  "visual_review": "All 11 pages rendered at 1500 pixels and inspected; no clipping/overlap."
+}

@@ -1,0 +1,79 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\providecommand{\doi}[1]{https://doi.org/#1}
+
+\bibitem{alhumaidi2026}
+Alhumaidi, M., Li, G., Skiadopoulos, S., Kalnis, P.: Can deep neural networks
+  improve compression of very large scientific data? arXiv preprint
+  arXiv:2606.14353  (2026), v1, 12 June 2026
+
+\bibitem{ballester2019}
+Ballester-Ripoll, R., Lindstrom, P., Pajarola, R.: {TTHRESH}: Tensor
+  compression for multidimensional visual data. IEEE Transactions on
+  Visualization and Computer Graphics  \textbf{26}(9),  2891--2903 (2020).
+  \doi{10.1109/TVCG.2019.2904063}
+
+\bibitem{survey2025}
+Di, S., et~al.: A survey on error-bounded lossy compression for scientific
+  datasets. ACM Computing Surveys  \textbf{57}(11),  1--38 (2025).
+  \doi{10.1145/3733104}, also available as arXiv:2404.02840
+
+\bibitem{xu2025}
+Ding, J., et~al.: Impact of {VAEformer} compression algorithm precision loss on
+  the tropospheric delays for microwave remote sensing. IEEE Transactions on
+  Geoscience and Remote Sensing  \textbf{63},  1--11 (2025).
+  \doi{10.1109/TGRS.2025.3587944}
+
+\bibitem{han2024}
+Han, T., Chen, Z., Guo, S., Xu, W., Ouyang, W., Bai, L.: Climate science data
+  can be compressed efficiently by dual-stage extreme compression with a
+  variational auto-encoder transformer. Communications Earth \& Environment
+  \textbf{6}, ~955 (2025). \doi{10.1038/s43247-025-02903-z}
+
+\bibitem{cra5journal}
+Han, T., Du, D., Chen, Z., Guo, S., Ouyang, W., Bai, L.: {CRA5} a high-fidelity
+  compressed reanalysis atmospheric dataset for weather and climate research.
+  Scientific Data  \textbf{13}(1), ~1143 (2026).
+  \doi{10.1038/s41597-026-07381-2}
+
+\bibitem{hersbach2020}
+Hersbach, H., Bell, B., Berrisford, P., et~al.: The {ERA5} global reanalysis.
+  Quarterly Journal of the Royal Meteorological Society  \textbf{146}(730),
+  1999--2049 (2020). \doi{10.1002/qj.3803}
+
+\bibitem{neurlz}
+Jia, W., et~al.: {NeurLZ}: An online neural learning-based method to enhance
+  scientific lossy compression. In: Proceedings of the 39th ACM International
+  Conference on Supercomputing (ICS '25). pp. 26--42 (2025).
+  \doi{10.1145/3721145.3725763}, also available as arXiv:2409.05785
+
+\bibitem{jian2025}
+Jian, Z., Jiao, P., Zhang, B., Di, S., Liang, X., Li, G., Dai, H., Chen, Z.,
+  Cappello, F.: Lightweight {CNN}-based artifact reduction for scientific
+  error-bounded lossy compression. In: Proceedings of the SC'25 Workshops of
+  the International Conference for High Performance Computing, Networking,
+  Storage and Analysis. pp. 314--323 (2025). \doi{10.1145/3731599.3767374}
+
+\bibitem{madireddy2021}
+Madireddy, S., Park, J.H., Lee, S., Balaprakash, P., Yoo, S., Liao, W.k.,
+  Hauck, C.D., Laiu, M.P., Archibald, R.: {In situ} compression artifact
+  removal in scientific data using deep transfer learning and experience
+  replay. Machine Learning: Science and Technology  \textbf{2}(2),  025010
+  (2021). \doi{10.1088/2632-2153/abc326}
+
+\bibitem{mirowski2024}
+Mirowski, P., et~al.: Neural compression of atmospheric states. arXiv preprint
+  arXiv:2407.11666  (2024)
+
+\bibitem{pathak2022}
+Pathak, J., Subramanian, S., Harrington, P., et~al.: {FourCastNet}: A global
+  data-driven high-resolution weather model using adaptive {Fourier} neural
+  operators. arXiv preprint arXiv:2202.11214  (2022)
+
+\bibitem{zhu2026}
+Zhu, L., Ranka, S., Rangarajan, A.: Residual modeling for high-fidelity learned
+  compression of scientific data. arXiv preprint arXiv:2606.05389  (2026), v2,
+  13 August 2026
+
+\end{thebibliography}

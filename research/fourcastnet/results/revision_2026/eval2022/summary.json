@@ -1,0 +1,134 @@
+{
+  "year": 2022,
+  "frames": 1460,
+  "checkpoint": "/home/tong/fourcastnet_us_mpca/checkpoints/cra5/unet_d2_c64_lr3e-4_clip1/best.pt",
+  "checkpoint_sha256": "44c57a0f2a18e92c9c0745cfe75337079627ab8729e93c6ec098a5ddeb007435",
+  "stats": "/home/tong/fourcastnet_us_mpca/mpca_train_basis_bundle/stats/train_2014_2016_channel_stats.npz",
+  "stats_sha256": "272cc45d231ec349025c4fa1e9f69366ae874739c98299ce666921821f13dba2",
+  "input": "/home/tong/fourcastnet_us_mpca/revision_2026/data/memmap_cra5_2022",
+  "device": "cuda",
+  "precision": "float32 inference; float64 aggregation; existing float16 cache",
+  "implementation_sha256": {
+    "evaluation_script": "3ca9fb7f1a61fb2f309ec4e8adadeb590929870a038364a527fb4a41e606dba0",
+    "model_source": "19f4f5d91e21afa5c68cea7f66b5fbb998e11a21b836fce2e7d22857537b0c52"
+  },
+  "torch_version": "2.11.0+cu128",
+  "numpy_version": "2.5.1",
+  "evaluation_seconds": 9.203796274989145,
+  "timing_scope": "full evaluation loop including cache reads, transfers, forward passes and SSE; not isolated inference latency",
+  "parameters": 1646548,
+  "groups": {
+    "direct19": {
+      "before_nrmse": 0.08624524222992214,
+      "after_nrmse": 0.0634785885620568,
+      "G_pct": 26.397576352294838,
+      "Gbar_pct": 19.711323964827084
+    },
+    "all20": {
+      "before_nrmse": 0.08700187670230002,
+      "after_nrmse": 0.062361176349367296,
+      "G_pct": 28.322033141017645,
+      "Gbar_pct": 21.69719279057511
+    },
+    "near": {
+      "before_nrmse": 0.09843221923916347,
+      "after_nrmse": 0.06615310500271751,
+      "G_pct": 32.793240349500294,
+      "Gbar_pct": 28.049941089050495
+    },
+    "upper": {
+      "before_nrmse": 0.05984012537656593,
+      "after_nrmse": 0.05768380294062528,
+      "G_pct": 3.603472456601986,
+      "Gbar_pct": 1.6443201956763482
+    },
+    "tcwv": {
+      "before_nrmse": 0.10137793167747998,
+      "after_nrmse": 0.041130344308266654,
+      "G_pct": 59.428700479787636,
+      "Gbar_pct": 59.428700479787636
+    }
+  },
+  "channels": {
+    "u10": {
+      "before_nrmse": 0.16165396837796095,
+      "after_nrmse": 0.10180990845649077
+    },
+    "v10": {
+      "before_nrmse": 0.13077767630403916,
+      "after_nrmse": 0.08536557670242276
+    },
+    "t2m": {
+      "before_nrmse": 0.10611347063141138,
+      "after_nrmse": 0.07228715765412988
+    },
+    "sp": {
+      "before_nrmse": 0.09954336407449473,
+      "after_nrmse": 0.025020237142539526
+    },
+    "msl": {
+      "before_nrmse": 0.027520380590108893,
+      "after_nrmse": 0.02358342861667641
+    },
+    "t850": {
+      "before_nrmse": 0.043705869025499014,
+      "after_nrmse": 0.03802548087344434
+    },
+    "u1000": {
+      "before_nrmse": 0.1616397991458536,
+      "after_nrmse": 0.09500002365839365
+    },
+    "v1000": {
+      "before_nrmse": 0.13232576226888176,
+      "after_nrmse": 0.07741357199641022
+    },
+    "z1000": {
+      "before_nrmse": 0.0256784578476482,
+      "after_nrmse": 0.021658738690829762
+    },
+    "u850": {
+      "before_nrmse": 0.1157857744119096,
+      "after_nrmse": 0.0914844107633822
+    },
+    "v850": {
+      "before_nrmse": 0.10501095800524504,
+      "after_nrmse": 0.08394304187040612
+    },
+    "z850": {
+      "before_nrmse": 0.012784985734102595,
+      "after_nrmse": 0.012337041117867978
+    },
+    "u500": {
+      "before_nrmse": 0.07302331625613709,
+      "after_nrmse": 0.0729895053239727
+    },
+    "v500": {
+      "before_nrmse": 0.0726755969479416,
+      "after_nrmse": 0.07268155621551949
+    },
+    "z500": {
+      "before_nrmse": 0.005209573128202036,
+      "after_nrmse": 0.005174211386601671
+    },
+    "t500": {
+      "before_nrmse": 0.031438712436406335,
+      "after_nrmse": 0.03140437382370783
+    },
+    "z50": {
+      "before_nrmse": 0.007913290897296655,
+      "after_nrmse": 0.007794393263526863
+    },
+    "r500": {
+      "before_nrmse": 0.16878026259341192,
+      "after_nrmse": 0.15605877763042306
+    },
+    "r850": {
+      "before_nrmse": 0.15707838369196991,
+      "after_nrmse": 0.13206174749233415
+    },
+    "tcwv": {
+      "before_nrmse": 0.10137793167747998,
+      "after_nrmse": 0.041130344308266654
+    }
+  }
+}

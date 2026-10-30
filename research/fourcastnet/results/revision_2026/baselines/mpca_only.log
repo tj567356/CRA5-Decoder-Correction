@@ -1,0 +1,10 @@
+/home/tong/fourcastnet_us_mpca/.venv/lib/python3.12/site-packages/zarr/core/group.py:576: ZarrUserWarning: Both zarr.json (Zarr format 3) and .zgroup (Zarr format 2) metadata objects exist at file:///home/tong/fourcastnet_us_mpca/2014.zarr. Zarr format 3 will be used.
+  warnings.warn(msg, category=ZarrUserWarning, stacklevel=1)
+CRA5 2018 mean rate 471.60x -> target 3,965.6 bytes/frame
+Bisecting on 2017; 2018 is encoded once at the frozen step.
+
+  step frozen at 0.76590   2017 rate 471.17x
+  2018: 3952.9 bytes/frame  473.12x (CRA5 471.60x, +0.32%)
+  pre 0.12729   post 0.08688   roundtrip True
+  groups: near_surface G=36.4% Gbar=37.9%, upper_air G=21.1% Gbar=22.9%
+

@@ -1,0 +1,27 @@
+{
+  "selected_utc": "2026-10-29T07:46:51.375731+00:00",
+  "best_epoch": 125,
+  "stopped_epoch": 137,
+  "best_val_loss": 0.005744843522361556,
+  "criterion": "2017 mean batch validation MSE, including final partial batch",
+  "checkpoint_sha256": "e63b764fde93a504d7d5a80863883a91a231542be38d2b173e3bc7ab8133de82",
+  "training_seconds": 2277.5200069710263,
+  "training_peak_allocated_bytes": 556295680,
+  "training_steps": 75076,
+  "validation_steps": 25071,
+  "test_data_used_for_selection": false,
+  "recipe": {
+    "seed": 0,
+    "batch_size": 8,
+    "learning_rate": 0.0003,
+    "weight_decay": 0.0001,
+    "gradient_clip": 1.0,
+    "maximum_epochs": 200,
+    "patience": 12,
+    "amp": true,
+    "workers": 4,
+    "objective": "normalized residual MSE",
+    "optimizer": "AdamW",
+    "selection": "2017 mean batch validation MSE, including final partial batch"
+  }
+}

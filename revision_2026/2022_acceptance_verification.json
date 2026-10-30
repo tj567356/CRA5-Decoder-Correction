@@ -1,0 +1,58 @@
+{
+  "status": "passed_independent_executed_full_year_acceptance",
+  "year": 2022,
+  "frames": 1460,
+  "first_timestamp": "2022-01-01T00:00:00",
+  "last_timestamp": "2022-12-31T18:00:00",
+  "missing_timestamps": 0,
+  "duplicate_timestamps": 0,
+  "truth_receipts_checked": 1460,
+  "decoded_receipts_checked": 1460,
+  "native_rh_receipts_checked": 365,
+  "receipt_archive_sha256": "7a16d457c6c2b77554672a8ad8f86bf600c0d7d836f9e2510cd2a0a62149e448",
+  "cache_manifest_sha256": "58dd47364c416ea724f834449da79914880cfc25d8b7a275d2e9a2e46cdd6766",
+  "timestamp_file_sha256": "a2bfc394a1ead5932bc588c7ad21d6f35a17e1e1f61cbb666e4b101a7c86f939",
+  "checkpoint_sha256": "44c57a0f2a18e92c9c0745cfe75337079627ab8729e93c6ec098a5ddeb007435",
+  "stats_sha256": "272cc45d231ec349025c4fa1e9f69366ae874739c98299ce666921821f13dba2",
+  "codec_weight_sha256": "812a6d09ff039e4ab468915942e7fd00f11e7c58b839cd1b60fe1d0586a40dad",
+  "metric_recomputation": "all20 per-channel nRMSE and5groups recomputed from actual temporal SSE; map/time SSE consistency; CSV/JSON equality",
+  "execution_logs": "evaluation stdout groups exactly match summary; normalization log confirms full1460cache completion",
+  "v500_gain_pct_preserved": -0.00819981923527724,
+  "native_rh_metadata_scopes": {
+    "native ECMWF ERA5 parameter 157 file family, same calendar month": 235,
+    "same-day file metadata": 130
+  },
+  "verification_scope": "Independent local receipt-chain and sufficient-statistics audit; original large cache/data hashes are attested by completed assembly/evaluation/producer manifests, not redownloaded and rehashed locally.",
+  "groups": {
+    "direct19": {
+      "before_nrmse": 0.08624524222992214,
+      "after_nrmse": 0.0634785885620568,
+      "G_pct": 26.397576352294838,
+      "Gbar_pct": 19.711323964827084
+    },
+    "all20": {
+      "before_nrmse": 0.08700187670230002,
+      "after_nrmse": 0.062361176349367296,
+      "G_pct": 28.322033141017645,
+      "Gbar_pct": 21.69719279057511
+    },
+    "near": {
+      "before_nrmse": 0.09843221923916347,
+      "after_nrmse": 0.06615310500271751,
+      "G_pct": 32.793240349500294,
+      "Gbar_pct": 28.049941089050495
+    },
+    "upper": {
+      "before_nrmse": 0.05984012537656593,
+      "after_nrmse": 0.05768380294062528,
+      "G_pct": 3.603472456601986,
+      "Gbar_pct": 1.6443201956763482
+    },
+    "tcwv": {
+      "before_nrmse": 0.10137793167747998,
+      "after_nrmse": 0.041130344308266654,
+      "G_pct": 59.428700479787636,
+      "Gbar_pct": 59.428700479787636
+    }
+  }
+}

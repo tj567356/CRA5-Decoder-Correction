@@ -1,0 +1,90 @@
+Device: cuda
+Train: 4384 samples, Val: 1460 samples, Test: 1460 samples
+Model params: 1,646,548  amp=True
+Epoch   1/100  train=0.036289  val=0.051961  val_rmse=174.216  22.7s *saved*
+Epoch   2/100  train=0.034449  val=0.050825  val_rmse=171.097  18.0s *saved*
+Epoch   3/100  train=0.033523  val=0.049874  val_rmse=164.318  18.1s *saved*
+Epoch   4/100  train=0.032767  val=0.049207  val_rmse=155.256  18.1s *saved*
+Epoch   5/100  train=0.032106  val=0.048593  val_rmse=141.361  18.0s *saved*
+Epoch   6/100  train=0.031529  val=0.048048  val_rmse=132.270  18.1s *saved*
+Epoch   7/100  train=0.031069  val=0.047745  val_rmse=124.576  18.0s *saved*
+Epoch   8/100  train=0.030703  val=0.047265  val_rmse=120.333  18.2s *saved*
+Epoch   9/100  train=0.030397  val=0.047078  val_rmse=117.386  18.2s *saved*
+Epoch  10/100  train=0.030152  val=0.046911  val_rmse=114.005  18.1s *saved*
+Epoch  11/100  train=0.029913  val=0.046519  val_rmse=111.824  18.0s *saved*
+Epoch  12/100  train=0.029729  val=0.046435  val_rmse=110.474  18.1s *saved*
+Epoch  13/100  train=0.029557  val=0.046178  val_rmse=108.928  17.9s *saved*
+Epoch  14/100  train=0.029397  val=0.046387  val_rmse=109.295  18.1s
+Epoch  15/100  train=0.029263  val=0.046039  val_rmse=107.248  17.9s *saved*
+Epoch  16/100  train=0.029138  val=0.046021  val_rmse=105.523  18.0s *saved*
+Epoch  17/100  train=0.029014  val=0.045967  val_rmse=103.952  18.0s *saved*
+Epoch  18/100  train=0.028905  val=0.045861  val_rmse=103.973  18.1s *saved*
+Epoch  19/100  train=0.028802  val=0.045821  val_rmse=102.500  18.2s *saved*
+Epoch  20/100  train=0.028715  val=0.045597  val_rmse=102.074  18.1s *saved*
+Epoch  21/100  train=0.028619  val=0.045663  val_rmse=101.481  18.2s
+Epoch  22/100  train=0.028541  val=0.045569  val_rmse=101.620  18.0s *saved*
+Epoch  23/100  train=0.028455  val=0.045502  val_rmse=101.281  18.0s *saved*
+Epoch  24/100  train=0.028384  val=0.045487  val_rmse=100.293  18.4s *saved*
+Epoch  25/100  train=0.028319  val=0.045342  val_rmse=99.348  18.2s *saved*
+Epoch  26/100  train=0.028239  val=0.045188  val_rmse=99.516  18.0s *saved*
+Epoch  27/100  train=0.028176  val=0.045324  val_rmse=98.858  18.5s
+Epoch  28/100  train=0.028110  val=0.045187  val_rmse=97.583  18.3s *saved*
+Epoch  29/100  train=0.028043  val=0.045258  val_rmse=98.504  18.0s
+Epoch  30/100  train=0.027990  val=0.045384  val_rmse=97.193  17.9s
+Epoch  31/100  train=0.027935  val=0.045246  val_rmse=99.043  18.0s
+Epoch  32/100  train=0.027869  val=0.045135  val_rmse=96.848  18.1s *saved*
+Epoch  33/100  train=0.027832  val=0.045180  val_rmse=96.447  18.5s
+Epoch  34/100  train=0.027771  val=0.045037  val_rmse=96.422  18.2s *saved*
+Epoch  35/100  train=0.027719  val=0.045149  val_rmse=96.205  18.0s
+Epoch  36/100  train=0.027687  val=0.045012  val_rmse=95.851  18.1s *saved*
+Epoch  37/100  train=0.027615  val=0.045063  val_rmse=96.044  18.0s
+Epoch  38/100  train=0.027589  val=0.044986  val_rmse=95.180  18.0s *saved*
+Epoch  39/100  train=0.027545  val=0.045023  val_rmse=95.343  18.1s
+Epoch  40/100  train=0.027499  val=0.044867  val_rmse=94.600  18.2s *saved*
+Epoch  41/100  train=0.027447  val=0.044945  val_rmse=94.894  18.0s
+Epoch  42/100  train=0.027413  val=0.045023  val_rmse=94.818  17.9s
+Epoch  43/100  train=0.027375  val=0.045002  val_rmse=94.311  18.2s
+Epoch  44/100  train=0.027333  val=0.044939  val_rmse=93.599  18.0s
+Epoch  45/100  train=0.027283  val=0.044884  val_rmse=93.739  18.0s
+Epoch  46/100  train=0.027251  val=0.044900  val_rmse=95.942  18.0s
+Epoch  47/100  train=0.027219  val=0.044928  val_rmse=93.644  18.1s
+Epoch  48/100  train=0.027186  val=0.044856  val_rmse=93.193  18.2s *saved*
+Epoch  49/100  train=0.027139  val=0.044965  val_rmse=94.198  18.0s
+Epoch  50/100  train=0.027113  val=0.044869  val_rmse=93.446  18.1s
+Epoch  51/100  train=0.027070  val=0.044886  val_rmse=92.681  18.0s
+Epoch  52/100  train=0.027054  val=0.044859  val_rmse=92.383  18.1s
+Epoch  53/100  train=0.027002  val=0.044662  val_rmse=94.246  18.0s *saved*
+Epoch  54/100  train=0.026970  val=0.044845  val_rmse=92.748  18.1s
+Epoch  55/100  train=0.026966  val=0.044908  val_rmse=92.525  18.3s
+Epoch  56/100  train=0.026917  val=0.044725  val_rmse=92.310  18.0s
+Epoch  57/100  train=0.026891  val=0.044790  val_rmse=92.055  18.0s
+Epoch  58/100  train=0.026847  val=0.044806  val_rmse=91.959  18.1s
+Epoch  59/100  train=0.026827  val=0.044842  val_rmse=92.730  18.1s
+Epoch  60/100  train=0.026794  val=0.044818  val_rmse=92.484  18.1s
+Epoch  61/100  train=0.026773  val=0.044785  val_rmse=92.710  18.2s
+Early stopping at epoch 61 (patience=8)
+
+=== TEST (e97) ===
+  Overall RMSE (physical): 94.749
+  u10   : 0.848
+  v10   : 0.921
+  t2m   : 1.591
+  sp    : 358.899
+  msl   : 67.536
+  t850  : 1.151
+  u1000 : 0.914
+  v1000 : 0.999
+  z1000 : 51.726
+  u850  : 1.620
+  v850  : 1.692
+  z850  : 45.055
+  u500  : 2.379
+  v500  : 2.288
+  z500  : 101.145
+  t500  : 0.933
+  z50   : 176.048
+  r500  : 11.032
+  r850  : 9.943
+  tcwv  : 2.366
+
+Results saved to /home/tong/fourcastnet_us_mpca/checkpoints/e97/unet_d2_c64_lr3e-4_clip1/

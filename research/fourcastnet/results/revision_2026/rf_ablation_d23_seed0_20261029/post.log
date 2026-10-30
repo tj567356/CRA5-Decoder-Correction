@@ -1,0 +1,69 @@
+original validation frame 0 ERF probes 60
+original validation frame 208 ERF probes 60
+original validation frame 416 ERF probes 60
+original validation frame 625 ERF probes 60
+original validation frame 833 ERF probes 60
+original validation frame 1042 ERF probes 60
+original validation frame 1250 ERF probes 60
+original validation frame 1459 ERF probes 60
+dilated validation frame 0 ERF probes 60
+dilated validation frame 208 ERF probes 60
+dilated validation frame 416 ERF probes 60
+dilated validation frame 625 ERF probes 60
+dilated validation frame 833 ERF probes 60
+dilated validation frame 1042 ERF probes 60
+dilated validation frame 1250 ERF probes 60
+dilated validation frame 1459 ERF probes 60
+EVALUATED 2022 {"direct19": {"before_nrmse": 0.08624524222992214, "after_nrmse": 0.08511214747963751, "G_pct": 1.3138055166728946, "Gbar_pct": 0.6250563198882602}, "all20": {"before_nrmse": 0.08700187670230002, "after_nrmse": 0.08424973845362387, "G_pct": 3.1633090606692504, "Gbar_pct": 2.2467256025975137}, "near": {"before_nrmse": 0.09843221923916347, "after_nrmse": 0.0970096477291956, "G_pct": 1.445229540656201, "Gbar_pct": 1.3111129845787088}, "upper": {"before_nrmse": 0.05984012537656593, "after_nrmse": 0.059334230272261645, "G_pct": 0.8454111703823375, "Gbar_pct": -0.8613997869410454}, "near_upper_gain_ratio": 1.7094989885248328, "near_minus_upper_percentage_points": 0.5998183702738635}
+[
+  {
+    "group": "direct19",
+    "estimate_pct": 25.37689190307778,
+    "lower_95_pct": 24.957476599196813,
+    "upper_95_pct": 25.791426580100953
+  },
+  {
+    "group": "near",
+    "estimate_pct": 31.608531047965137,
+    "lower_95_pct": 31.173402351502094,
+    "upper_95_pct": 32.032804379288365
+  },
+  {
+    "group": "upper",
+    "estimate_pct": 3.8196291308852826,
+    "lower_95_pct": 3.6491333106780424,
+    "upper_95_pct": 4.002672302217691
+  },
+  {
+    "group": "near_minus_upper",
+    "estimate_pct": 27.788901917079855,
+    "lower_95_pct": 27.45348347690715,
+    "upper_95_pct": 28.13270964407752
+  }
+]
+[
+  {
+    "group": "direct19",
+    "estimate_pct": 26.009342716787977,
+    "lower_95_pct": 25.522311138849325,
+    "upper_95_pct": 26.517451532398987
+  },
+  {
+    "group": "near",
+    "estimate_pct": 32.209871005786226,
+    "lower_95_pct": 31.72015580582572,
+    "upper_95_pct": 32.698077752733546
+  },
+  {
+    "group": "upper",
+    "estimate_pct": 3.9107011856874263,
+    "lower_95_pct": 3.7474639207521023,
+    "upper_95_pct": 4.0942702434489116
+  },
+  {
+    "group": "near_minus_upper",
+    "estimate_pct": 28.2991698200988,
+    "lower_95_pct": 27.912761093313364,
+    "upper_95_pct": 28.664080796416492
+  }
+]

@@ -1,0 +1,160 @@
+{
+  "records": [
+    {
+      "year": 2014,
+      "frames": 1460,
+      "input": "/home/tong/fourcastnet_us_mpca/data/memmap_cra5/input_2014.npy",
+      "target": "/home/tong/fourcastnet_us_mpca/data/memmap_cra5/target_2014.npy"
+    },
+    {
+      "year": 2015,
+      "frames": 1460,
+      "input": "/home/tong/fourcastnet_us_mpca/data/memmap_cra5/input_2015.npy",
+      "target": "/home/tong/fourcastnet_us_mpca/data/memmap_cra5/target_2015.npy"
+    },
+    {
+      "year": 2016,
+      "frames": 1464,
+      "input": "/home/tong/fourcastnet_us_mpca/data/memmap_cra5/input_2016.npy",
+      "target": "/home/tong/fourcastnet_us_mpca/data/memmap_cra5/target_2016.npy"
+    },
+    {
+      "year": 2017,
+      "frames": 1460,
+      "input": "/home/tong/fourcastnet_us_mpca/data/memmap_cra5/input_2017.npy",
+      "target": "/home/tong/fourcastnet_us_mpca/data/memmap_cra5/target_2017.npy"
+    }
+  ],
+  "cache_manifest": {
+    "created": "2026-08-18T07:04:10+00:00",
+    "decoded_dir": "/home/tong/fourcastnet_us_mpca/cra5_conus",
+    "orig_dir": "/home/tong/fourcastnet_us_mpca/data/processed/fourcastnet20_conus",
+    "stats_path": "/home/tong/fourcastnet_us_mpca/mpca_train_basis_bundle/stats/train_2014_2016_channel_stats.npz",
+    "input_is": "(recon - mean) / std",
+    "target_is": "(orig - recon) / std",
+    "years": {
+      "2014": {
+        "input": {
+          "shape": [
+            1460,
+            20,
+            97,
+            241
+          ],
+          "dtype": "float16",
+          "bytes": 1365216928,
+          "sha1_frame0": "14ed4c68f855d237e0800324349321756c647f18"
+        },
+        "target": {
+          "shape": [
+            1460,
+            20,
+            97,
+            241
+          ],
+          "dtype": "float16",
+          "bytes": 1365216928,
+          "sha1_frame0": "10dc4f1e46195588828957ac0377a1cdbc7dbc08"
+        }
+      },
+      "2015": {
+        "input": {
+          "shape": [
+            1460,
+            20,
+            97,
+            241
+          ],
+          "dtype": "float16",
+          "bytes": 1365216928,
+          "sha1_frame0": "5ba0b8169eec63785c1897653b9e94c1a3f1f81b"
+        },
+        "target": {
+          "shape": [
+            1460,
+            20,
+            97,
+            241
+          ],
+          "dtype": "float16",
+          "bytes": 1365216928,
+          "sha1_frame0": "d6d40bb2ecab3bab594a0262df540973a72a4f51"
+        }
+      },
+      "2016": {
+        "input": {
+          "shape": [
+            1464,
+            20,
+            97,
+            241
+          ],
+          "dtype": "float16",
+          "bytes": 1368957248,
+          "sha1_frame0": "0b598c5b62ca0df788260362b61360b4cdbd1824"
+        },
+        "target": {
+          "shape": [
+            1464,
+            20,
+            97,
+            241
+          ],
+          "dtype": "float16",
+          "bytes": 1368957248,
+          "sha1_frame0": "6afc1936f8b176e383f3573579aee3b7e7b335cb"
+        }
+      },
+      "2017": {
+        "input": {
+          "shape": [
+            1460,
+            20,
+            97,
+            241
+          ],
+          "dtype": "float16",
+          "bytes": 1365216928,
+          "sha1_frame0": "9166a377297255953c22d43cba4d68e1b8895697"
+        },
+        "target": {
+          "shape": [
+            1460,
+            20,
+            97,
+            241
+          ],
+          "dtype": "float16",
+          "bytes": 1365216928,
+          "sha1_frame0": "1ed32f18345617a245eb14a72d6c61bfa3883acd"
+        }
+      },
+      "2018": {
+        "input": {
+          "shape": [
+            1460,
+            20,
+            97,
+            241
+          ],
+          "dtype": "float16",
+          "bytes": 1365216928,
+          "sha1_frame0": "68bd83a294563a414e4dc77db72992a466f2b774"
+        },
+        "target": {
+          "shape": [
+            1460,
+            20,
+            97,
+            241
+          ],
+          "dtype": "float16",
+          "bytes": 1365216928,
+          "sha1_frame0": "79659b0fd028177ca9dcd2d1129079ca3e4f9907"
+        }
+      }
+    }
+  },
+  "cache_manifest_sha256": "eafd6377ed496efac03ab0b7af744b5e9c9cb29121f0e0612c180aeb9b18f67a",
+  "test_arrays_not_opened_before_selection": true
+}

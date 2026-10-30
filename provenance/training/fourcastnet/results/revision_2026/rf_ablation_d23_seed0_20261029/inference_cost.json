@@ -1,0 +1,31 @@
+{
+  "original": {
+    "parameters": 1646548,
+    "weight_bytes": 6586192,
+    "batch_size": 8,
+    "mean_batch_ms": 10.529154052734375,
+    "amortized_ms_per_frame": 1.316144256591797,
+    "frames_per_second": 759.7951326319928,
+    "peak_allocated_bytes": 417355776,
+    "profiled_flops_per_frame": 19862221824.0,
+    "scope": "GPU-resident forward only, fixed 2017 inputs, 10 warmup/100 timed batches; excludes decoding/I-O/transfers"
+  },
+  "dilated": {
+    "parameters": 1646548,
+    "weight_bytes": 6586192,
+    "batch_size": 8,
+    "mean_batch_ms": 10.51823974609375,
+    "amortized_ms_per_frame": 1.3147799682617187,
+    "frames_per_second": 760.5835380364884,
+    "peak_allocated_bytes": 417355776,
+    "profiled_flops_per_frame": 19862221824.0,
+    "scope": "GPU-resident forward only, fixed 2017 inputs, 10 warmup/100 timed batches; excludes decoding/I-O/transfers"
+  },
+  "gpu": "NVIDIA GeForce RTX 3080",
+  "torch": "2.11.0+cu128",
+  "cudnn_allow_tf32": true,
+  "dtype": "float32",
+  "cudnn_deterministic": true,
+  "cudnn_benchmark": false,
+  "profiler_scope": "recognized operations, primarily convolutions; not complete hardware operations"
+}

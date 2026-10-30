@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "years": [
+    2018,
+    2022
+  ],
+  "frames_each": 1460,
+  "checkpoint_sha256": "e63b764fde93a504d7d5a80863883a91a231542be38d2b173e3bc7ab8133de82"
+}

@@ -1,0 +1,37 @@
+\section{A Rate-Matched Classical Encoder}
+\label{sec:encoder}
+
+The classical control uses multilinear PCA independently for each channel. Separate
+latitude and longitude bases retain 99\% energy per axis; a core $C$ reconstructs
+as $LCR^{\!\top}$. The twenty channels together retain 10{,}193 coefficients per
+frame. MPCA-only quantises these directly. MPCA+PCA adds a global PCA: e995, e99,
+and e97 retain 99.5\%, 99\%, and 97\% energy, yielding 2{,}011, 1{,}449, and
+636 components, respectively.
+
+A uniform step $\Delta$ quantises the coefficients; a range coder uses a
+zero-mean Gaussian model with training-estimated scale for each coefficient.
+Every configuration is checked by an exact integer round-trip. All compression
+ratios (CRs) use measured coded bytes, not coefficient counts. For example,
+2{,}011 float32 coefficients imply $232\times$, whereas the measured e995 stream
+achieves $1333\times$. Larger CR means lower bits per source value,
+$R=32/\mathrm{CR}$.
+
+The reported MPCA rate includes the scale table amortised over 7{,}304 frames
+(5.58 bytes per frame for MPCA-only). Transform bases are fixed codec parameters,
+as CRA5 weights are, and excluded from the per-frame payload. MPCA-only's bases
+contain 153{,}682 floats; including their amortised 84 bytes per frame would
+change its CR to approximately $463\times$. MPCA+PCA additionally requires a
+fixed global basis. These shared costs matter for short archives.
+
+CRA5's 2018 streams average 2{,}360{,}056 bytes for
+$721\times1440\times268$ float32 values: $471.60\times$, or 0.0679 bits per value.
+Matching this rate for our $20\times97\times241$ fields gives 3{,}965.6 bytes per
+frame. Bisection on 2017 coded sizes fixes $\Delta=0.7659$; the frozen step yields
+3{,}952.9 bytes and $473.12\times$ on 2018, a 0.3\% rate mismatch.
+
+Figure~\ref{fig:main}'s matched MPCA+PCA retains 4{,}384 components, distinct
+from e995/e99/e97. Matching concerns \emph{mean bits per source value}. CRA5 jointly codes 268 global
+channels; MPCA is fitted to 20 regional channels. Their domains and coding tasks
+are different, and the global bitstream cannot identify CRA5's exact cost for
+this regional subset. The comparison is an operating-point control, not an
+equivalent-domain benchmark. MPCA-only is the main matched-rate classical control.

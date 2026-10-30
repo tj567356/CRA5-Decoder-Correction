@@ -1,0 +1,57 @@
+{
+  "year": 2018,
+  "frames": 1460,
+  "roughness": "population SD, 5x5, masked land neighborhoods",
+  "min_land_neighbors": 13,
+  "boundary": "exclude cells outside CONUS; no reflected or padded land",
+  "land_rule": "ERA5 lsm > 0.5",
+  "normalization": "2014\u20132016 training channel std",
+  "bins": "10 terrain-only deciles within each region/band; identical before/after membership",
+  "main_channels": 19,
+  "excluded_land_cells": 102,
+  "correlations": {
+    "all_land": {
+      "roughness_elevation_spearman": 0.6936579355651277,
+      "cells": 15343
+    },
+    "west_land": {
+      "roughness_elevation_spearman": 0.2649874548431205,
+      "cells": 7573
+    }
+  },
+  "elevation_controls": [
+    {
+      "lower_m": 0,
+      "upper_m": 200,
+      "grid_count": 301,
+      "status": "computed"
+    },
+    {
+      "lower_m": 200,
+      "upper_m": 600,
+      "grid_count": 803,
+      "status": "computed"
+    },
+    {
+      "lower_m": 600,
+      "upper_m": 1200,
+      "grid_count": 2225,
+      "status": "computed"
+    },
+    {
+      "lower_m": 1200,
+      "upper_m": 2000,
+      "grid_count": 3084,
+      "status": "computed"
+    },
+    {
+      "lower_m": 2000,
+      "upper_m": 10000,
+      "grid_count": 1153,
+      "status": "computed"
+    }
+  ],
+  "inference": "Descriptive spatial associations only; cells are not independent replicates.",
+  "source_statistics": "results/revision_2026/eval2018/sufficient_statistics.npz",
+  "source_static": "revision_2026/static/era5_static_conus.npz"
+}

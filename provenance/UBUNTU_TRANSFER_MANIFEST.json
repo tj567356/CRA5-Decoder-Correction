@@ -1,0 +1,863 @@
+[
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/checkpoints/cra5/unet_d2_c64_lr3e-4_clip1/best.pt",
+    "kind": "correction_checkpoint",
+    "bytes": 6595229,
+    "sha256": "44c57a0f2a18e92c9c0745cfe75337079627ab8729e93c6ec098a5ddeb007435",
+    "mtime_ns": 1787039909081908842,
+    "expected_sha256": "44c57a0f2a18e92c9c0745cfe75337079627ab8729e93c6ec098a5ddeb007435",
+    "expected_hash_matches": true,
+    "research_root": "fourcastnet",
+    "destination": "artifacts/correctors/cra5/best.pt"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/checkpoints/cra5/unet_d2_c64_lr3e-4_clip1/history.json",
+    "kind": "checkpoint_log_config",
+    "bytes": 33014,
+    "sha256": "e064de58018947adb43cdc32a6b5f94cc9d148df010c4d6469cbb423d42e79b0",
+    "mtime_ns": 1787040130983455585,
+    "research_root": "fourcastnet",
+    "destination": "provenance/training/fourcastnet/checkpoints/cra5/unet_d2_c64_lr3e-4_clip1/history.json"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/checkpoints/cra5/unet_d2_c64_lr3e-4_clip1/test_results.json",
+    "kind": "checkpoint_log_config",
+    "bytes": 5710,
+    "sha256": "f3f892991d44f0f36bc6c2598777c0b0d71b5fc40818748b7986c2b95ad3f7b2",
+    "mtime_ns": 1787040130982455587,
+    "research_root": "fourcastnet",
+    "destination": "provenance/training/fourcastnet/checkpoints/cra5/unet_d2_c64_lr3e-4_clip1/test_results.json"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/checkpoints/cra5/unet_d2_c64_lr3e-4_clip1/train.log",
+    "kind": "checkpoint_log_config",
+    "bytes": 14144,
+    "sha256": "105d036ea18832acbaa939bfc7ca5321efc87eb0ebee30dad9873a4d44279dc4",
+    "mtime_ns": 1787040130983455585,
+    "research_root": "fourcastnet",
+    "destination": "provenance/training/fourcastnet/checkpoints/cra5/unet_d2_c64_lr3e-4_clip1/train.log"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/checkpoints/e97/unet_d2_c64_lr3e-4_clip1/best.pt",
+    "kind": "correction_checkpoint",
+    "bytes": 6595229,
+    "sha256": "8abe9b60fc78bd7dafb9d9b463a3f97e81e75c9180c73869ef793e9c9f2abe2f",
+    "mtime_ns": 1786296668027778817,
+    "expected_sha256": "8abe9b60fc78bd7dafb9d9b463a3f97e81e75c9180c73869ef793e9c9f2abe2f",
+    "expected_hash_matches": true,
+    "research_root": "fourcastnet",
+    "destination": "artifacts/correctors/e97/best.pt"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/checkpoints/e97/unet_d2_c64_lr3e-4_clip1/history.json",
+    "kind": "checkpoint_log_config",
+    "bytes": 8355,
+    "sha256": "f3ad753be4ce16bb7e4fe0cd61756a0d6a97cf0161101c40786695e12a336440",
+    "mtime_ns": 1786296818184359691,
+    "research_root": "fourcastnet",
+    "destination": "provenance/training/fourcastnet/checkpoints/e97/unet_d2_c64_lr3e-4_clip1/history.json"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/checkpoints/e97/unet_d2_c64_lr3e-4_clip1/test_results.json",
+    "kind": "checkpoint_log_config",
+    "bytes": 1627,
+    "sha256": "ad4f3427f1633c868e5548f62274fae52118960c8cb1b1c42febf2ab0f913da0",
+    "mtime_ns": 1786296818184359691,
+    "research_root": "fourcastnet",
+    "destination": "provenance/training/fourcastnet/checkpoints/e97/unet_d2_c64_lr3e-4_clip1/test_results.json"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/checkpoints/e97/unet_d2_c64_lr3e-4_clip1/train.log",
+    "kind": "checkpoint_log_config",
+    "bytes": 5049,
+    "sha256": "0f11f9f7d6695dd1e53e159e8d9dd0bd234f0c7c3184dd9fa649902fed604e40",
+    "mtime_ns": 1786296818184359691,
+    "research_root": "fourcastnet",
+    "destination": "provenance/training/fourcastnet/checkpoints/e97/unet_d2_c64_lr3e-4_clip1/train.log"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/checkpoints/e99/unet_d2_c64_lr3e-4_clip1/best.pt",
+    "kind": "correction_checkpoint",
+    "bytes": 6595229,
+    "sha256": "ade7b0a7d5135a97a9e7e4020e645e8f3d78cf3e4b90f41c24326f3b2085505a",
+    "mtime_ns": 1785834921987392963,
+    "expected_sha256": "ade7b0a7d5135a97a9e7e4020e645e8f3d78cf3e4b90f41c24326f3b2085505a",
+    "expected_hash_matches": true,
+    "research_root": "fourcastnet",
+    "destination": "artifacts/correctors/e99/best.pt"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/checkpoints/e99/unet_d2_c64_lr3e-4_clip1/history.json",
+    "kind": "checkpoint_log_config",
+    "bytes": 11386,
+    "sha256": "84aad18a52fb5a9df8930004f2638ec12cfa0e370633ebe366d831326e430a3e",
+    "mtime_ns": 1785835070906757311,
+    "research_root": "fourcastnet",
+    "destination": "provenance/training/fourcastnet/checkpoints/e99/unet_d2_c64_lr3e-4_clip1/history.json"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/checkpoints/e99/unet_d2_c64_lr3e-4_clip1/test_results.json",
+    "kind": "checkpoint_log_config",
+    "bytes": 1624,
+    "sha256": "99193e1b6a6842f1cee17191391b4c8c34fd7bad0dff0c715535131bd3732371",
+    "mtime_ns": 1785835070905757304,
+    "research_root": "fourcastnet",
+    "destination": "provenance/training/fourcastnet/checkpoints/e99/unet_d2_c64_lr3e-4_clip1/test_results.json"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/checkpoints/e99/unet_d2_c64_lr3e-4_clip1/train.log",
+    "kind": "checkpoint_log_config",
+    "bytes": 6596,
+    "sha256": "035c9f492c66bb24993f15c700d66e416ec612ca323a39186f0221e32b05a854",
+    "mtime_ns": 1785835070906757311,
+    "research_root": "fourcastnet",
+    "destination": "provenance/training/fourcastnet/checkpoints/e99/unet_d2_c64_lr3e-4_clip1/train.log"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/checkpoints/e995/unet_d2_c64_lr3e-4_clip1/best.pt",
+    "kind": "correction_checkpoint",
+    "bytes": 6595229,
+    "sha256": "88782a1903efad5c94e5c7b3e2f9f15a90aa8731471500569c46711d7dfd6fd6",
+    "mtime_ns": 1786293235048088851,
+    "expected_sha256": "88782a1903efad5c94e5c7b3e2f9f15a90aa8731471500569c46711d7dfd6fd6",
+    "expected_hash_matches": true,
+    "research_root": "fourcastnet",
+    "destination": "artifacts/correctors/e995/best.pt"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/checkpoints/e995/unet_d2_c64_lr3e-4_clip1/history.json",
+    "kind": "checkpoint_log_config",
+    "bytes": 13747,
+    "sha256": "fad721e6a7d3d2dc69ee8b7a9d627e71c134452ea105c1f983b07bcd55481005",
+    "mtime_ns": 1786293258806000569,
+    "research_root": "fourcastnet",
+    "destination": "provenance/training/fourcastnet/checkpoints/e995/unet_d2_c64_lr3e-4_clip1/history.json"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/checkpoints/e995/unet_d2_c64_lr3e-4_clip1/test_results.json",
+    "kind": "checkpoint_log_config",
+    "bytes": 1637,
+    "sha256": "ac5b12f449ffa0d01a5c9f244cf4f9b2cabb6e03cb375e61e51d5226bdd95d57",
+    "mtime_ns": 1786293258805000573,
+    "research_root": "fourcastnet",
+    "destination": "provenance/training/fourcastnet/checkpoints/e995/unet_d2_c64_lr3e-4_clip1/test_results.json"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/checkpoints/e995/unet_d2_c64_lr3e-4_clip1/train.log",
+    "kind": "checkpoint_log_config",
+    "bytes": 7809,
+    "sha256": "8c3d89fa32a688a901bd903fed56943fa1d291b4b9b426e1374b8bae17f99f62",
+    "mtime_ns": 1786293258806000569,
+    "research_root": "fourcastnet",
+    "destination": "provenance/training/fourcastnet/checkpoints/e995/unet_d2_c64_lr3e-4_clip1/train.log"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/mpca_train_basis_bundle/configs/variables.json",
+    "kind": "pipeline_config",
+    "bytes": 2278,
+    "sha256": "b00bb12c797a0e1691f4ac1b1122d61859bf13e8ed8a83182146fe9778c2535c",
+    "mtime_ns": 1784864796796070742,
+    "research_root": "fourcastnet",
+    "destination": "artifacts/configs/variables.json"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/mpca_train_basis_bundle/models/mpca_spatial_99energy/msl.npz",
+    "kind": "mpca_basis",
+    "bytes": 23444,
+    "sha256": "6b29e825d3d1e3fb186c1a270d03e75368e69567fb5a9a4d2c9ef77fc6029282",
+    "mtime_ns": 1784864796820070590,
+    "research_root": "fourcastnet",
+    "destination": "artifacts/transforms/fourcastnet/mpca_spatial_99energy/msl.npz"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/mpca_train_basis_bundle/models/mpca_spatial_99energy/r500.npz",
+    "kind": "mpca_basis",
+    "bytes": 58576,
+    "sha256": "bd84c7768ab3b187b16f6cea62f75bc15d84469c08c674bc3367ab7d8fa3eb74",
+    "mtime_ns": 1784864796824070564,
+    "research_root": "fourcastnet",
+    "destination": "artifacts/transforms/fourcastnet/mpca_spatial_99energy/r500.npz"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/mpca_train_basis_bundle/models/mpca_spatial_99energy/r850.npz",
+    "kind": "mpca_basis",
+    "bytes": 70920,
+    "sha256": "34e14d7d2d71a8e90bf09f1923eaa66e027f89e0f941559a771def6942c984ec",
+    "mtime_ns": 1784864796830070526,
+    "research_root": "fourcastnet",
+    "destination": "artifacts/transforms/fourcastnet/mpca_spatial_99energy/r850.npz"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/mpca_train_basis_bundle/models/mpca_spatial_99energy/sp.npz",
+    "kind": "mpca_basis",
+    "bytes": 29048,
+    "sha256": "7e7217c70278f5276effac2509dd3db8554892d42938aa438131c752b1c6f244",
+    "mtime_ns": 1784864796833070507,
+    "research_root": "fourcastnet",
+    "destination": "artifacts/transforms/fourcastnet/mpca_spatial_99energy/sp.npz"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/mpca_train_basis_bundle/models/mpca_spatial_99energy/summary.json",
+    "kind": "mpca_basis",
+    "bytes": 9128,
+    "sha256": "d8491a98bab34e49e4ecbb9c148b40801706de63d8962d0b7765cacab10fcd16",
+    "mtime_ns": 1784864796830070526,
+    "research_root": "fourcastnet",
+    "destination": "artifacts/transforms/fourcastnet/mpca_spatial_99energy/summary.json"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/mpca_train_basis_bundle/models/mpca_spatial_99energy/t2m.npz",
+    "kind": "mpca_basis",
+    "bytes": 31744,
+    "sha256": "186a6e32025e025ba0c9ba46a39030d776bc3097897b2f233775553ad2053608",
+    "mtime_ns": 1784864796834070501,
+    "research_root": "fourcastnet",
+    "destination": "artifacts/transforms/fourcastnet/mpca_spatial_99energy/t2m.npz"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/mpca_train_basis_bundle/models/mpca_spatial_99energy/t500.npz",
+    "kind": "mpca_basis",
+    "bytes": 16888,
+    "sha256": "6ffca2647abe9f85710cba7b9411c3f97263bef699e4ce91d827dc0030281bf5",
+    "mtime_ns": 1784864796837070482,
+    "research_root": "fourcastnet",
+    "destination": "artifacts/transforms/fourcastnet/mpca_spatial_99energy/t500.npz"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/mpca_train_basis_bundle/models/mpca_spatial_99energy/t850.npz",
+    "kind": "mpca_basis",
+    "bytes": 21132,
+    "sha256": "7238f61e45ca5c2ffb3b9d216e9b354b13e264405e3ac9cf41faafc6ecb3a718",
+    "mtime_ns": 1784864796839070469,
+    "research_root": "fourcastnet",
+    "destination": "artifacts/transforms/fourcastnet/mpca_spatial_99energy/t850.npz"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/mpca_train_basis_bundle/models/mpca_spatial_99energy/tcwv.npz",
+    "kind": "mpca_basis",
+    "bytes": 32324,
+    "sha256": "2a95d3e5a4a9be466f45aa7abfea03521ae847c0e8f13585e08ea0b452715f5c",
+    "mtime_ns": 1784864796846070425,
+    "research_root": "fourcastnet",
+    "destination": "artifacts/transforms/fourcastnet/mpca_spatial_99energy/tcwv.npz"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/mpca_train_basis_bundle/models/mpca_spatial_99energy/u10.npz",
+    "kind": "mpca_basis",
+    "bytes": 70340,
+    "sha256": "4190e67351ecd3c447b2aba6374f9d94b7397363ade41c0ec2c1ab11bc497cfb",
+    "mtime_ns": 1784864796843070444,
+    "research_root": "fourcastnet",
+    "destination": "artifacts/transforms/fourcastnet/mpca_spatial_99energy/u10.npz"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/mpca_train_basis_bundle/models/mpca_spatial_99energy/u1000.npz",
+    "kind": "mpca_basis",
+    "bytes": 73240,
+    "sha256": "4ff1fe375dad3ce3f92d6b98d531ccb464529c14d25faee9f582b80bcc8fc819",
+    "mtime_ns": 1784864796851070393,
+    "research_root": "fourcastnet",
+    "destination": "artifacts/transforms/fourcastnet/mpca_spatial_99energy/u1000.npz"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/mpca_train_basis_bundle/models/mpca_spatial_99energy/u500.npz",
+    "kind": "mpca_basis",
+    "bytes": 27892,
+    "sha256": "86f54439753be2147dfce24e021b30db98d7cdb1ea21ff6beef826222b1d1351",
+    "mtime_ns": 1784864796854070374,
+    "research_root": "fourcastnet",
+    "destination": "artifacts/transforms/fourcastnet/mpca_spatial_99energy/u500.npz"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/mpca_train_basis_bundle/models/mpca_spatial_99energy/u850.npz",
+    "kind": "mpca_basis",
+    "bytes": 52980,
+    "sha256": "ea4254bd6bd2ccfd34d50158b00dbde479ae1488f3ad371b2b630a3a8b5216d1",
+    "mtime_ns": 1784864796857070355,
+    "research_root": "fourcastnet",
+    "destination": "artifacts/transforms/fourcastnet/mpca_spatial_99energy/u850.npz"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/mpca_train_basis_bundle/models/mpca_spatial_99energy/v10.npz",
+    "kind": "mpca_basis",
+    "bytes": 59348,
+    "sha256": "98762ead0be0ff1281e0c156a46d5097ad7128d7c2c0dbc6629c797f4bcc9dc4",
+    "mtime_ns": 1784864796862070323,
+    "research_root": "fourcastnet",
+    "destination": "artifacts/transforms/fourcastnet/mpca_spatial_99energy/v10.npz"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/mpca_train_basis_bundle/models/mpca_spatial_99energy/v1000.npz",
+    "kind": "mpca_basis",
+    "bytes": 61472,
+    "sha256": "bf5960db90b4a13bc48ecf5eaeface5df02d4d8b28cb72d38a99c8ebdba70037",
+    "mtime_ns": 1784864796870070272,
+    "research_root": "fourcastnet",
+    "destination": "artifacts/transforms/fourcastnet/mpca_spatial_99energy/v1000.npz"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/mpca_train_basis_bundle/models/mpca_spatial_99energy/v500.npz",
+    "kind": "mpca_basis",
+    "bytes": 31936,
+    "sha256": "5c3367207b74568c69f39facd5ee5bbcf7e240ea966dea2b220802582a45ad96",
+    "mtime_ns": 1784864796864070310,
+    "research_root": "fourcastnet",
+    "destination": "artifacts/transforms/fourcastnet/mpca_spatial_99energy/v500.npz"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/mpca_train_basis_bundle/models/mpca_spatial_99energy/v850.npz",
+    "kind": "mpca_basis",
+    "bytes": 52392,
+    "sha256": "e60c779f87b6e0ae156f6962b75bf485860343dd133a7f0ac271839b70dbe4cc",
+    "mtime_ns": 1784864796874070247,
+    "research_root": "fourcastnet",
+    "destination": "artifacts/transforms/fourcastnet/mpca_spatial_99energy/v850.npz"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/mpca_train_basis_bundle/models/mpca_spatial_99energy/z1000.npz",
+    "kind": "mpca_basis",
+    "bytes": 23452,
+    "sha256": "f3c1763613e54da5ebba622a2d7e48f394a9e899d4e5bf18f65ed5a0a8460725",
+    "mtime_ns": 1784864796876070234,
+    "research_root": "fourcastnet",
+    "destination": "artifacts/transforms/fourcastnet/mpca_spatial_99energy/z1000.npz"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/mpca_train_basis_bundle/models/mpca_spatial_99energy/z50.npz",
+    "kind": "mpca_basis",
+    "bytes": 10900,
+    "sha256": "5019511976b845147213dfcf4e22bcf76611bdd4b375e4e31f3cc694a59d924e",
+    "mtime_ns": 1784864796876070234,
+    "research_root": "fourcastnet",
+    "destination": "artifacts/transforms/fourcastnet/mpca_spatial_99energy/z50.npz"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/mpca_train_basis_bundle/models/mpca_spatial_99energy/z500.npz",
+    "kind": "mpca_basis",
+    "bytes": 14184,
+    "sha256": "a2de9cceab592b0917868207c3dc0d4b3e7c1dddb367867930c7ec86bafddef4",
+    "mtime_ns": 1784864796877070228,
+    "research_root": "fourcastnet",
+    "destination": "artifacts/transforms/fourcastnet/mpca_spatial_99energy/z500.npz"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/mpca_train_basis_bundle/models/mpca_spatial_99energy/z850.npz",
+    "kind": "mpca_basis",
+    "bytes": 16500,
+    "sha256": "5738c8d2cb95921a8af8083a1e9e36ecbe31532198547e3bf79a5c01214bd5dd",
+    "mtime_ns": 1784864796878070222,
+    "research_root": "fourcastnet",
+    "destination": "artifacts/transforms/fourcastnet/mpca_spatial_99energy/z850.npz"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/mpca_train_basis_bundle/scripts/encode_mpca_cores.py",
+    "kind": "source_code",
+    "bytes": 6940,
+    "sha256": "447332852fd019eba0ffbf331b8e09b340c35ce14b4365d71f8c66214956ce12",
+    "mtime_ns": 1784864796798070730,
+    "normalized_text_sha256": "447332852fd019eba0ffbf331b8e09b340c35ce14b4365d71f8c66214956ce12",
+    "research_root": "fourcastnet",
+    "destination": "research/fourcastnet/mpca_train_basis_bundle/scripts/encode_mpca_cores.py"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/mpca_train_basis_bundle/scripts/preprocess_year_tensor.py",
+    "kind": "source_code",
+    "bytes": 8152,
+    "sha256": "ed59bc1c67f0a3310ce6cd808e017dc0351a1ba4f1bf5cbe11e93f4c9a553d13",
+    "mtime_ns": 1784864796806070679,
+    "normalized_text_sha256": "ed59bc1c67f0a3310ce6cd808e017dc0351a1ba4f1bf5cbe11e93f4c9a553d13",
+    "research_root": "fourcastnet",
+    "destination": "research/fourcastnet/mpca_train_basis_bundle/scripts/preprocess_year_tensor.py"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/mpca_train_basis_bundle/stats/train_2014_2016_channel_stats.npz",
+    "kind": "normalization_statistics",
+    "bytes": 3332,
+    "sha256": "272cc45d231ec349025c4fa1e9f69366ae874739c98299ce666921821f13dba2",
+    "mtime_ns": 1784864796805070685,
+    "expected_sha256": "272cc45d231ec349025c4fa1e9f69366ae874739c98299ce666921821f13dba2",
+    "expected_hash_matches": true,
+    "research_root": "fourcastnet",
+    "destination": "artifacts/statistics/train_2014_2016_channel_stats.npz"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/acceptance.json",
+    "kind": "checkpoint_log_config",
+    "bytes": 9284,
+    "sha256": "c61d5eb5b0191e06803127168867b598419e71e96ed22a91b7767ab13e5780f9",
+    "mtime_ns": 1793260278687967808,
+    "research_root": "fourcastnet",
+    "destination": "provenance/training/fourcastnet/results/revision_2026/rf_ablation_d23_seed0_20261029/acceptance.json"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/analysis_complete.json",
+    "kind": "checkpoint_log_config",
+    "bytes": 115,
+    "sha256": "9ea5ecce3a94b300b0228ac29cfcbf3ff34a24527960643c46e0f839721ed3ed",
+    "mtime_ns": 1793260070667395881,
+    "research_root": "fourcastnet",
+    "destination": "provenance/training/fourcastnet/results/revision_2026/rf_ablation_d23_seed0_20261029/analysis_complete.json"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/comparison.csv",
+    "kind": "checkpoint_log_config",
+    "bytes": 1132,
+    "sha256": "39a26851314a0f6254a21f998716eeac9ade4d94a4d840db8aedfb2945c8bac8",
+    "mtime_ns": 1793260069259399031,
+    "research_root": "fourcastnet",
+    "destination": "provenance/training/fourcastnet/results/revision_2026/rf_ablation_d23_seed0_20261029/comparison.csv"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/comparison.json",
+    "kind": "checkpoint_log_config",
+    "bytes": 2490,
+    "sha256": "475bae7ba9f1e4885243786c150f4165cda02e3ca1f4f92a479f0941e5690473",
+    "mtime_ns": 1793260069260399029,
+    "research_root": "fourcastnet",
+    "destination": "provenance/training/fourcastnet/results/revision_2026/rf_ablation_d23_seed0_20261029/comparison.json"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/history.json",
+    "kind": "checkpoint_log_config",
+    "bytes": 21978,
+    "sha256": "c387e446d0aeb47a50de2a8c438e8c9bf4333845bac09145aec0ad892d3e9437",
+    "mtime_ns": 1793260011361532043,
+    "research_root": "fourcastnet",
+    "destination": "provenance/training/fourcastnet/results/revision_2026/rf_ablation_d23_seed0_20261029/history.json"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/inference_cost.json",
+    "kind": "checkpoint_log_config",
+    "bytes": 1156,
+    "sha256": "875f028a221842f94d5d9d7bd31dd6b53d2815a2381d60b7b5001923c04101de",
+    "mtime_ns": 1793260037284471630,
+    "research_root": "fourcastnet",
+    "destination": "provenance/training/fourcastnet/results/revision_2026/rf_ablation_d23_seed0_20261029/inference_cost.json"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/paired_model_differences.csv",
+    "kind": "checkpoint_log_config",
+    "bytes": 661,
+    "sha256": "a83fa2fdb4b3570c00b3e87294a8468567c960a876fcd574062fde56a87833f9",
+    "mtime_ns": 1793260277462970139,
+    "research_root": "fourcastnet",
+    "destination": "provenance/training/fourcastnet/results/revision_2026/rf_ablation_d23_seed0_20261029/paired_model_differences.csv"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/paired_model_differences.json",
+    "kind": "checkpoint_log_config",
+    "bytes": 1783,
+    "sha256": "1c33c1c18cec915e2f654b6432d4b2ecff7dacd7721c26955037b64149f5057d",
+    "mtime_ns": 1793260277462970139,
+    "research_root": "fourcastnet",
+    "destination": "provenance/training/fourcastnet/results/revision_2026/rf_ablation_d23_seed0_20261029/paired_model_differences.json"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/per_channel_comparison.csv",
+    "kind": "checkpoint_log_config",
+    "bytes": 9925,
+    "sha256": "5da0ec1dd13f8ae29b8faa2b8aad99dd085a6c2cf96eab0424736eefa016a88c",
+    "mtime_ns": 1793260069260399029,
+    "research_root": "fourcastnet",
+    "destination": "provenance/training/fourcastnet/results/revision_2026/rf_ablation_d23_seed0_20261029/per_channel_comparison.csv"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/performance_complete.json",
+    "kind": "checkpoint_log_config",
+    "bytes": 177,
+    "sha256": "631fe8e8b09a67b5fac8b77a75ec8f227689cad9a79a8294da2b726a0d276168",
+    "mtime_ns": 1793260037307471577,
+    "research_root": "fourcastnet",
+    "destination": "provenance/training/fourcastnet/results/revision_2026/rf_ablation_d23_seed0_20261029/performance_complete.json"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/provenance.json",
+    "kind": "checkpoint_log_config",
+    "bytes": 2294,
+    "sha256": "749047edb6f9604b6a92f9de3b66ae4075df356c74a867443c360aa9c303d935",
+    "mtime_ns": 1793260037307471577,
+    "research_root": "fourcastnet",
+    "destination": "provenance/training/fourcastnet/results/revision_2026/rf_ablation_d23_seed0_20261029/provenance.json"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/selection.json",
+    "kind": "checkpoint_log_config",
+    "bytes": 869,
+    "sha256": "20ccf935d47a34179efa1b64d398b7e6fe1781f2fee003adbfff9c5f0483bc7d",
+    "mtime_ns": 1793260011374532012,
+    "research_root": "fourcastnet",
+    "destination": "provenance/training/fourcastnet/results/revision_2026/rf_ablation_d23_seed0_20261029/selection.json"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/structural_validation.json",
+    "kind": "checkpoint_log_config",
+    "bytes": 1955,
+    "sha256": "589e1cd4e4daad6af86186cd5c685d2ae12004d421aac3379b5564bae881a97d",
+    "mtime_ns": 1793257732970143020,
+    "research_root": "fourcastnet",
+    "destination": "provenance/training/fourcastnet/results/revision_2026/rf_ablation_d23_seed0_20261029/structural_validation.json"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/training_data.json",
+    "kind": "checkpoint_log_config",
+    "bytes": 4191,
+    "sha256": "037afd7c3479bb060d93956313597be24b717cd73174aef9350f66b7346cbe04",
+    "mtime_ns": 1793257733002143258,
+    "research_root": "fourcastnet",
+    "destination": "provenance/training/fourcastnet/results/revision_2026/rf_ablation_d23_seed0_20261029/training_data.json"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/revision_2026/linear_corrector/2018_per_channel.csv",
+    "kind": "checkpoint_log_config",
+    "bytes": 1461,
+    "sha256": "a0229bc1a744f867327ce679cfa46827c2d3786bf21cba0269e17233ce8f97ae",
+    "mtime_ns": 1792996622783349152,
+    "research_root": "fourcastnet",
+    "destination": "provenance/training/fourcastnet/revision_2026/linear_corrector/2018_per_channel.csv"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/revision_2026/linear_corrector/provenance.json",
+    "kind": "checkpoint_log_config",
+    "bytes": 4304,
+    "sha256": "f8ac7e8dcbc8aa011eba02787467b36a9cc148f23bf2d721afab5b73ff687c54",
+    "mtime_ns": 1792996622811349125,
+    "research_root": "fourcastnet",
+    "destination": "provenance/training/fourcastnet/revision_2026/linear_corrector/provenance.json"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/revision_2026/linear_corrector/selection.json",
+    "kind": "checkpoint_log_config",
+    "bytes": 330,
+    "sha256": "4974a0577aec9a04990b0e9ac7555d7ba8bf52b66aa77ce5131ac18a7cde5a3b",
+    "mtime_ns": 1792996607802362257,
+    "research_root": "fourcastnet",
+    "destination": "provenance/training/fourcastnet/revision_2026/linear_corrector/selection.json"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/revision_2026/linear_corrector/summary.json",
+    "kind": "checkpoint_log_config",
+    "bytes": 2494,
+    "sha256": "9add11f83957fa26a2152b277d521211fb825642ca1204cb74dfab3b439e8eb5",
+    "mtime_ns": 1792996622811349125,
+    "research_root": "fourcastnet",
+    "destination": "provenance/training/fourcastnet/revision_2026/linear_corrector/summary.json"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/revision_2026/linear_corrector/train_validation.csv",
+    "kind": "checkpoint_log_config",
+    "bytes": 9634,
+    "sha256": "3eba8fcea4d96a8c3593d0ff38ec7068f4d0841ea045eb303dbfa66fe1e39dd1",
+    "mtime_ns": 1792996607801362257,
+    "research_root": "fourcastnet",
+    "destination": "provenance/training/fourcastnet/revision_2026/linear_corrector/train_validation.csv"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/scripts/cnn/model.py",
+    "kind": "source_code",
+    "bytes": 11537,
+    "sha256": "19f4f5d91e21afa5c68cea7f66b5fbb998e11a21b836fce2e7d22857537b0c52",
+    "mtime_ns": 1786676735324369266,
+    "normalized_text_sha256": "19f4f5d91e21afa5c68cea7f66b5fbb998e11a21b836fce2e7d22857537b0c52",
+    "research_root": "fourcastnet",
+    "destination": "provenance/ubuntu_sources/fourcastnet/scripts/cnn/model.py"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/second_stage_pca/e97/metadata.json",
+    "kind": "pca_basis",
+    "bytes": 17072,
+    "sha256": "00df0d166245ef1d460856f7c805ecf5e4e42059074d39e820cc22bc07f01a9b",
+    "mtime_ns": 1784872544682542976,
+    "research_root": "fourcastnet",
+    "destination": "artifacts/transforms/fourcastnet/pca/e97/metadata.json"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/second_stage_pca/e99/metadata.json",
+    "kind": "pca_basis",
+    "bytes": 36457,
+    "sha256": "32820cf1a02b82943b3c9ef0ec5a05f858e01a03654816e9d5a730eaa5241c3c",
+    "mtime_ns": 1784872586936252671,
+    "research_root": "fourcastnet",
+    "destination": "artifacts/transforms/fourcastnet/pca/e99/metadata.json"
+  },
+  {
+    "path": "/home/tong/fourcastnet_us_mpca/second_stage_pca/e995/metadata.json",
+    "kind": "pca_basis",
+    "bytes": 49898,
+    "sha256": "0c5c203c7f2649d9cf192cc42e5e1e310acd3c72a5045dc34d324114dd83fd19",
+    "mtime_ns": 1784872630976957181,
+    "research_root": "fourcastnet",
+    "destination": "artifacts/transforms/fourcastnet/pca/e995/metadata.json"
+  },
+  {
+    "path": "/home/tong/new_20/checkpoints/n4384/unet_d2_c64_lr3e-4_clip1/best.pt",
+    "kind": "correction_checkpoint",
+    "bytes": 6595229,
+    "sha256": "c6360acddc0e90a829d428886a786d82107c7e5463db1fa399a213c8d68cbdac",
+    "mtime_ns": 1786942654160620552,
+    "research_root": "new_20",
+    "destination": "artifacts/correctors/n4384/best.pt"
+  },
+  {
+    "path": "/home/tong/new_20/checkpoints/n4384/unet_d2_c64_lr3e-4_clip1/history.json",
+    "kind": "checkpoint_log_config",
+    "bytes": 20122,
+    "sha256": "9d5ea18c47899b5e266ae799ee57da56bb0fed455924008201eef0dfefb64d6a",
+    "mtime_ns": 1786942875627759346,
+    "research_root": "new_20",
+    "destination": "provenance/training/new_20/checkpoints/n4384/unet_d2_c64_lr3e-4_clip1/history.json"
+  },
+  {
+    "path": "/home/tong/new_20/checkpoints/n4384/unet_d2_c64_lr3e-4_clip1/test_results.json",
+    "kind": "checkpoint_log_config",
+    "bytes": 5635,
+    "sha256": "e15374966f01c49c565bdf6c19dbbbd57622dd0d0d04786da247a3ed8c854352",
+    "mtime_ns": 1786942875626759346,
+    "research_root": "new_20",
+    "destination": "provenance/training/new_20/checkpoints/n4384/unet_d2_c64_lr3e-4_clip1/test_results.json"
+  },
+  {
+    "path": "/home/tong/new_20/checkpoints/n4384/unet_d2_c64_lr3e-4_clip1/train.log",
+    "kind": "checkpoint_log_config",
+    "bytes": 8843,
+    "sha256": "2b0906b4ee07dded82823ca3b99f78c1f721ab2c6184aba0f4dda35bb1e21876",
+    "mtime_ns": 1786942875627759346,
+    "research_root": "new_20",
+    "destination": "provenance/training/new_20/checkpoints/n4384/unet_d2_c64_lr3e-4_clip1/train.log"
+  },
+  {
+    "path": "/home/tong/new_20/checkpoints/s99_stage1only/unet_d2_c64_lr3e-4_clip1/best.pt",
+    "kind": "correction_checkpoint",
+    "bytes": 6595229,
+    "sha256": "aee68485d07018e0c9acbb1dd2cb7585ed3895f945d88e6232b516ba42876a76",
+    "mtime_ns": 1787296316457523402,
+    "expected_sha256": "aee68485d07018e0c9acbb1dd2cb7585ed3895f945d88e6232b516ba42876a76",
+    "expected_hash_matches": true,
+    "research_root": "new_20",
+    "destination": "artifacts/correctors/s99_stage1only/best.pt"
+  },
+  {
+    "path": "/home/tong/new_20/checkpoints/s99_stage1only/unet_d2_c64_lr3e-4_clip1/history.json",
+    "kind": "checkpoint_log_config",
+    "bytes": 19894,
+    "sha256": "7984a5cfdbf3f4baa4d6b40114178649a685586cf0568e41e3365f917569c7d2",
+    "mtime_ns": 1787296537686270314,
+    "research_root": "new_20",
+    "destination": "provenance/training/new_20/checkpoints/s99_stage1only/unet_d2_c64_lr3e-4_clip1/history.json"
+  },
+  {
+    "path": "/home/tong/new_20/checkpoints/s99_stage1only/unet_d2_c64_lr3e-4_clip1/test_results.json",
+    "kind": "checkpoint_log_config",
+    "bytes": 5682,
+    "sha256": "af8c982205d7e2f2df5f527e45ebb91a9b7120516b4af8f15e04b032cbc8aef6",
+    "mtime_ns": 1787296537686270314,
+    "research_root": "new_20",
+    "destination": "provenance/training/new_20/checkpoints/s99_stage1only/unet_d2_c64_lr3e-4_clip1/test_results.json"
+  },
+  {
+    "path": "/home/tong/new_20/checkpoints/s99_stage1only/unet_d2_c64_lr3e-4_clip1/train.log",
+    "kind": "checkpoint_log_config",
+    "bytes": 8841,
+    "sha256": "d896e253c1a661abaac1de392d399bc38c17489403729bb04cb65e5d120b3d9e",
+    "mtime_ns": 1787296537686270314,
+    "research_root": "new_20",
+    "destination": "provenance/training/new_20/checkpoints/s99_stage1only/unet_d2_c64_lr3e-4_clip1/train.log"
+  },
+  {
+    "path": "/home/tong/new_20/mpca_train_basis_bundle/models/mpca_spatial_999energy/msl.npz",
+    "kind": "mpca_basis",
+    "bytes": 51436,
+    "sha256": "b0909ccc2a33af9f2a7aa3e2d115498d02bbda97ffa2aa41788d234bfad04823",
+    "mtime_ns": 1786778885499173446,
+    "research_root": "new_20",
+    "destination": "artifacts/transforms/new_20/mpca_spatial_999energy/msl.npz"
+  },
+  {
+    "path": "/home/tong/new_20/mpca_train_basis_bundle/models/mpca_spatial_999energy/r500.npz",
+    "kind": "mpca_basis",
+    "bytes": 111256,
+    "sha256": "f7d90f3a010859de05ba31607be0eaac45bbfc815512af3fd5e523cf3be30cf5",
+    "mtime_ns": 1786778924879046037,
+    "research_root": "new_20",
+    "destination": "artifacts/transforms/new_20/mpca_spatial_999energy/r500.npz"
+  },
+  {
+    "path": "/home/tong/new_20/mpca_train_basis_bundle/models/mpca_spatial_999energy/r850.npz",
+    "kind": "mpca_basis",
+    "bytes": 136144,
+    "sha256": "0c7955e5270e1382059bab97830949f617995595a724c0df59c9fbb4d3da64c2",
+    "mtime_ns": 1786778927852181761,
+    "research_root": "new_20",
+    "destination": "artifacts/transforms/new_20/mpca_spatial_999energy/r850.npz"
+  },
+  {
+    "path": "/home/tong/new_20/mpca_train_basis_bundle/models/mpca_spatial_999energy/sp.npz",
+    "kind": "mpca_basis",
+    "bytes": 56664,
+    "sha256": "c9316b84e643c6b05b81337f766b41bdbda54eaa7a16ab64826220b53c220434",
+    "mtime_ns": 1786778882384019193,
+    "research_root": "new_20",
+    "destination": "artifacts/transforms/new_20/mpca_spatial_999energy/sp.npz"
+  },
+  {
+    "path": "/home/tong/new_20/mpca_train_basis_bundle/models/mpca_spatial_999energy/summary.json",
+    "kind": "mpca_basis",
+    "bytes": 7242,
+    "sha256": "a100481ef0f7953705e61617b6cf5d003c202642fba147ae56ef8c24591da945",
+    "mtime_ns": 1786778930835317166,
+    "research_root": "new_20",
+    "destination": "artifacts/transforms/new_20/mpca_spatial_999energy/summary.json"
+  },
+  {
+    "path": "/home/tong/new_20/mpca_train_basis_bundle/models/mpca_spatial_999energy/t2m.npz",
+    "kind": "mpca_basis",
+    "bytes": 83284,
+    "sha256": "7162758426f2ecb5f2d10014672b1508aa612b7b0d1ee8ca3dbddae6bda3421d",
+    "mtime_ns": 1786778878721836671,
+    "research_root": "new_20",
+    "destination": "artifacts/transforms/new_20/mpca_spatial_999energy/t2m.npz"
+  },
+  {
+    "path": "/home/tong/new_20/mpca_train_basis_bundle/models/mpca_spatial_999energy/t500.npz",
+    "kind": "mpca_basis",
+    "bytes": 35028,
+    "sha256": "f21307f1bb2410cae04164854e4bfa62312660d043a27c6a31acf7cfeaa23355",
+    "mtime_ns": 1786778918981774533,
+    "research_root": "new_20",
+    "destination": "artifacts/transforms/new_20/mpca_spatial_999energy/t500.npz"
+  },
+  {
+    "path": "/home/tong/new_20/mpca_train_basis_bundle/models/mpca_spatial_999energy/t850.npz",
+    "kind": "mpca_basis",
+    "bytes": 58188,
+    "sha256": "f067cc123da3b7597b8e7067e094e605826cce2ec0c69cf656ea0f5cc83cd015",
+    "mtime_ns": 1786778888743333114,
+    "research_root": "new_20",
+    "destination": "artifacts/transforms/new_20/mpca_spatial_999energy/t850.npz"
+  },
+  {
+    "path": "/home/tong/new_20/mpca_train_basis_bundle/models/mpca_spatial_999energy/tcwv.npz",
+    "kind": "mpca_basis",
+    "bytes": 70732,
+    "sha256": "8b262efbd042c30bde868632a7241dc4544aaa8917a0808bdda9c8934d721c73",
+    "mtime_ns": 1786778930835317166,
+    "research_root": "new_20",
+    "destination": "artifacts/transforms/new_20/mpca_spatial_999energy/tcwv.npz"
+  },
+  {
+    "path": "/home/tong/new_20/mpca_train_basis_bundle/models/mpca_spatial_999energy/u10.npz",
+    "kind": "mpca_basis",
+    "bytes": 130556,
+    "sha256": "54855d7da0db6bcd3758e50f99a13e956888f4517a4aafd173ab6f9ff81bc6d9",
+    "mtime_ns": 1786778870986446906,
+    "research_root": "new_20",
+    "destination": "artifacts/transforms/new_20/mpca_spatial_999energy/u10.npz"
+  },
+  {
+    "path": "/home/tong/new_20/mpca_train_basis_bundle/models/mpca_spatial_999energy/u1000.npz",
+    "kind": "mpca_basis",
+    "bytes": 130552,
+    "sha256": "5a26c0e8821045ec74625dc24457f41e16c5ed0d695580ce824c81e93ef65d53",
+    "mtime_ns": 1786778891853485258,
+    "research_root": "new_20",
+    "destination": "artifacts/transforms/new_20/mpca_spatial_999energy/u1000.npz"
+  },
+  {
+    "path": "/home/tong/new_20/mpca_train_basis_bundle/models/mpca_spatial_999energy/u500.npz",
+    "kind": "mpca_basis",
+    "bytes": 59928,
+    "sha256": "e8a4855c935569647243e3d8ef888296c89183e7481052cf4f2b49efeea15976",
+    "mtime_ns": 1786778910160362622,
+    "research_root": "new_20",
+    "destination": "artifacts/transforms/new_20/mpca_spatial_999energy/u500.npz"
+  },
+  {
+    "path": "/home/tong/new_20/mpca_train_basis_bundle/models/mpca_spatial_999energy/u850.npz",
+    "kind": "mpca_basis",
+    "bytes": 107976,
+    "sha256": "6cbdc922c8fb77abaaf4cee9390d73971cc04a2f4846497ccb55d990596dbb0a",
+    "mtime_ns": 1786778901130933732,
+    "research_root": "new_20",
+    "destination": "artifacts/transforms/new_20/mpca_spatial_999energy/u850.npz"
+  },
+  {
+    "path": "/home/tong/new_20/mpca_train_basis_bundle/models/mpca_spatial_999energy/v10.npz",
+    "kind": "mpca_basis",
+    "bytes": 115132,
+    "sha256": "aebe3636d00afe833c8042851ee2c09816b181a113f6487a6dd79da111397734",
+    "mtime_ns": 1786778875324666204,
+    "research_root": "new_20",
+    "destination": "artifacts/transforms/new_20/mpca_spatial_999energy/v10.npz"
+  },
+  {
+    "path": "/home/tong/new_20/mpca_train_basis_bundle/models/mpca_spatial_999energy/v1000.npz",
+    "kind": "mpca_basis",
+    "bytes": 118596,
+    "sha256": "9a2011fb456721e1017f8b8f6502d2b3c2ed51e629bc757cc2d5485dd9445c3a",
+    "mtime_ns": 1786778894992637904,
+    "research_root": "new_20",
+    "destination": "artifacts/transforms/new_20/mpca_spatial_999energy/v1000.npz"
+  },
+  {
+    "path": "/home/tong/new_20/mpca_train_basis_bundle/models/mpca_spatial_999energy/v500.npz",
+    "kind": "mpca_basis",
+    "bytes": 63396,
+    "sha256": "fa31ed8d1cbc0868ecea5b360e4f30f0b8bab7ad07daa32a53f8b8dccda02a66",
+    "mtime_ns": 1786778913129502042,
+    "research_root": "new_20",
+    "destination": "artifacts/transforms/new_20/mpca_spatial_999energy/v500.npz"
+  },
+  {
+    "path": "/home/tong/new_20/mpca_train_basis_bundle/models/mpca_spatial_999energy/v850.npz",
+    "kind": "mpca_basis",
+    "bytes": 102956,
+    "sha256": "a20623bdee0ae33d5943021cafe7ff1c9e3966201dfec8773a9e8016c0e0d00b",
+    "mtime_ns": 1786778904171078965,
+    "research_root": "new_20",
+    "destination": "artifacts/transforms/new_20/mpca_spatial_999energy/v850.npz"
+  },
+  {
+    "path": "/home/tong/new_20/mpca_train_basis_bundle/models/mpca_spatial_999energy/z1000.npz",
+    "kind": "mpca_basis",
+    "bytes": 53372,
+    "sha256": "38939ed9ff51f75d2005b27b5b716f69ec056517c7be12a8f8fab23d4b98be05",
+    "mtime_ns": 1786778898046785531,
+    "research_root": "new_20",
+    "destination": "artifacts/transforms/new_20/mpca_spatial_999energy/z1000.npz"
+  },
+  {
+    "path": "/home/tong/new_20/mpca_train_basis_bundle/models/mpca_spatial_999energy/z50.npz",
+    "kind": "mpca_basis",
+    "bytes": 13216,
+    "sha256": "5c749efa79eacff7750c9acb174533c7ca4ba1746ae1cb302003b8ab846cb292",
+    "mtime_ns": 1786778921876908203,
+    "research_root": "new_20",
+    "destination": "artifacts/transforms/new_20/mpca_spatial_999energy/z50.npz"
+  },
+  {
+    "path": "/home/tong/new_20/mpca_train_basis_bundle/models/mpca_spatial_999energy/z500.npz",
+    "kind": "mpca_basis",
+    "bytes": 17852,
+    "sha256": "4ade172937ae9d62de34bbd7b67d667fc3ec4000e4480c25201b2f0a076b23c8",
+    "mtime_ns": 1786778916064639088,
+    "research_root": "new_20",
+    "destination": "artifacts/transforms/new_20/mpca_spatial_999energy/z500.npz"
+  },
+  {
+    "path": "/home/tong/new_20/mpca_train_basis_bundle/models/mpca_spatial_999energy/z850.npz",
+    "kind": "mpca_basis",
+    "bytes": 31360,
+    "sha256": "e20561384747b0d50f29f0af9f51e891a2e64c4be578b3b2be0553fd54a2c4db",
+    "mtime_ns": 1786778907175221650,
+    "research_root": "new_20",
+    "destination": "artifacts/transforms/new_20/mpca_spatial_999energy/z850.npz"
+  },
+  {
+    "path": "/home/tong/new_20/second_stage_pca/n4384/metadata.json",
+    "kind": "pca_basis",
+    "bytes": 106527,
+    "sha256": "748fe247c70a4db7e7a874a70f1720687f4e65a5bad6dc0c803f5eab1969b7b9",
+    "mtime_ns": 1786783270123500553,
+    "research_root": "new_20",
+    "destination": "artifacts/transforms/new_20/pca/n4384/metadata.json"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "checkpoint_sha256": "44c57a0f2a18e92c9c0745cfe75337079627ab8729e93c6ec098a5ddeb007435",
+  "parameters": 1646548,
+  "weight_float32_bytes": 6586192,
+  "serialized_checkpoint_bytes": 6595229,
+  "gpu": "NVIDIA GeForce RTX 3080",
+  "torch": "2.11.0+cu128",
+  "dtype": "float32",
+  "batch_size": 8,
+  "cudnn_allow_tf32": true,
+  "warmup_batches": 10,
+  "timed_batches": 100,
+  "mean_batch_ms": 11.95572509765625,
+  "amortized_ms_per_frame": 1.4944656372070313,
+  "frames_per_second": 669.1354923816613,
+  "peak_allocated_bytes": 382784000,
+  "profiled_flops_per_frame": 19862221824.0,
+  "flops_scope": "PyTorch-profiler recognized operations, primarily convolutions; not a complete hardware-operation count",
+  "timing_scope": "GPU-resident corrector forward passes only; excludes CRA5 decoding, data I/O, host-device transfer and evaluation statistics",
+  "input": "first 8 fixed 2017 validation decoded cache frames; no model/parameter selection",
+  "source_sha256": "931b47815a21cf5f8f55182449b5510c77a348b2ea6673c5dd0c51aec935d8fb"
+}

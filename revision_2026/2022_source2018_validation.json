@@ -1,0 +1,162 @@
+[
+  {
+    "channel": "u10",
+    "arco_mean": 0.44555312395095825,
+    "original_mean": 0.4455517828464508,
+    "rmse": 0.0002009518973306176,
+    "max_absolute_difference": 0.0003476142883300781,
+    "bitwise_equal": false
+  },
+  {
+    "channel": "v10",
+    "arco_mean": -1.4989821910858154,
+    "original_mean": -1.498982548713684,
+    "rmse": 0.00018358830408381286,
+    "max_absolute_difference": 0.0003185272216796875,
+    "bitwise_equal": false
+  },
+  {
+    "channel": "t2m",
+    "arco_mean": 273.6820983886719,
+    "original_mean": 273.68206787109375,
+    "rmse": 0.00041648989105415535,
+    "max_absolute_difference": 0.000732421875,
+    "bitwise_equal": false
+  },
+  {
+    "channel": "sp",
+    "arco_mean": 96567.53125,
+    "original_mean": 96567.5078125,
+    "rmse": 0.24944196959931322,
+    "max_absolute_difference": 0.453125,
+    "bitwise_equal": false
+  },
+  {
+    "channel": "msl",
+    "arco_mean": 102729.703125,
+    "original_mean": 102729.7109375,
+    "rmse": 0.049656164519360696,
+    "max_absolute_difference": 0.0859375,
+    "bitwise_equal": false
+  },
+  {
+    "channel": "t850",
+    "arco_mean": 270.9082336425781,
+    "original_mean": 270.9082336425781,
+    "rmse": 0.0003041979151244221,
+    "max_absolute_difference": 0.0005340576171875,
+    "bitwise_equal": false
+  },
+  {
+    "channel": "u1000",
+    "arco_mean": 0.4241427779197693,
+    "original_mean": 0.4241439402103424,
+    "rmse": 0.00023531405665044806,
+    "max_absolute_difference": 0.00040721893310546875,
+    "bitwise_equal": false
+  },
+  {
+    "channel": "v1000",
+    "arco_mean": -1.7790873050689697,
+    "original_mean": -1.7790870666503906,
+    "rmse": 0.00020789194621117992,
+    "max_absolute_difference": 0.0003604888916015625,
+    "bitwise_equal": false
+  },
+  {
+    "channel": "z1000",
+    "arco_mean": 2095.18115234375,
+    "original_mean": 2095.1806640625,
+    "rmse": 0.0373924617285778,
+    "max_absolute_difference": 0.065185546875,
+    "bitwise_equal": false
+  },
+  {
+    "channel": "u850",
+    "arco_mean": 2.7834272384643555,
+    "original_mean": 2.78342866897583,
+    "rmse": 0.0003713776743057469,
+    "max_absolute_difference": 0.0006432533264160156,
+    "bitwise_equal": false
+  },
+  {
+    "channel": "v850",
+    "arco_mean": -2.064310312271118,
+    "original_mean": -2.06431245803833,
+    "rmse": 0.00034671656523554197,
+    "max_absolute_difference": 0.0006008148193359375,
+    "bitwise_equal": false
+  },
+  {
+    "channel": "z850",
+    "arco_mean": 14821.7138671875,
+    "original_mean": 14821.7138671875,
+    "rmse": 0.03520487032811319,
+    "max_absolute_difference": 0.0615234375,
+    "bitwise_equal": false
+  },
+  {
+    "channel": "u500",
+    "arco_mean": 18.15359878540039,
+    "original_mean": 18.15359878540039,
+    "rmse": 0.00046989967704233677,
+    "max_absolute_difference": 0.000812530517578125,
+    "bitwise_equal": false
+  },
+  {
+    "channel": "v500",
+    "arco_mean": -3.385214328765869,
+    "original_mean": -3.385211944580078,
+    "rmse": 0.0004276963361630133,
+    "max_absolute_difference": 0.0007419586181640625,
+    "bitwise_equal": false
+  },
+  {
+    "channel": "z500",
+    "arco_mean": 55022.5234375,
+    "original_mean": 55022.51171875,
+    "rmse": 0.04729261832683518,
+    "max_absolute_difference": 0.08203125,
+    "bitwise_equal": false
+  },
+  {
+    "channel": "t500",
+    "arco_mean": 252.93861389160156,
+    "original_mean": 252.9385986328125,
+    "rmse": 0.00022203037865237284,
+    "max_absolute_difference": 0.000396728515625,
+    "bitwise_equal": false
+  },
+  {
+    "channel": "z50",
+    "arco_mean": 200640.65625,
+    "original_mean": 200640.65625,
+    "rmse": 0.07519698102014466,
+    "max_absolute_difference": 0.140625,
+    "bitwise_equal": false
+  },
+  {
+    "channel": "r500",
+    "arco_mean": 40.94268798828125,
+    "original_mean": 40.94268798828125,
+    "rmse": 0.0,
+    "max_absolute_difference": 0.0,
+    "bitwise_equal": true
+  },
+  {
+    "channel": "r850",
+    "arco_mean": 63.08518981933594,
+    "original_mean": 63.08518981933594,
+    "rmse": 0.0,
+    "max_absolute_difference": 0.0,
+    "bitwise_equal": true
+  },
+  {
+    "channel": "tcwv",
+    "arco_mean": 11.379881858825684,
+    "original_mean": 11.3798828125,
+    "rmse": 0.00034775402071994006,
+    "max_absolute_difference": 0.000606536865234375,
+    "bitwise_equal": false
+  }
+]

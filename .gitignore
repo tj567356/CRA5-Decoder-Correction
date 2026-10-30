@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.venv*/
+.env
+.env.*
+!.env.example
+.cdsapirc
+*.pem
+*.key
+data/
+decoded/
+*.zarr/
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.blg
+
+# Large PCA binaries are distributed as private Release assets.
+artifacts/transforms/**/pca_model.joblib

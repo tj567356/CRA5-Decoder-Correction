@@ -1,0 +1,128 @@
+{
+  "method": "exact discrete structural dependency propagation",
+  "architecture": "depth2 UNet2, all kernels3, pool2, pre-interpolation up conv, bilinear align_corners=False, skips, kernel3 head",
+  "input_shape_spatial": [
+    97,
+    241
+  ],
+  "scope": "theoretical potential input dependencies; ignores ReLU gates, maxpool winner selection, trained weights and gradient magnitude",
+  "units": "input-grid pixels, not kilometres or independent observations",
+  "padding": "constant-zero positions excluded from real-input support",
+  "models": {
+    "original": {
+      "bottleneck_dilations": [
+        1,
+        1
+      ],
+      "height": {
+        "input_size": 97,
+        "center": {
+          "output_index": 48,
+          "input_min": 12,
+          "input_max": 83,
+          "support_count": 72,
+          "bounding_span": 72,
+          "contiguous": true
+        },
+        "max_support_count": 76,
+        "max_bounding_span": 76,
+        "all_supports_contiguous": true
+      },
+      "width": {
+        "input_size": 241,
+        "center": {
+          "output_index": 120,
+          "input_min": 84,
+          "input_max": 155,
+          "support_count": 72,
+          "bounding_span": 72,
+          "contiguous": true
+        },
+        "max_support_count": 76,
+        "max_bounding_span": 76,
+        "all_supports_contiguous": true
+      },
+      "unclipped_probe": {
+        "input_size": 513,
+        "center": {
+          "output_index": 256,
+          "input_min": 220,
+          "input_max": 291,
+          "support_count": 72,
+          "bounding_span": 72,
+          "contiguous": true
+        },
+        "max_support_count": 76,
+        "max_bounding_span": 76,
+        "all_supports_contiguous": true
+      },
+      "center_bounding_box_hw": [
+        72,
+        72
+      ],
+      "max_actual_axis_spans_hw": [
+        76,
+        76
+      ],
+      "unclipped_max_axis_span": 76
+    },
+    "dilated": {
+      "bottleneck_dilations": [
+        2,
+        3
+      ],
+      "height": {
+        "input_size": 97,
+        "center": {
+          "output_index": 48,
+          "input_min": 0,
+          "input_max": 95,
+          "support_count": 96,
+          "bounding_span": 96,
+          "contiguous": true
+        },
+        "max_support_count": 97,
+        "max_bounding_span": 97,
+        "all_supports_contiguous": true
+      },
+      "width": {
+        "input_size": 241,
+        "center": {
+          "output_index": 120,
+          "input_min": 72,
+          "input_max": 167,
+          "support_count": 96,
+          "bounding_span": 96,
+          "contiguous": true
+        },
+        "max_support_count": 100,
+        "max_bounding_span": 100,
+        "all_supports_contiguous": true
+      },
+      "unclipped_probe": {
+        "input_size": 513,
+        "center": {
+          "output_index": 256,
+          "input_min": 208,
+          "input_max": 303,
+          "support_count": 96,
+          "bounding_span": 96,
+          "contiguous": true
+        },
+        "max_support_count": 100,
+        "max_bounding_span": 100,
+        "all_supports_contiguous": true
+      },
+      "center_bounding_box_hw": [
+        96,
+        96
+      ],
+      "max_actual_axis_spans_hw": [
+        97,
+        100
+      ],
+      "unclipped_max_axis_span": 100
+    }
+  },
+  "implementation_sha256": "6de8b6f531c394dd2b7e8a9f1f2cff2d3231102424e1358dfb08ac4a7e0fe95a"
+}

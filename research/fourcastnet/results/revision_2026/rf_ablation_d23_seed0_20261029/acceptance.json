@@ -1,0 +1,99 @@
+{
+  "status": "accepted",
+  "accepted_utc": "2026-10-29T07:51:18.637909+00:00",
+  "verifier_sha256": "b1c656c17678c4f61d85313d6ddb7b82147e5b935ba47c3977e5350ba471abda",
+  "run": "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029",
+  "original_results": "/home/tong/fourcastnet_us_mpca/results/revision_2026",
+  "checkpoint_sha256": "e63b764fde93a504d7d5a80863883a91a231542be38d2b173e3bc7ab8133de82",
+  "best_epoch": 125,
+  "stopped_epoch": 137,
+  "annual_frames": {
+    "2018": 1460,
+    "2022": 1460
+  },
+  "parameters_each": 1646548,
+  "checks": [
+    "structural guards",
+    "history/selection/patience",
+    "checkpoint hashes",
+    "annual SSE/summary/channel CSV",
+    "baseline SSE equality",
+    "2022 alignment manifests",
+    "ERF coverage/maps/support/summaries",
+    "same-run inference cost consistency",
+    "six-row/120-channel exports",
+    "paired CIs recomputed"
+  ],
+  "exports": {
+    "comparison_rows": 6,
+    "per_channel_rows": 120,
+    "negative_per_channel_gains": 9
+  },
+  "erf": {
+    "original": {
+      "probes": 480,
+      "zero_probes": 0
+    },
+    "dilated": {
+      "probes": 480,
+      "zero_probes": 0
+    }
+  },
+  "paired_uncertainty": {
+    "rows": 8,
+    "replicates_per_year": 1000,
+    "block_frames": 28,
+    "seed": 20261026,
+    "intervals_recomputed": true
+  },
+  "limitations": [
+    "No GPU inference or training rerun by this verifier.",
+    "Manifest hashes are checked as recorded metadata; large remote raw arrays are not rehashed locally.",
+    "Saved ERF probe radii are checked for internal consistency; individual raw gradient maps are not retained.",
+    "No requirement that new model improve; negative gains/differences are preserved."
+  ],
+  "artifact_sha256": {
+    "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/structural_validation.json": "589e1cd4e4daad6af86186cd5c685d2ae12004d421aac3379b5564bae881a97d",
+    "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/provenance.json": "749047edb6f9604b6a92f9de3b66ae4075df356c74a867443c360aa9c303d935",
+    "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/training_data.json": "037afd7c3479bb060d93956313597be24b717cd73174aef9350f66b7346cbe04",
+    "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/history.json": "c387e446d0aeb47a50de2a8c438e8c9bf4333845bac09145aec0ad892d3e9437",
+    "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/selection.json": "20ccf935d47a34179efa1b64d398b7e6fe1781f2fee003adbfff9c5f0483bc7d",
+    "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/best.pt": "e63b764fde93a504d7d5a80863883a91a231542be38d2b173e3bc7ab8133de82",
+    "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/performance_complete.json": "631fe8e8b09a67b5fac8b77a75ec8f227689cad9a79a8294da2b726a0d276168",
+    "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/inference_cost.json": "875f028a221842f94d5d9d7bd31dd6b53d2815a2381d60b7b5001923c04101de",
+    "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/analysis_complete.json": "9ea5ecce3a94b300b0228ac29cfcbf3ff34a24527960643c46e0f839721ed3ed",
+    "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/comparison.csv": "39a26851314a0f6254a21f998716eeac9ade4d94a4d840db8aedfb2945c8bac8",
+    "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/comparison.json": "475bae7ba9f1e4885243786c150f4165cda02e3ca1f4f92a479f0941e5690473",
+    "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/per_channel_comparison.csv": "5da0ec1dd13f8ae29b8faa2b8aad99dd085a6c2cf96eab0424736eefa016a88c",
+    "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/paired_model_differences.csv": "a83fa2fdb4b3570c00b3e87294a8468567c960a876fcd574062fde56a87833f9",
+    "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/paired_model_differences.json": "1c33c1c18cec915e2f654b6432d4b2ecff7dacd7721c26955037b64149f5057d",
+    "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/erf/summary.json": "49648dff37df341c0259e4233104cacffde2d657c7b05237dda4cb1720d2707d",
+    "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/erf/gradient_probes.csv": "06b62a8e4e9478e00059d2a85ce8b5a34e0b855eb414a56e2e4b3f95b97bf5ff",
+    "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/erf/mean_normalized_gradient_energy_maps.npz": "d1887640b46699f56eae4ef221e7d6b0b80fc8922406001a76fad6098f6d7a72",
+    "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/erf/gradient_energy_maps.pdf": "1cefbd874e97e20fa30d31ebf202e0bd0d8abda119aa3402c559b625c77eb8ce",
+    "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/erf/gradient_energy_maps.png": "00e680cbc5e70262257f7d893a346e3f415ece02a9ac137b81211906d0988437",
+    "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/eval2018/summary.json": "846e62567a644a4c8697b4710874c17e8cc2e15beea0bfd592b130215a4a801a",
+    "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/eval2018/sufficient_statistics.npz": "bafb0e95bbf3d4e0d6a2dc44f17c7a2afb03ffb28b6f0e65ff78a910be11d0f2",
+    "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/eval2018/per_channel.csv": "594aed8fe7a9079c91f6291a70a1800f6e23ab5d92ac233db139d8cbc8bb0803",
+    "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/gain_comparison_2018.pdf": "54e51d8b91015d5c49a5c68e8f89bf374c0563022b15f344d9989906d15f36c4",
+    "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/gain_comparison_2018.png": "c4173bf2f908574b223406acb28eaaf954702668394272d410a08db41a3a4a64",
+    "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/eval2022/summary.json": "04a59542b27744d8fa9c3a259ed0992d5f2534d414c689e2e9a0caec7b3d792d",
+    "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/eval2022/sufficient_statistics.npz": "5c3359c354ef3aa6702748340aeeb2b5a5dff84afa45a70c8c7819e56cb84375",
+    "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/eval2022/per_channel.csv": "03d82d877dd69dc175f58cb3bfec333f81fd2747d2fe29e8ae55ee76cafbc467",
+    "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/gain_comparison_2022.pdf": "3f5a9a225cb71e6a9847761c51f6c975474135703e5890090711317de3295725",
+    "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/gain_comparison_2022.png": "4fa56e2a62b58cb126e3644644da9729e78df8af900c47da7037f739d7debb15",
+    "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/eval2022/verified_data_manifest.json": "58dd47364c416ea724f834449da79914880cfc25d8b7a275d2e9a2e46cdd6766",
+    "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/affine_eval2022/summary.json": "2c880b778521cfe6f0dee7bc4d65bd73cd46cfb5179a8be646ad0214a31867b7",
+    "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/affine_eval2022/sufficient_statistics.npz": "77b0883d02da50876638e386bf1c335fb017d291f4414c74cdbe33f3554ba851",
+    "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/affine_eval2022/per_channel.csv": "0f365624f3505e881f1c0b5942e6321943d2c72f3990d19ebef57a3b9d5ff2c3",
+    "/home/tong/fourcastnet_us_mpca/results/revision_2026/rf_ablation_d23_seed0_20261029/affine_eval2022/verified_data_manifest.json": "58dd47364c416ea724f834449da79914880cfc25d8b7a275d2e9a2e46cdd6766",
+    "/home/tong/fourcastnet_us_mpca/results/revision_2026/eval2018/summary.json": "c87049472b0df8028ecf317e44bf2f18fe78392eb65d143ff72f1fb0e21ef70f",
+    "/home/tong/fourcastnet_us_mpca/results/revision_2026/eval2018/sufficient_statistics.npz": "34bc62e64a1d782fe847240615a0d3431233a82e44aa59a08eb0a9bbbd62ef8d",
+    "/home/tong/fourcastnet_us_mpca/results/revision_2026/eval2022/summary.json": "7b4bcac1683e1db41c9fde94782d709fb0f6995b2ccce70f01b629ecd22dfe84",
+    "/home/tong/fourcastnet_us_mpca/results/revision_2026/eval2022/sufficient_statistics.npz": "030f87a17be997c5b8f6df037316378b90b85e31b315e7284fac529fedc24335",
+    "/home/tong/fourcastnet_us_mpca/revision_2026/linear_corrector/summary.json": "9add11f83957fa26a2152b277d521211fb825642ca1204cb74dfab3b439e8eb5",
+    "/home/tong/fourcastnet_us_mpca/revision_2026/linear_corrector/2018_per_channel.csv": "a0229bc1a744f867327ce679cfa46827c2d3786bf21cba0269e17233ce8f97ae",
+    "/home/tong/fourcastnet_us_mpca/revision_2026/linear_corrector/2018_time_statistics.npz": "6a0b82e47dfb1f2876379228ed75d351674468a471bf372bdfcd0d58c16dfeb6",
+    "/home/tong/fourcastnet_us_mpca/revision_2026/linear_corrector/best.pt": "31743a1a03669a6b20f7a39c79c7ae3738fa059468ea789a56e6ab7588c64f5d"
+  }
+}

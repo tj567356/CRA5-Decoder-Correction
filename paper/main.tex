@@ -1,0 +1,101 @@
+% TAAI 2026, international track. Springer LNCS, A4, 6--11 pages incl. references.
+% Single-blind: author names and affiliations ARE shown.
+%
+% Build: pdflatex main; bibtex main; pdflatex main; pdflatex main
+% Overleaf: choose the "Springer LNCS" template, then replace its main.tex with
+% this file and upload the sec*.tex files and refs.bib alongside.
+
+\documentclass[a4paper,runningheads]{llncs}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{color}      % \UrlFont below needs \color; hyperref does not supply it
+\usepackage{hyperref}
+\hypersetup{hidelinks,
+  pdftitle={Recoverable Error in Neural Climate Compression: A Rate-Matched Study of CRA5 over CONUS},
+  pdfauthor={Tong-Jen Wang; Chieh-An Chou; Lu-Hung Chen}}
+\usepackage{marvosym}   % \Letter, the envelope marking the corresponding author
+\renewcommand\UrlFont{\color{blue}\rmfamily}
+
+% The credits environment and its two names arrived in llncs 2023. Overleaf's
+% template may predate that, and a missing \begin{credits} is a hard build error
+% rather than a warning, so define them if absent.
+\makeatletter
+\@ifundefined{ackname}{\newcommand{\ackname}{Acknowledgments.}}{}
+\@ifundefined{discintname}{\newcommand{\discintname}{Disclosure of Interests.}}{}
+\@ifundefined{credits}{\newenvironment{credits}{\begingroup\small}{\endgroup}}{}
+\makeatother
+
+\begin{document}
+
+\title{Recoverable Error in Neural Climate Compression:
+       A Rate-Matched Study of CRA5 over CONUS}
+\titlerunning{Recoverable Error in Neural Climate Compression}
+
+% Single-blind track: names and affiliations are shown.
+% Add verified ORCIDs only; placeholder identifiers should not appear in a
+% submission. \authorrunning goes in the running head, so it stays short.
+\author{Tong-Jen Wang \and
+        Chieh-An Chou \and
+        Lu-Hung Chen\textsuperscript{(\Letter)}}
+\authorrunning{T.-J. Wang, C.-A. Chou, and L.-H. Chen}
+\institute{National Chung Hsing University, Taichung, Taiwan\\
+\email{g115018005@mail.nchu.edu.tw, st7110018036@gmail.com,\\
+luhung@email.nchu.edu.tw}}
+
+\maketitle
+
+% LNCS asks for 150-250 words. Run wordcount.py after any edit to this block --
+% it came in at 255 once and the limit is enforced by the template, not by taste.
+\begin{abstract}
+Learned atmospheric compressors are usually assessed by aggregate distortion,
+which does not reveal how much residual error remains predictable from decoded
+fields. We apply a fixed 1.65\,M-parameter U-Net to CRA5 reconstructions over
+CONUS without adding per-frame bits. On the full 2018 test year, mean normalised
+RMSE decreases by 25.8\% over 19 directly represented FourCastNet variables
+(95\% temporal block-bootstrap interval [25.32, 26.18]\%). On the complete
+2022 year outside CRA5's published training window, the same frozen checkpoint
+and normalisation give a 26.4\% reduction [25.90, 26.93]\%, without fine-tuning.
+Near-surface versus upper-air gains are 32.2\% versus 3.5\% in 2018 and 32.8\%
+versus 3.6\% in 2022. A mean-rate-matched MPCA-only control has a smaller
+near/upper gain ratio, while additional MPCA+PCA controls are explicitly
+non-matched. A parameter-matched dilation ablation retains a roughly eightfold split
+and concentrated gradient sensitivity. Using actual ERA5 orography and land--sea mask, western-land gains
+rise from 18.1\% to 36.9\% across terrain-roughness endpoint deciles, although
+residual error remains larger on rough ground. Earlier proxy-elevation controls
+reduce an apparent 3.23-fold mountain error ratio to 1.14, showing substantial
+spatial confounding. These results measure model-relative predictability;
+terrain causality, corrector architecture effects, and broader distribution-shift
+robustness remain open. Shared weights and inference add deployment costs.
+\keywords{Scientific data compression \and Atmospheric reanalysis \and
+Learned compression \and Decoder-side residual prediction \and ERA5}
+\end{abstract}
+
+\input{sec1_intro}
+\input{sec2_related}
+\input{sec3_setup}
+\input{sec4_encoder}
+\input{sec5_results}
+\input{sec6_where}
+\input{sec7_terrain}
+\input{sec8_limitations}
+\input{sec9_conclusion}
+
+% LNCS 2023 onward requires both of the following, in this order, as bold run-in
+% headings in small font. The disclosure is mandatory even when there is nothing
+% to disclose.
+\begin{credits}
+\subsubsection{\discintname}
+The authors have no competing interests.
+\end{credits}
+
+\bibliographystyle{splncs04}
+\bibliography{refs}
+
+\end{document}
+
+
+
+

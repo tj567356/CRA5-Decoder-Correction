@@ -1,0 +1,59 @@
+{
+  "cra5_ratio": 471.59613161721586,
+  "bisected_on": 2017,
+  "reported_on": 2018,
+  "rows": [
+    {
+      "family": "single-stage 99%",
+      "n": 10193,
+      "step": 0.7659035172375452,
+      "bisected_on": 2017,
+      "val_bytes": 3969.1629686867022,
+      "val_ratio": 471.1723894317168,
+      "test_bytes": 3952.8643385497157,
+      "test_ratio": 473.11514887104664,
+      "test_vs_cra5_pct": 0.3221012964253367,
+      "pre_cnn": 0.12728844380005333,
+      "post_cnn": 0.08687819856088126,
+      "roundtrip_exact": true,
+      "group_gains": {
+        "near_surface": {
+          "n_channels": 13,
+          "G_pct": 36.44413838752792,
+          "Gbar_pct": 37.858622753910446
+        },
+        "upper_air": {
+          "n_channels": 6,
+          "G_pct": 21.144730811590385,
+          "Gbar_pct": 22.943065151930732
+        }
+      }
+    },
+    {
+      "family": "two-stage n4384",
+      "n": 4384,
+      "step": 0.05876741762282959,
+      "bisected_on": 2017,
+      "val_bytes": 3962.6940269171328,
+      "val_ratio": 471.94155978147353,
+      "test_bytes": 3954.362520067818,
+      "test_ratio": 472.9359006689975,
+      "test_vs_cra5_pct": 0.28409246004355015,
+      "pre_cnn": 0.13078958153805162,
+      "post_cnn": 0.12598942197917895,
+      "roundtrip_exact": true,
+      "group_gains": {
+        "near_surface": {
+          "n_channels": 13,
+          "G_pct": 4.100924826873387,
+          "Gbar_pct": 8.891539019958433
+        },
+        "upper_air": {
+          "n_channels": 6,
+          "G_pct": 3.045911853490013,
+          "Gbar_pct": 6.018838818968362
+        }
+      }
+    }
+  ]
+}

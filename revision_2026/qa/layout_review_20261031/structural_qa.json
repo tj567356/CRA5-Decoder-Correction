@@ -1,0 +1,79 @@
+{
+  "pdf": "C:\\Users\\PF27\\OneDrive\\\u6587\u4ef6\\ChatGPT\\taai\\paper\\main.pdf",
+  "pages": 11,
+  "within_6_11": true,
+  "page_sizes_pt": [
+    [
+      595.276,
+      841.89
+    ],
+    [
+      595.276,
+      841.89
+    ],
+    [
+      595.276,
+      841.89
+    ],
+    [
+      595.276,
+      841.89
+    ],
+    [
+      595.276,
+      841.89
+    ],
+    [
+      595.276,
+      841.89
+    ],
+    [
+      595.276,
+      841.89
+    ],
+    [
+      595.276,
+      841.89
+    ],
+    [
+      595.276,
+      841.89
+    ],
+    [
+      595.276,
+      841.89
+    ],
+    [
+      595.276,
+      841.89
+    ]
+  ],
+  "a4_all": true,
+  "fonts": {
+    "/YIAITX+LMRoman12-Bold": true,
+    "/IXSSJX+LMRoman10-Regular": true,
+    "/XYIENE+LMRoman7-Regular": true,
+    "/SHEPIP+MarVoSym": true,
+    "/QELLXQ+LMRoman9-Regular": true,
+    "/XZMBHJ+LMMono9-Regular": true,
+    "/KTECLV+LMRoman9-Bold": true,
+    "/OPFTXX+LMRoman10-Italic": true,
+    "/KQRPTQ+LMMathItalic10-Regular": true,
+    "/SZUORG+LMRoman10-Bold": true,
+    "/YYOFKD+LMMathSymbols7-Regular": true,
+    "/CMSECM+LMMathSymbols10-Regular": true,
+    "/NMGHCI+LMMathExtension10-Regular": true,
+    "/TUSRRW+LMMathItalic7-Regular": true,
+    "/AOKUVH+LMMono10-Regular": true,
+    "/QYETIE+LMMathItalic9-Regular": true,
+    "/TXXQGE+LMMathSymbols9-Regular": true,
+    "/CNXCOL+DejaVuSans": true,
+    "/JFKHSK+LMRoman6-Regular": true,
+    "/WQRVWJ+LMMathItalic6-Regular": true,
+    "/EXQWMA+DejaVuSans": true
+  },
+  "all_fonts_embedded": true,
+  "text_sha256": "9d0bccf98d7fa7f57afc5fbe5ee2a8e54979371e3a7a6af540f05bfd9d7fbb1d",
+  "pdf_sha256": "bf0b2746a83a37c54325b707c8d62d92f8de0344a79f8a553a6d91dec607872e",
+  "visual_inspection": "Separate rendered-page inspection required; this script does not certify layout."
+}

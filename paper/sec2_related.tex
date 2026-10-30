@@ -1,0 +1,28 @@
+\section{Related Work}
+\label{sec:related}
+
+CRA5~\cite{han2024,cra5journal} reports per-variable and per-level errors,
+climatological bias maps, zonal spectra, and surface-station comparisons. Its
+descriptor associates elevated error over mountain regions with topography.
+Mirowski et al.~\cite{mirowski2024} provide elevation and a land--sea mask to a
+reanalysis encoder. These results motivate terrain diagnostics, but spatial
+association alone does not isolate terrain effects or decoder-side predictability.
+Ding et al.~\cite{xu2025} evaluate CRA5 for vertically integrated tropospheric
+delay, a different target from the horizontal residual structure studied here.
+
+Decoder post-processing has precedent. Madireddy et al.~\cite{madireddy2021}
+correct JPEG-compressed scientific simulation images with convolutional networks;
+Jian et al.~\cite{jian2025} correct classical error-bounded compressors using a
+3D CNN. Zhu et al.~\cite{zhu2026} correct frozen learned compressors by storing a
+quantised residual, while NeurLZ~\cite{neurlz} also adds per-block information.
+Our corrector stores no per-frame residual and has no pointwise error guarantee.
+
+Alhumaidi et al.~\cite{alhumaidi2026} use CRA5, GraphCast, and Aurora as
+predictors within an error-bounded pipeline sharing SZ3.1's backend. Their
+residual maps and entropy analysis measure the cost of coding the remaining
+error; our experiment measures how much a fixed model can predict from decoded
+fields. These are complementary questions. Transform, quantisation, and entropy
+coding are standard components of scientific codecs, including
+TTHRESH~\cite{ballester2019}; the survey in~\cite{survey2025} provides broader
+context. Our focus is the distribution of decoder-side correction gains, rather
+than a general ranking of neural and classical compressors.

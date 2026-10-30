@@ -1,0 +1,241 @@
+{
+  "method": "spatial MPCA via mode covariance eigendecomposition",
+  "sample_axis": "time",
+  "feature_modes": [
+    "latitude",
+    "longitude"
+  ],
+  "rank_selection": "smallest rank with cumulative energy >= 0.999",
+  "energy_threshold": 0.999,
+  "years": [
+    2014,
+    2015,
+    2016
+  ],
+  "input_dir": "/home/tong/fourcastnet_us_mpca/data/processed/fourcastnet20_conus",
+  "stats_path": "/home/tong/fourcastnet_us_mpca/mpca_train_basis_bundle/stats/train_2014_2016_channel_stats.npz",
+  "n_lat": 97,
+  "n_lon": 241,
+  "channels": [
+    {
+      "name": "u10",
+      "model_path": "u10.npz",
+      "lat_rank": 52,
+      "lon_rank": 106,
+      "lat_retained_energy": 0.9990770604521227,
+      "lon_retained_energy": 0.999002992023859,
+      "spatial_core_elements": 5512,
+      "spatial_original_elements": 23377,
+      "spatial_core_ratio": 0.2357873123155238
+    },
+    {
+      "name": "v10",
+      "model_path": "v10.npz",
+      "lat_rank": 52,
+      "lon_rank": 90,
+      "lat_retained_energy": 0.9990716061184673,
+      "lon_retained_energy": 0.9990015111422013,
+      "spatial_core_elements": 4680,
+      "spatial_original_elements": 23377,
+      "spatial_core_ratio": 0.20019677460752022
+    },
+    {
+      "name": "t2m",
+      "model_path": "t2m.npz",
+      "lat_rank": 37,
+      "lon_rank": 63,
+      "lat_retained_energy": 0.9990562883038328,
+      "lon_retained_energy": 0.9990322114515106,
+      "spatial_core_elements": 2331,
+      "spatial_original_elements": 23377,
+      "spatial_core_ratio": 0.09971339350643796
+    },
+    {
+      "name": "sp",
+      "model_path": "sp.npz",
+      "lat_rank": 33,
+      "lon_rank": 37,
+      "lat_retained_energy": 0.9990238674477275,
+      "lon_retained_energy": 0.999067891795615,
+      "spatial_core_elements": 1221,
+      "spatial_original_elements": 23377,
+      "spatial_core_ratio": 0.05223082517003893
+    },
+    {
+      "name": "msl",
+      "model_path": "msl.npz",
+      "lat_rank": 22,
+      "lon_rank": 36,
+      "lat_retained_energy": 0.9990170347569131,
+      "lon_retained_energy": 0.9990156035687416,
+      "spatial_core_elements": 792,
+      "spatial_original_elements": 23377,
+      "spatial_core_ratio": 0.03387945416434957
+    },
+    {
+      "name": "t850",
+      "model_path": "t850.npz",
+      "lat_rank": 22,
+      "lon_rank": 43,
+      "lat_retained_energy": 0.9990251300376171,
+      "lon_retained_energy": 0.9990279928472015,
+      "spatial_core_elements": 946,
+      "spatial_original_elements": 23377,
+      "spatial_core_ratio": 0.04046712580741755
+    },
+    {
+      "name": "u1000",
+      "model_path": "u1000.npz",
+      "lat_rank": 47,
+      "lon_rank": 108,
+      "lat_retained_energy": 0.9990652554160298,
+      "lon_retained_energy": 0.9990238922660486,
+      "spatial_core_elements": 5076,
+      "spatial_original_elements": 23377,
+      "spatial_core_ratio": 0.217136501689695
+    },
+    {
+      "name": "v1000",
+      "model_path": "v1000.npz",
+      "lat_rank": 46,
+      "lon_rank": 96,
+      "lat_retained_energy": 0.9990526621581182,
+      "lon_retained_energy": 0.9990309662840744,
+      "spatial_core_elements": 4416,
+      "spatial_original_elements": 23377,
+      "spatial_core_ratio": 0.18890362321940368
+    },
+    {
+      "name": "z1000",
+      "model_path": "z1000.npz",
+      "lat_rank": 22,
+      "lon_rank": 38,
+      "lat_retained_energy": 0.9990212413192617,
+      "lon_retained_energy": 0.9990407122015097,
+      "spatial_core_elements": 836,
+      "spatial_original_elements": 23377,
+      "spatial_core_ratio": 0.03576164606236899
+    },
+    {
+      "name": "u850",
+      "model_path": "u850.npz",
+      "lat_rank": 41,
+      "lon_rank": 87,
+      "lat_retained_energy": 0.9990795194428671,
+      "lon_retained_energy": 0.9990416327210039,
+      "spatial_core_elements": 3567,
+      "spatial_original_elements": 23377,
+      "spatial_core_ratio": 0.15258587500534715
+    },
+    {
+      "name": "v850",
+      "model_path": "v850.npz",
+      "lat_rank": 38,
+      "lon_rank": 83,
+      "lat_retained_energy": 0.9990046191618221,
+      "lon_retained_energy": 0.9990244359509881,
+      "spatial_core_elements": 3154,
+      "spatial_original_elements": 23377,
+      "spatial_core_ratio": 0.13491893741711938
+    },
+    {
+      "name": "z850",
+      "model_path": "z850.npz",
+      "lat_rank": 10,
+      "lon_rank": 20,
+      "lat_retained_energy": 0.9990306813114092,
+      "lon_retained_energy": 0.9990900881961525,
+      "spatial_core_elements": 200,
+      "spatial_original_elements": 23377,
+      "spatial_core_ratio": 0.008555417718270095
+    },
+    {
+      "name": "u500",
+      "model_path": "u500.npz",
+      "lat_rank": 24,
+      "lon_rank": 44,
+      "lat_retained_energy": 0.9991031678060768,
+      "lon_retained_energy": 0.9990559725948711,
+      "spatial_core_elements": 1056,
+      "spatial_original_elements": 23377,
+      "spatial_core_ratio": 0.0451726055524661
+    },
+    {
+      "name": "v500",
+      "model_path": "v500.npz",
+      "lat_rank": 23,
+      "lon_rank": 48,
+      "lat_retained_energy": 0.9991393622905459,
+      "lon_retained_energy": 0.9990645320594772,
+      "spatial_core_elements": 1104,
+      "spatial_original_elements": 23377,
+      "spatial_core_ratio": 0.04722590580485092
+    },
+    {
+      "name": "z500",
+      "model_path": "z500.npz",
+      "lat_rank": 5,
+      "lon_rank": 8,
+      "lat_retained_energy": 0.9992369507454301,
+      "lon_retained_energy": 0.9990891314299601,
+      "spatial_core_elements": 40,
+      "spatial_original_elements": 23377,
+      "spatial_core_ratio": 0.001711083543654019
+    },
+    {
+      "name": "t500",
+      "model_path": "t500.npz",
+      "lat_rank": 12,
+      "lon_rank": 23,
+      "lat_retained_energy": 0.9990302749722403,
+      "lon_retained_energy": 0.9990850917077709,
+      "spatial_core_elements": 276,
+      "spatial_original_elements": 23377,
+      "spatial_core_ratio": 0.01180647645121273
+    },
+    {
+      "name": "z50",
+      "model_path": "z50.npz",
+      "lat_rank": 3,
+      "lon_rank": 4,
+      "lat_retained_energy": 0.999550199160757,
+      "lon_retained_energy": 0.9995150141299907,
+      "spatial_core_elements": 12,
+      "spatial_original_elements": 23377,
+      "spatial_core_ratio": 0.0005133250630962057
+    },
+    {
+      "name": "r500",
+      "model_path": "r500.npz",
+      "lat_rank": 42,
+      "lon_rank": 90,
+      "lat_retained_energy": 0.999079854682919,
+      "lon_retained_energy": 0.9990399832930946,
+      "spatial_core_elements": 3780,
+      "spatial_original_elements": 23377,
+      "spatial_core_ratio": 0.1616973948753048
+    },
+    {
+      "name": "r850",
+      "model_path": "r850.npz",
+      "lat_rank": 49,
+      "lon_rank": 113,
+      "lat_retained_energy": 0.9990903900673492,
+      "lon_retained_energy": 0.9990124730348799,
+      "spatial_core_elements": 5537,
+      "spatial_original_elements": 23377,
+      "spatial_core_ratio": 0.23685673953030756
+    },
+    {
+      "name": "tcwv",
+      "model_path": "tcwv.npz",
+      "lat_rank": 27,
+      "lon_rank": 54,
+      "lat_retained_energy": 0.9990597086032614,
+      "lon_retained_energy": 0.999047839060779,
+      "spatial_core_elements": 1458,
+      "spatial_original_elements": 23377,
+      "spatial_core_ratio": 0.06236899516618899
+    }
+  ]
+}

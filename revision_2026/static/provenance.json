@@ -1,0 +1,147 @@
+{
+  "base_url": "https://storage.googleapis.com/gcp-public-data-arco-era5/ar/full_37-1h-0p25deg-chunk-1.zarr-v3",
+  "time_index": 1034376,
+  "timestamp": "2018-01-01T00:00:00",
+  "chunks": {
+    "latitude": {
+      "url": "https://storage.googleapis.com/gcp-public-data-arco-era5/ar/full_37-1h-0p25deg-chunk-1.zarr-v3/latitude/0",
+      "sha256": "ad2559188f8603a7a136eb4b81c1e96a4a78549a184b6e09def2a60a78631c25",
+      "metadata": {
+        "chunks": [
+          721
+        ],
+        "compressor": {
+          "blocksize": 0,
+          "clevel": 5,
+          "cname": "lz4",
+          "id": "blosc",
+          "shuffle": 1
+        },
+        "dtype": "<f4",
+        "fill_value": "NaN",
+        "filters": null,
+        "order": "C",
+        "shape": [
+          721
+        ],
+        "zarr_format": 2
+      },
+      "attrs": {
+        "_ARRAY_DIMENSIONS": [
+          "latitude"
+        ],
+        "long_name": "latitude",
+        "units": "degrees_north"
+      }
+    },
+    "longitude": {
+      "url": "https://storage.googleapis.com/gcp-public-data-arco-era5/ar/full_37-1h-0p25deg-chunk-1.zarr-v3/longitude/0",
+      "sha256": "7942ebac63ba4e69e05575019aaebe2b2ebb927b316590cac1dcfc7eb08f09ee",
+      "metadata": {
+        "chunks": [
+          1440
+        ],
+        "compressor": {
+          "blocksize": 0,
+          "clevel": 5,
+          "cname": "lz4",
+          "id": "blosc",
+          "shuffle": 1
+        },
+        "dtype": "<f4",
+        "fill_value": "NaN",
+        "filters": null,
+        "order": "C",
+        "shape": [
+          1440
+        ],
+        "zarr_format": 2
+      },
+      "attrs": {
+        "_ARRAY_DIMENSIONS": [
+          "longitude"
+        ],
+        "long_name": "longitude",
+        "units": "degrees_east"
+      }
+    },
+    "geopotential_at_surface": {
+      "url": "https://storage.googleapis.com/gcp-public-data-arco-era5/ar/full_37-1h-0p25deg-chunk-1.zarr-v3/geopotential_at_surface/1034376.0.0",
+      "sha256": "73c7d49a37213914fc780fc9357654482131006fa47084119978a543282592c5",
+      "metadata": {
+        "chunks": [
+          1,
+          721,
+          1440
+        ],
+        "compressor": {
+          "blocksize": 0,
+          "clevel": 5,
+          "cname": "lz4",
+          "id": "blosc",
+          "shuffle": 1
+        },
+        "dtype": "<f4",
+        "fill_value": "NaN",
+        "filters": null,
+        "order": "C",
+        "shape": [
+          1323648,
+          721,
+          1440
+        ],
+        "zarr_format": 2
+      },
+      "attrs": {
+        "_ARRAY_DIMENSIONS": [
+          "time",
+          "latitude",
+          "longitude"
+        ],
+        "long_name": "Geopotential",
+        "short_name": "z",
+        "standard_name": "geopotential",
+        "units": "m**2 s**-2"
+      }
+    },
+    "land_sea_mask": {
+      "url": "https://storage.googleapis.com/gcp-public-data-arco-era5/ar/full_37-1h-0p25deg-chunk-1.zarr-v3/land_sea_mask/1034376.0.0",
+      "sha256": "03111ffe4a9da8dd3f2bf5201dc37cd5542e8c4c55cf3b220a863a7c201f98a3",
+      "metadata": {
+        "chunks": [
+          1,
+          721,
+          1440
+        ],
+        "compressor": {
+          "blocksize": 0,
+          "clevel": 5,
+          "cname": "lz4",
+          "id": "blosc",
+          "shuffle": 1
+        },
+        "dtype": "<f4",
+        "fill_value": "NaN",
+        "filters": null,
+        "order": "C",
+        "shape": [
+          1323648,
+          721,
+          1440
+        ],
+        "zarr_format": 2
+      },
+      "attrs": {
+        "_ARRAY_DIMENSIONS": [
+          "time",
+          "latitude",
+          "longitude"
+        ],
+        "long_name": "Land-sea mask",
+        "short_name": "lsm",
+        "standard_name": "land_binary_mask",
+        "units": "(0 - 1)"
+      }
+    }
+  }
+}

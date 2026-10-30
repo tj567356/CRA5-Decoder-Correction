@@ -1,0 +1,62 @@
+\section{Experimental Setup}
+\label{sec:setup}
+
+\subsection{Data and Metric}
+ERA5~\cite{hersbach2020} is cropped to $25$--$49^\circ$N and
+$130$--$70^\circ$W on its $0.25^\circ$ grid ($97\times241$ cells). We use the
+20 FourCastNet variables~\cite{pathak2022}: five surface fields; winds and
+geopotential at 1000/850\,hPa; temperature and relative humidity at 850\,hPa;
+wind, geopotential, temperature, and relative humidity at 500\,hPa; geopotential
+at 50\,hPa; and total column water vapour. Frames are six-hourly at 00/06/12/18
+UTC. Training uses 2014--2016 (4{,}384 frames), validation 2017 (1{,}460), and
+evaluation 2018 (1{,}460). Architecture and codec parameters are selected using
+validation data; reported quantisation steps are fixed before 2018 evaluation.
+The full-year 2022 test uses all 1{,}460 timestamps, January 1 at 00 UTC through
+December 31 at 18 UTC. ERA5 truth combines 18 native
+ARCO-ERA5 fields with native NCAR relative humidity at 500/850\,hPa; decoded
+CRA5 and truth timestamps, coordinates, and channel order are checked exactly.
+Source packing precision is cross-checked against 2018 samples. The original
+checkpoint and 2014--2016 statistics are frozen; neither test year is used for
+fine-tuning or selection.
+
+We compute channel nRMSE as $\sqrt{\langle(x_j-\hat x_j)^2\rangle}/\sigma_j$.
+The mean pools test times and cells; $\sigma_j$ is the training standard deviation. We
+average these channel errors equally. Primary CRA5 means use 19 direct channels;
+the full 20-channel mean is labelled separately. CRA5 does not store total column
+water vapour (\texttt{tcwv}); we derive it by pressure integration of specific
+humidity, truncated at the surface. Its $-0.63\,\mathrm{kg\,m^{-2}}$ bias can
+be learned by the corrector, so its gains partly repair this derivation.
+
+For channel errors $b_j$ before and $a_j$ after correction, the headline reduction
+is $G=1-\sum_j a_j/\sum_j b_j$. Equal-weight fractional gain is
+$\bar G=p^{-1}\sum_j(1-a_j/b_j)$. The former weights fractional gains by baseline
+error; the latter treats channels equally. Terrain uses the same $G$ unless
+explicitly labelled as a legacy pooled-error statistic.
+
+\subsection{Correction Network}
+\label{sec:cnn}
+All correctors train with 20 input/output channels; direct19 is only an evaluation
+subset. U-Net depth is 2, base/bottleneck widths 64/128, with $3\times3$
+convolutions and 1{,}646{,}548 parameters. Input is $(\hat x-\mu)/\sigma$,
+target $(x-\hat x)/\sigma$, and corrected field $\hat x+\sigma f(\cdot)$;
+$\mu,\sigma$ are fixed training statistics. CRA5 correction minimises normalised
+residual MSE using AdamW: learning rate $3\times10^{-4}$, weight decay $10^{-4}$,
+gradient clipping 1.0, batch 8, mixed precision, seed 0, maximum 200 epochs,
+and early-stopping patience 12. The architecture comes from a 33-configuration
+MPCA sweep ranked on 2017, not a CRA5 architecture search. Classical checkpoints
+share the architecture/objective but not identical budgets: inspected MPCA-only
+and e995 logs allow 200 and 100 epochs. Each is reused without retraining here.
+
+We decode the released CRA5 streams for 2014--2018 and extract CONUS.
+Baseline 20-channel nRMSE ranges from 0.08523 to 0.08752 across these years;
+they overlap CRA5 training (Section~\ref{sec:limitations}). New 2018 diagnostics
+replay the original checkpoint with float32 inference on the existing float16
+normalised cache and float64 aggregation, reproducing original rounded results.
+
+\subsubsection{Temporal uncertainty.}
+Squared-error sums and counts for each frame and channel support a paired circular
+moving-block bootstrap: 28-frame (seven-day) blocks wrap at the year boundary,
+with each draw truncated to 1{,}460 frames. In 1{,}000 draws (seed 20261026),
+before/after errors share sampled timestamps; channel RMSEs and $G$ are recomputed.
+Percentile 95\% intervals condition on checkpoint, year, and grid, excluding
+training-seed and spatial uncertainty. The same protocol is applied to 2022.
