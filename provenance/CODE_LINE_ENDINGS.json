@@ -1,0 +1,366 @@
+{
+  "scope": "publication copy only; research originals untouched",
+  "normalization": "CRLF to LF in Python and shell sources only",
+  "changes": [
+    {
+      "path": "research/fourcastnet/results/revision_2026/rf_ablation_d23_seed0_20261029/executed_sources/model.py",
+      "before_sha256": "36faeb8702c8670c462d2c1d5825de44a8216d592e44a8503245bd4f67253ca3",
+      "after_sha256": "f5aca6fd5ffb46bf6705952dfe9a4fd4756702a91864bc0983bdb8f80edae8b6",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/fourcastnet/scripts/analysis/codec_all.py",
+      "before_sha256": "97b5d8e26d7c942e8495c3767066432419b59586b82b26d31fc74f2adf83bb05",
+      "after_sha256": "7004bb3c451695723a33932807a540aa4d1a737003ce4411a801e2c353d243bc",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/fourcastnet/scripts/analysis/codec_all_cnn.py",
+      "before_sha256": "b3d06a666f7224f9f3150a3d915f402635dd9c0b6d4b318159337c6c1deb1c3b",
+      "after_sha256": "e8d4edfd5b71fe73b55cf29b5ce5bad9b82dcbd6a0e156969c23e4928da96e24",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/fourcastnet/scripts/analysis/cra5_temporal.py",
+      "before_sha256": "165bff7580c612ceb22b21e2c337fff8e44808c9207919cfff47737f975e05bf",
+      "after_sha256": "fad8fa93b429305d5fb9f33f179d7747d231556e18bdc0794a49f8e816cf28d4",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/fourcastnet/scripts/analysis/elevation_controls.py",
+      "before_sha256": "73b6025a3b0ea8f4c02f2565573bd5eb85474172dc0454d327436e86d243bef1",
+      "after_sha256": "2beda1e491dedfecfe70fd98b5bb003df80e6bf192d713a7cecabc3b66c3d327",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/fourcastnet/scripts/analysis/error_scale.py",
+      "before_sha256": "69dca0bb6b87f09566ef28d7a720ac0b774b9166b013c807a0f7768a5ad08762",
+      "after_sha256": "9279a818cae88ea487b762ab21552c967f6c76c8a1f27c8783aaf9a4cf77451a",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/fourcastnet/scripts/analysis/error_static_fraction.py",
+      "before_sha256": "b7cf36979a3fb426d42c9cf78aa7f446d422d4ceaa3da80ce89697c3472b8c6b",
+      "after_sha256": "16a834dae2391f6de74a586ea79fe2279a2e00731281c6d44eb8cfd87ad3fd9a",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/fourcastnet/scripts/analysis/error_vs_elevation.py",
+      "before_sha256": "416ca776e6e398e6e69d588ba29f4e5666dacb868805f03556b83b3bc960f1bd",
+      "after_sha256": "dd318c03bb3e63c5a9489a8bc7d66dad1291961452a177a2b2f88fdeb540f046",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/fourcastnet/scripts/analysis/generality.py",
+      "before_sha256": "2ae33084afc4a8732469eb51faae3aa85c79c21c6989e3247fb491adb0901a98",
+      "after_sha256": "9d8eb6e2dddf24dc1ded73b88e2e8e605372ec550810ec66d5af1ad689c0b819",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/fourcastnet/scripts/analysis/pca_codec.py",
+      "before_sha256": "259428690d393135f4664b1856f5808f2347875215c43861177f2eeceff0aa04",
+      "after_sha256": "f59fa949ced6868b7f58539a486cbcb820a0648f3d95458d52dd14e439481774",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/fourcastnet/scripts/analysis/quant_cnn_eval.py",
+      "before_sha256": "90dafda88e475e2ae2ce759c4b25ec928644e3be4f2466f6e5e1cb590d228b86",
+      "after_sha256": "5943fc1767caab527ff5a8b5ff5a492760b9922cfedf27fefb1381e8e486e89b",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/fourcastnet/scripts/analysis/sp_terrain_control.py",
+      "before_sha256": "ffd279b3fb3c87231fb0923014090646c63f2b65296c110c1f037f1db89213a2",
+      "after_sha256": "7b378bc1a9cf4fe16e3fbe386be2f1b933457cae0327b89e4648585b10803597",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/fourcastnet/scripts/cnn/build_arch_summary.py",
+      "before_sha256": "5e092deea53078731922bfdaaaafe73c2491cc941b8eeb94e0777c9ec6d2f494",
+      "after_sha256": "693cbec334105e7ab4d67a3c3b4cfb99070e3e4d1ca6c4621a3fa2a65389d583",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/fourcastnet/scripts/cnn/dataset.py",
+      "before_sha256": "4b0850fb198700aa79bb158c2ae323f15bdf2fac097532d97c3fa3a590020f90",
+      "after_sha256": "b05d451133e8a1cfd328eed070e77860fbe0be196558201a9b85bb2616a01b20",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/fourcastnet/scripts/cnn/memmap_manifest.py",
+      "before_sha256": "2e775877e40643fb8dbf60077b13114ee9988d0d9649a9ed88b78d01b7b37904",
+      "after_sha256": "2b90077a7a5649aa80e3596acef919ba994009fef73be769c3c4fbcd44a710aa",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/fourcastnet/scripts/cnn/model.py",
+      "before_sha256": "36faeb8702c8670c462d2c1d5825de44a8216d592e44a8503245bd4f67253ca3",
+      "after_sha256": "f5aca6fd5ffb46bf6705952dfe9a4fd4756702a91864bc0983bdb8f80edae8b6",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/fourcastnet/scripts/cnn/prepare_memmap.py",
+      "before_sha256": "85d318199eb278201b07bbb7bff15ad9bdc21e3a5ca73b4c6b2019f95a728373",
+      "after_sha256": "433a22db48df6b9feb464518f2b2ed44157d1bc7d6e20df04a6309a765f416d0",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/fourcastnet/scripts/cnn/rank_on_val.py",
+      "before_sha256": "d217e8f38e22ce8164055c8a3630b0f7dbe54f70306d3f10dd49b4a3161bfbef",
+      "after_sha256": "b1a5bd9dad83531bd509d7bba4c1b1449bd7b3de1e8e9dc63da27115caeb2820",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/fourcastnet/scripts/cnn/run_cra5_unet.sh",
+      "before_sha256": "9330a682b13fcce76daa309d254a19aa6257e785236001a45b40643be7edc7aa",
+      "after_sha256": "ea46fa63d15042d0cf7a12e39a1b27ec6138015bd67eb544644ef92d7bc85fb3",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/fourcastnet/scripts/cnn/run_e995.sh",
+      "before_sha256": "a8e7b088dfa98c5a70bbeb1d12b813f4dfac88ee1be89044827f2f61ee091a23",
+      "after_sha256": "3382b3371c1d23282c7c8b768ddad3e66a360d5324614b01e1ca95753fe1ab2a",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/fourcastnet/scripts/cnn/run_matrix.sh",
+      "before_sha256": "9598bdce3f008794a36e00782f312c2c9e2dd9700fe84f79dfb0a7f3ab506233",
+      "after_sha256": "bd9f845129bd4a220fdc36631b07e6c540f71ac451601e577660fc3f63fc19cb",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/fourcastnet/scripts/cnn/train_cnn.py",
+      "before_sha256": "ebeaec2dd75f9972ed95865e93669fa69992a07e06c174e815e83f03cbef2498",
+      "after_sha256": "0319492c09be2ab3725cb0c0133b44a50c3673335877ce3477e9a527342f213c",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/fourcastnet/scripts/compute_true_rmse.py",
+      "before_sha256": "736dced63b1c4ce611890ca10a16d5ddb2b5c2032993f93b88df7e210bfef480",
+      "after_sha256": "0eac26dfa8a913db13b8a0209d2e44e3972124650a73436c3755d808da5e1abb",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/fourcastnet/scripts/cra5/check_align.py",
+      "before_sha256": "085fd14f92ce26d75e128973db28e41519b3ab8332eebae2ef97d84bed8cbb56",
+      "after_sha256": "3e36b16150e91a4a3534016fcb15d45fc29aa630c98843e3a1b02d35e85ff8bc",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/fourcastnet/scripts/cra5/cra5_rmse.py",
+      "before_sha256": "4b53c0bd32d7dad1969686236defc56828a08884d19889ca33146acf78d7f4a7",
+      "after_sha256": "eba26fd91225b489e4702b64226df176b610b6a0adc5854a0d58c5757609652b",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/fourcastnet/scripts/cra5/decode_conus.py",
+      "before_sha256": "86acceca37c4b57954d3a66e162a337e6d91a18b51ec1376c380971e5b8c3a76",
+      "after_sha256": "89a445753ccb895406b30b6ceb023e11ad61dbfd53d4c21b02ee06b364d2f3d7",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/fourcastnet/scripts/cra5/deps.sh",
+      "before_sha256": "79cc6f59a2787c96619b6c91f1e1ff3caac64edd3dde1f385818ae9a64199ff2",
+      "after_sha256": "304161b2f605c2f28a6d13a0b761b36130ab896a84486997cc2d7dabfa9264dd",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/fourcastnet/scripts/cra5/install_cra5.sh",
+      "before_sha256": "0f92cf80cb2e5ec846153cb2ecaa69251775285f23248545c133aa04d17fbb7f",
+      "after_sha256": "f5fa5a976d3b859a78db5bf6c9632e1d385d27adda2ade7d49e75cd9d6d3fd6b",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/fourcastnet/scripts/cra5/list_channels.py",
+      "before_sha256": "7bace902f4e3d1f6716f09d89b96a932cb8f05d313d910aee5b79bd2d0f1fe62",
+      "after_sha256": "57d6f90e0fc981ecd23e5862d93ea684b56b3671e97a01eff5bf0880328a09f0",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/fourcastnet/scripts/cra5/run_decode.sh",
+      "before_sha256": "9016fb70030fc718462f936dcd49889f94fdc7ad647cc6d4c16d8dbac0273edb",
+      "after_sha256": "2208dd59c67079b9662f31388c400d33cd3a795fa4eb4b7583361d61acda3a7f",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/fourcastnet/scripts/cra5/sdpa_patch.py",
+      "before_sha256": "98abc8f925bcea0f61360038aebf88d274c1b20ea6df4e7195718f061f4dc51d",
+      "after_sha256": "22e8f15d81b6bd46180aebcc454baa3a00068a31cbffce500cd30161b37b2dbc",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/fourcastnet/scripts/cra5/verify_channels.py",
+      "before_sha256": "36f076f440b58905e0302d053c4660b593376c816560755118752705383cadc9",
+      "after_sha256": "40d18ed93054aefb6949ab0495256ab85b9eb8faffbb1c47d68fc049068332f0",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/fourcastnet/scripts/decode_second_stage_pca.py",
+      "before_sha256": "dee711a9df124230b78ef0abb5608d50ee203ee78cea33d677b3e69ec3389972",
+      "after_sha256": "7691d44335c96a295bfaeea0ee1c49707f67d8794c3ce5713d4e692aa3bca998",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/fourcastnet/scripts/eval_decoded_nrmse.py",
+      "before_sha256": "e66f754f93ad06b56c9a91f98288a352cad28568347ca879e069d7c1836e9fd0",
+      "after_sha256": "4d0af222ae31dd547b122cc72318ad8940017cd41cf21b45f573894bb1c5db4c",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/fourcastnet/scripts/fit_mpca_basis.py",
+      "before_sha256": "1faae722ab246923b0ffe5ef287bd3d1b3afc96e25f9397848fd94f058bcdfd7",
+      "after_sha256": "2a8966a413e69949a54bbfa76b2997386ddb91f47b9dcc9316534ed7aab3e100",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/fourcastnet/scripts/fit_second_stage_pca.py",
+      "before_sha256": "a7ca893fbddaa50d6e61fb97a66c3b1d3aa5e9187c080435f0f7cf7e8ba48d7e",
+      "after_sha256": "31809051d5374993bf5cfc40a03adafc61025fee1eb388710ee34c38a7dc3e9c",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/new_20/scripts/cnn/build_arch_summary.py",
+      "before_sha256": "dbcd99c3d69b44a6ed101b42b7f0b11912d417f58d3bd7a0a4e4ea39eed3e997",
+      "after_sha256": "9e26132b29e97d711581bd4ad7ea1559c832ce7cab7aa8d35c4eb138e6ebf3f6",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/new_20/scripts/cnn/dataset.py",
+      "before_sha256": "4b0850fb198700aa79bb158c2ae323f15bdf2fac097532d97c3fa3a590020f90",
+      "after_sha256": "b05d451133e8a1cfd328eed070e77860fbe0be196558201a9b85bb2616a01b20",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/new_20/scripts/cnn/memmap_manifest.py",
+      "before_sha256": "b0ddd502ab7c6a0d2db7f3fb0a81f1e7a768874ab5c4f96a6c224f5f5a5cfeea",
+      "after_sha256": "9e33fd43d8ca4c3e1df00016d803cb208577938ccc3379a4cbf820039313d3a9",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/new_20/scripts/cnn/model.py",
+      "before_sha256": "35319e726522a1d14d38b0a9f4dc06a2d0eb78d2792b1a03b31566521516f225",
+      "after_sha256": "19f4f5d91e21afa5c68cea7f66b5fbb998e11a21b836fce2e7d22857537b0c52",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/new_20/scripts/cnn/prepare_memmap.py",
+      "before_sha256": "63e30573c57d007298ddaf463c1b7f0b43d20e79642ead99937620f3820ef8cb",
+      "after_sha256": "82dc7e0a1e07a28868dd1395816b3f0961186736e8a1a98e4158da6e4c6c5247",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/new_20/scripts/cnn/rank_on_val.py",
+      "before_sha256": "18524f321fcb08ed6906dd8f461e56b80f389c82750b6f192111005cda7efb4a",
+      "after_sha256": "b826317f88e8d4906e5836911216a6f8145a73cf6775da2559a6080ad62c8746",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/new_20/scripts/cnn/train_cnn.py",
+      "before_sha256": "e7209af0f56b9723ae68ee38ddcf6380e0763afea067e4165caf76118444e16d",
+      "after_sha256": "f3e87826fa169177a3f7477490e4ca3319afbfa4969e1cf15ddafc534c1034dd",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/new_20/scripts/decode_second_stage_pca.py",
+      "before_sha256": "dee711a9df124230b78ef0abb5608d50ee203ee78cea33d677b3e69ec3389972",
+      "after_sha256": "7691d44335c96a295bfaeea0ee1c49707f67d8794c3ce5713d4e692aa3bca998",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/new_20/scripts/encode_mpca_cores.py",
+      "before_sha256": "bd0ee63f00344abb80a8adf55e81d45811f14de2c99eaee4bc98ae99cd3aeff9",
+      "after_sha256": "447332852fd019eba0ffbf331b8e09b340c35ce14b4365d71f8c66214956ce12",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/new_20/scripts/fit_mpca_basis.py",
+      "before_sha256": "ef859236ea1d39ce471b30a16f065661679076a7a53b14fdb1fc238b56ff84cf",
+      "after_sha256": "0c21cf72e48b13e8624ee38e3b370083c9e4e23fe4e48f51e21afa49bfa9ff8b",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/new_20/scripts/fit_second_stage_pca.py",
+      "before_sha256": "a7ca893fbddaa50d6e61fb97a66c3b1d3aa5e9187c080435f0f7cf7e8ba48d7e",
+      "after_sha256": "31809051d5374993bf5cfc40a03adafc61025fee1eb388710ee34c38a7dc3e9c",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/new_20/scripts/n4384_codec.py",
+      "before_sha256": "e74c19ed692dc3136ebe33838d44e6acc6e52185d9f72a55456e7e81769f44bd",
+      "after_sha256": "1bfc554b6ed2dfb8e790258c8d4654ede5c1366bacad360cb781ba498ca9a302",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/new_20/scripts/prep_n2011.sh",
+      "before_sha256": "d2ea1131624227bfbbc5aa0e8b8a9099121382fb82bf5606917911ed3ccf9e31",
+      "after_sha256": "a15c39be92ec9c28cabd5b3f86998f22300685045957e30a2efbeb259a1a57b0",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/new_20/scripts/quantise_cores.py",
+      "before_sha256": "698e9c2a8c52cc624a205c9c71e406793e614d008b7457cae14632cd02e8eaca",
+      "after_sha256": "cb44657eac3d15da4531b0d1e09cafe4984ce7c7f3a8d73f5e11bd805d291e40",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/new_20/scripts/rate_matched_val.py",
+      "before_sha256": "cbd455799551b7a840d9ca5f809b754a20fdae6bce2903134ad409895d45cc56",
+      "after_sha256": "00d92ef1bf02e14813aae18315e254a732bc75c84d14f1331622bd654271053f",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/new_20/scripts/rate_spread.py",
+      "before_sha256": "d54b3065eafd43142c1d4bf333dc0cadd9aa2183876fcae49a15c3af8f012ee9",
+      "after_sha256": "681fff38fc1705232c8aacf8031a91915919cfbb474f8b5de837d14887e36f42",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/new_20/scripts/reconstruct_stage1_only.py",
+      "before_sha256": "c24486c9631a098a3e926c61fb3d375a2bb78ed1cde15dfa3616ea0c8d29f076",
+      "after_sha256": "48d3063ef84ed9287e9f05e47dda75e92440d907e9b4f58918d7da94cb361715",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/new_20/scripts/run_n636.sh",
+      "before_sha256": "eefbc2ea7b911aa16c285b60143027a6d2c2256f44cf30fe2e87141079292c41",
+      "after_sha256": "f13a3aecd88c41d3b8159e47752c6748bb44f28ddad2a6a158e7d4a8a7c7630b",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/new_20/scripts/run_quant.sh",
+      "before_sha256": "94256bd0f16958e901d92368d4258acf258f2e61d16e95e2ef41133d205f53a7",
+      "after_sha256": "3b5698fd961ad610e4d1bb34a925a9f055328ba6026aa44972711bf1f90ccaf5",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/new_20/scripts/run_stage1only.sh",
+      "before_sha256": "14f59bded5953641fdec1c26dbadc28bffb9da4a8b1bb9f34e4525729e80cd1b",
+      "after_sha256": "5acc92c4071796ce163f54f6439a206adad281a5639cd939d573fcbdb2fdc5b8",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/new_20/scripts/run_stage1only_existing.sh",
+      "before_sha256": "c08d1fac20bdbf11dc9fe58bba86cd786dcd9ddb5da12469479798997a4a6998",
+      "after_sha256": "d5a5509d6040b021df77b7cbd3dd27ec651b083493e7076f0369b0bd663877ce",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/new_20/scripts/stage1_codec.py",
+      "before_sha256": "84e9493cc9ebb344dcee827e72e39a1e0bb7879a87be127d99cdde120d1351a3",
+      "after_sha256": "2d9752a137a95dbfa46a44049a083d01b9d1bed06cfcf0e5b7c0e9a5a9b2e3a9",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "research/new_20/scripts/stage1_only_rmse.py",
+      "before_sha256": "f995f58c6364f9d6797f2fc8bb18b1c01b6f5f89b0200f1b5457f275efb65b4c",
+      "after_sha256": "940b77418362dbea4caa16e82ada7e70bcf8e4c4a5b8b1a835c882fcf759d4b0",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    },
+    {
+      "path": "revision_2026/scripts/linear_corrector.py",
+      "before_sha256": "47adc3b7344ea90a4939a70d008a277f684b7079efffd851e5d4310a60b13160",
+      "after_sha256": "255e7e4d3e43dcc2173e9606f4fa9986fd97c6d8fb85c4b4d51f4a9dbce92b4d",
+      "change": "CRLF to LF only; program text otherwise unchanged"
+    }
+  ]
+}

@@ -88,3 +88,5 @@ Ubuntu原始model.py另存在`provenance/ubuntu_sources/`，其UNet2類別與目
 目前版本只另加DilatedUNet2，不覆寫原類別。
 
 未擅自替作者指定新的軟體授權。既有程式、LNCS樣式及外部資料/模型的原授權與使用條款仍適用。
+
+上傳副本的Python/Shell檔已統一為Unix LF換行；Shell檔保留可執行權限。科學程式內容未改，換行前後雜湊記錄於`provenance/CODE_LINE_ENDINGS.json`；本機與Ubuntu原始檔未改。
