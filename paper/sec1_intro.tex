@@ -25,21 +25,20 @@ value gives a near/upper gain ratio of 1.7; three MPCA+PCA settings at higher
 compression give 1.32--1.35. These controls help assess whether the asymmetry is
 specific to the tested codec and corrector combination.
 
-Terrain is a plausible contributor: small-scale topography may be difficult to
-represent on a coarse latent grid. However, error magnitude and correction gain
-are different quantities. Our existing elevation analysis retains an instructive
-negative result: the apparent mountain/lowland surface-pressure error ratio
-falls from 3.23 to 1.14 after restricting to western land. Elevation alone does
-not establish a terrain mechanism. A new actual-orography analysis finds larger
-baseline errors and gains on rougher western land: $G$ increases from 18.1\% to
-36.9\% between roughness endpoint deciles. This association persists in several
-elevation bands but does not isolate a causal mechanism.
+Terrain is a plausible contributor: small-scale topography may be difficult
+to represent on a coarse latent grid, but error magnitude and correction gain
+are different quantities. Using actual ERA5 orography and land--sea masks, we
+find larger baseline errors and larger gains on rougher western land: $G$ rises
+from 18.1\% to 36.9\% between roughness endpoint deciles. The association
+persists within several elevation bands but does not isolate a terrain mechanism.
+Our earlier proxy-elevation analysis remains a sensitivity check.
 
-Our contributions are (i) measured bitstream comparisons at closely matched mean
-rates, with explicit global-versus-regional scope; (ii) a decoder-side measure of
-error predictability resolved by variable and pressure level; and (iii) spatial
-controls separating ground elevation from field altitude. All correction models
-are selected using 2017 validation data, with 2018 and 2022 reserved for evaluation.
-Paired temporal block-bootstrap intervals quantify uncertainty conditional on
-the fitted checkpoint and each yearly sample.
+Our contributions are (i) a measured, mean-rate-matched MPCA/CRA5 comparison
+with the differing global/regional coding tasks made explicit; (ii) a study of
+decoder-side residual predictability and its vertical asymmetry, including a
+frozen 2022 out-of-training-window test and corrector controls; and (iii) an
+ERA5-orography analysis of terrain roughness versus correction gain, with
+elevation and geographic sensitivity checks. Checkpoints are selected using
+2017 validation data; paired temporal block-bootstrap intervals quantify
+uncertainty conditional on each fitted checkpoint and test year.
 

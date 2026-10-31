@@ -46,7 +46,7 @@ Hersbach, H., Bell, B., Berrisford, P., et~al.: The {ERA5} global reanalysis.
 Jia, W., et~al.: {NeurLZ}: An online neural learning-based method to enhance
   scientific lossy compression. In: Proceedings of the 39th ACM International
   Conference on Supercomputing (ICS '25). pp. 26--42 (2025).
-  \doi{10.1145/3721145.3725763}, also available as arXiv:2409.05785
+  \doi{10.1145/3721145.3725763}
 
 \bibitem{jian2025}
 Jian, Z., Jiao, P., Zhang, B., Di, S., Liang, X., Li, G., Dai, H., Chen, Z.,
@@ -73,7 +73,7 @@ Pathak, J., Subramanian, S., Harrington, P., et~al.: {FourCastNet}: A global
 
 \bibitem{zhu2026}
 Zhu, L., Ranka, S., Rangarajan, A.: Residual modeling for high-fidelity learned
-  compression of scientific data. arXiv preprint arXiv:2606.05389  (2026), v2,
-  13 August 2026
+  compression of scientific data. arXiv preprint arXiv:2606.05389  (2026), v1,
+  3 June 2026
 
 \end{thebibliography}

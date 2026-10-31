@@ -22,11 +22,12 @@ The frozen checkpoint and 2014--2016 normalisation are unchanged.
 \begin{figure}[t]
 \centering
 \includegraphics[width=\textwidth]{figs/terrain_roughness_main_curve}
-\caption{2018 frozen U-Net errors: 19 direct channels, 2014--2016 normalisation.
+\caption{2018 frozen U-Net nRMSE before and after correction (19 direct channels).
 Roughness is $5\times5$ land-only elevation SD with at least 13 valid neighbours.
-Points are ten region-specific quantile bins at mean roughness; lines connect
-measurements. Both curves use identical cells/timestamps within each panel.
-Western land controls east--west composition; association does not imply causality.}
+Points show ten region-specific quantile bins at mean roughness; curves use
+identical cells and times within each panel. On western land, $G$ rises from
+18.1\% to 36.9\% between endpoint deciles. Restricting the region reduces
+east--west composition differences but does not establish causality.}
 \label{fig:roughness}
 \end{figure}
 
@@ -48,17 +49,18 @@ at 600--1200\,m. The pattern is not uniform: 0--200\,m gains fluctuate around
 30--35\%, with only 29--31 cells per bin. These are descriptive controls, not
 independent spatial replications.
 
-\subsubsection{Original proxy-elevation sensitivity.}
+\subsubsection{Legacy proxy-elevation sensitivity.}
 Table~\ref{tab:twoheights} retains the original comparison at fixed western
 proxy-land positions.
 
 \begin{table}[!htb]
 \centering
-\caption{Original elevation control, western proxy-land, 2018: identical ground
-grid columns for near13/upper6, excluding \texttt{tcwv}. Gains are
-$1-\sqrt{\langle a^2\rangle/\langle b^2\rangle}$, where $a,b$ are per-cell
-normalised RMSE after/before correction; averaging pools channels and cells.
-This differs from $G,\bar G$; ratios use unrounded gains.}
+\caption{Legacy proxy-elevation control, western proxy-land, 2018: identical
+ground columns for near13/upper6, excluding \texttt{tcwv}. The pooled gain is
+$G_{\mathrm{pool}}=1-\sqrt{\langle a^2\rangle/\langle b^2\rangle}$, where
+$a,b$ are per-cell normalised temporal RMSE after/before correction and
+$\langle\cdot\rangle$ pools channel--cell pairs. Unlike $G$, aggregation precedes
+the square root. Ratios use unrounded gains.}
 \label{tab:twoheights}
 \begin{tabular}{lrrrr}
 \toprule
@@ -77,9 +79,9 @@ The pressure-derived standard-atmosphere elevation and 1.0\,K diurnal
 2\,m-temperature land threshold differ from the actual static fields above.
 The baseline surface-pressure high/low-elevation error ratio is $3.23\times$
 over CONUS, $2.28\times$ on proxy-land, and $1.14\times$ on western proxy-land;
-MPCA+PCA e995 gives 2.09, 1.70, and 0.95. This negative result is retained:
-mean elevation differs from roughness, and the original gradient is strongly
-confounded by land/sea and longitude.
+MPCA+PCA e995 gives 2.09, 1.70, and 0.95. This sensitivity check shows how the original proxy-based contrast changes
+with geographic restriction; it neither identifies a causal elevation effect
+nor replaces the actual-orography analysis.
 
 Above 2000\,m, eight low-level channels may include below-ground ERA5
 extrapolation, potentially easing prediction. Proxy-sea gains also differ,
