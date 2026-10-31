@@ -1,17 +1,11 @@
 \section{Conclusion}
 \label{sec:conclusion}
 
-A frozen U-Net reduces direct19 CRA5 nRMSE by 25.8\% in 2018 and 26.4\% in
-unseen 2022, without extra frame bits or fine-tuning. Near/upper gains are
-32--33\%/3.5--3.6\%. Matched bottleneck dilation retains a roughly eightfold
-split, concentrated gradient energy and slightly worse overall error.
-On western land, ERA5-orography roughness is associated with larger baseline
-errors and correction gains; corrected errors remain higher on rough ground. Elevation-stratified checks do not establish a causal mechanism.
-Model-relative predictability persists in one year outside CRA5's reported
-training period; terrain causality, architecture and broader robustness remain
-open. Shared weights and computation are additional costs.
-
-\smallskip
-\noindent\textbf{Code availability.}
-Code and reproduction instructions are hosted at
-\url{https://github.com/tj567356/CRA5-Decoder-Correction}.
+A frozen U-Net lowers CRA5 direct19 nRMSE by 25.8\% (2018) and 26.4\%
+(unseen 2022) without extra frame bits. Near/upper gains are 32--33\% versus
+3.5--3.6\%, a split retained by parameter-matched dilation with slightly
+worse overall error. On western land, terrain roughness correlates with
+higher baseline errors and correction gains; corrected errors remain higher
+and elevation controls do not establish causality. Model-relative recovery
+persists in one unseen year; broader robustness, architecture effects and
+inference costs remain limitations.

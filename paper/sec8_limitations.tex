@@ -1,24 +1,20 @@
 \section{Limitations}
 \label{sec:limitations}
 
-Published full-resolution CRA5 trains on 1979--2021 and tests on
-2022--2023~\cite{han2024}. Thus 2018 is held out for our corrector but overlaps
-CRA5 training. Dates are publication-reported, not verified from a checkpoint
-training log. Frozen full-year 2022 tests one unseen year, not robustness across
-climate regimes. One region, neural codec and few corrector architectures limit
-generalisation.
+CRA5 reportedly trained on 1979--2021 and tested on 2022--2023~\cite{han2024};
+we did not audit its checkpoint log. Our 2018 test overlaps CRA5 training,
+while one frozen 2022 test, one CONUS region, one neural codec and few
+correctors do not establish broad generalisation.
 
-Mean-rate matching compares global/regional tasks, not identical domains.
-Per-frame rate coefficients of variation are 3.70\% for MPCA-only and 0.95\%
-for CRA5. Payload excludes fixed bases and correction weights; correction adds
-inference cost. Derived \texttt{tcwv} partly measures derivation error.
-No pointwise or per-block improvement is guaranteed.
+Matched mean rates compare different global/regional coding tasks. Frame-rate
+coefficients of variation are 0.95\% for CRA5 and 3.70\% for MPCA-only.
+Payloads exclude shared bases and correction weights; inference adds cost.
+Derived \texttt{tcwv} includes derivation error. No pointwise or per-block
+improvement is guaranteed.
 
-Bootstrap intervals condition on fitted checkpoints and year; seven-day blocks
-do not establish independence beyond that lag. Spatial cells are correlated.
-Roughness covaries with elevation/geography; western lowland bins contain only
-29--31 cells. Below-ground values complicate mountain comparisons.
-Both terrain analyses describe associations, not causality. Matched dilation
-expands theoretical support but retains concentrated gradients; one seed and
-dilation pattern cannot exclude broader context or optimisation effects.
-Unequal group sizes and error magnitudes affect the shared residual-MSE loss.
+Seven-day bootstrap intervals condition on checkpoint, year and grid; they do
+not remove all temporal or spatial dependence. Roughness covaries with elevation
+and geography; western lowland bins have only 29--31 cells, while mountain
+pressure levels may be below ground. Terrain associations are not causal.
+One dilation pattern/seed cannot exclude broader context or optimisation effects;
+unequal group sizes and error magnitudes affect the shared residual-MSE loss.
