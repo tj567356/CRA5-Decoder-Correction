@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-31",
+  "environment": "existing Ubuntu research venv, Python 3.12.11",
+  "clean_environment_installation_tested": false,
+  "full_year_pipeline_rerun_for_this_guide": false,
+  "paper_tables_and_figures_from_stored_results": {
+    "mode": "reconstruction_from_stored_measurements_no_model_inference",
+    "targets": [
+      "fig1",
+      "table1",
+      "table2",
+      "fig2",
+      "table3"
+    ],
+    "sources": [
+      "/tmp/taai2026_reproduction_repository_20261031/research/new_20/results/rate_matched_val.json",
+      "/tmp/taai2026_reproduction_repository_20261031/research/fourcastnet/results/revision_2026/eval2018/summary.json",
+      "/tmp/taai2026_reproduction_repository_20261031/research/fourcastnet/results/revision_2026/eval2018/summary.json",
+      "/tmp/taai2026_reproduction_repository_20261031/research/fourcastnet/results/revision_2026/eval2022/summary.json",
+      "/tmp/taai2026_reproduction_repository_20261031/research/fourcastnet/results/revision_2026/rf_ablation_d23_seed0_20261029/eval2018/summary.json",
+      "/tmp/taai2026_reproduction_repository_20261031/research/fourcastnet/results/revision_2026/rf_ablation_d23_seed0_20261029/eval2022/summary.json",
+      "/tmp/taai2026_reproduction_repository_20261031/revision_2026/linear_corrector/summary.json",
+      "/tmp/taai2026_reproduction_repository_20261031/research/fourcastnet/results/revision_2026/rf_ablation_d23_seed0_20261029/affine_eval2022/summary.json",
+      "/tmp/taai2026_reproduction_repository_20261031/research/fourcastnet/results/revision_2026/baselines/revised_table1.csv",
+      "/tmp/taai2026_reproduction_repository_20261031/research/fourcastnet/results/revision_2026/terrain/terrain_roughness_all_land.csv",
+      "/tmp/taai2026_reproduction_repository_20261031/research/fourcastnet/results/revision_2026/terrain/terrain_roughness_west_land.csv",
+      "/tmp/taai2026_reproduction_repository_20261031/research/fourcastnet/results/elevation_controls.csv"
+    ],
+    "passed": true,
+    "scope": "Numeric tables and re-plotted curves; not pixel-identical publication layout or end-to-end rerun."
+  },
+  "real_validation_smoke": {
+    "passed": true,
+    "year": 2017,
+    "frames": 4,
+    "device": "cpu",
+    "input_output_shape": [
+      4,
+      20,
+      97,
+      241
+    ],
+    "parameters": 1646548,
+    "before_all20_nrmse": 0.09145615633097169,
+    "after_all20_nrmse": 0.06539718634047201,
+    "sample_sha256": "e59de8c6e72245650cee7430ffff9d21a706f9cd776426bb3e3d62b961e676e2",
+    "comparison_rtol": 0.001,
+    "comparison_atol": 1e-05
+  },
+  "bootstrap_recomputed_direct19_intervals_pct": {
+    "2018": [
+      25.324687028162778,
+      26.17870344500925
+    ],
+    "2022": [
+      25.904632121972778,
+      26.92780835767633
+    ]
+  },
+  "theoretical_central_rf": {
+    "original": [
+      72,
+      72
+    ],
+    "dilated": [
+      96,
+      96
+    ]
+  },
+  "original_checkpoints_modified": false,
+  "paper_moved_or_changed": false
+}

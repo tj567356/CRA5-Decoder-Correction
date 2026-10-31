@@ -17,3 +17,6 @@ download Release PCA assets, and install compatible main/CRA5 decoder runtimes.
 Many original scripts preserve original Ubuntu paths and some execute at import.
 The frozen result records are available; a clean-environment end-to-end rerun has
 not been performed for this packaging task. Do not claim one-command reproduction.
+
+
+Guide update, 2026-10-31: docs/REPRODUCING.md now provides tested stored-result reconstruction for all five figures/tables, a real four-frame 2017 CPU inference smoke test, and recomputed bootstrap/theoretical RF commands. The clean-environment installation and full yearly retraining pipeline remain explicitly untested for this packaging task.

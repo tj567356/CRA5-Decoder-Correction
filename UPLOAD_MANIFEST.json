@@ -9,8 +9,8 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 275,
-      "sha256": "af14d3dd5e74f74e91496d60ff0af6b94bbfe48c5899ac73ff7bf03986b20a81"
+      "bytes": 335,
+      "sha256": "de60ece61b61701c133d466043e842a0793640c9f88b32989f317f284239e8a5"
     },
     {
       "path": "artifacts/ARTIFACT_AVAILABILITY.json",
@@ -291,6 +291,31 @@
       "path": "artifacts/transforms/new_20/pca/n4384/metadata.json",
       "bytes": 106527,
       "sha256": "748fe247c70a4db7e7a874a70f1720687f4e65a5bad6dc0c803f5eab1969b7b9"
+    },
+    {
+      "path": "docs/REPRODUCING.md",
+      "bytes": 8732,
+      "sha256": "4b39c7f38e9697ff56400510c8501e122c3c536e301f70bd5e57d631887a6e0f"
+    },
+    {
+      "path": "docs/REPRODUCTION_VALIDATION.json",
+      "bytes": 3039,
+      "sha256": "55eecf0fc6ebde092f861afbbd3a8e9f6d6f82028b2d17e4aaaca9155db9e877"
+    },
+    {
+      "path": "examples/cra5_2017_smoke.json",
+      "bytes": 1614,
+      "sha256": "42b291af1d368d40263319489c8a5b025aa2af65f971dc428076fa7ac7b63886"
+    },
+    {
+      "path": "examples/cra5_2017_smoke.npz",
+      "bytes": 6655143,
+      "sha256": "e59de8c6e72245650cee7430ffff9d21a706f9cd776426bb3e3d62b961e676e2"
+    },
+    {
+      "path": "examples/README.md",
+      "bytes": 661,
+      "sha256": "c98a3d71ae533b37c1e02409a4ac9a13ab6dd943bd9c0b089af9459c1d3f7bf3"
     },
     {
       "path": "paper/figs/main_result.pdf",
@@ -579,13 +604,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 6084,
-      "sha256": "235e03760872f0cfe8460e9e229bcc8ff2bdef03587d80623f8ae2dc9c1ecc47"
+      "bytes": 6385,
+      "sha256": "06d0019a155dcfa035e840d42282fb8f0967cbe8ea65a9aa793acfe290839638"
     },
     {
       "path": "REPRODUCTION_GAPS.md",
-      "bytes": 1231,
-      "sha256": "7d22a052ba522d2c0851b1f13cd962369e4aebc49328c3a13475a60bd6693c6a"
+      "bytes": 1582,
+      "sha256": "c5bec44a5cc3a0c328ad4d2342e9abfcbdbb79a2700cca92d9d347dfeaf056db"
     },
     {
       "path": "research/environment/python-version.txt",
@@ -1881,10 +1906,21 @@
       "path": "revision_2026/TABLE_REVISION_AUDIT.md",
       "bytes": 4286,
       "sha256": "72f6e5f369109f86733a6301108f55c5fa7f1115c6cc74dee9a43637c4514654"
+    },
+    {
+      "path": "scripts/reproduce_paper.py",
+      "bytes": 6827,
+      "sha256": "481786ac49d830683c04f2ec3b6d81606ff8e067752816ea62bcfc2b0d13d7c6"
+    },
+    {
+      "path": "scripts/smoke_corrector.py",
+      "bytes": 2745,
+      "sha256": "42fa32ea13238fff689bf711cab53a7e530208a720364aa9691ad976afd1de02"
     }
   ],
   "manifest_excludes_itself": true,
   "original_UNet2_AST_unchanged": true,
   "ubuntu_small_artifacts_verified": 94,
-  "code_line_ending_audit": "provenance/CODE_LINE_ENDINGS.json"
+  "code_line_ending_audit": "provenance/CODE_LINE_ENDINGS.json",
+  "reproduction_guide_validation": "docs/REPRODUCTION_VALIDATION.json"
 }
