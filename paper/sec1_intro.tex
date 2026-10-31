@@ -8,8 +8,8 @@ evaluation describes reconstruction error by variable, pressure level, spatial
 location, and spectrum. A separate question is how much error remains predictable
 from the decoded fields themselves.
 
-We attach a 1.65\,M-parameter U-Net to CRA5's decoded output. On the 2018 CONUS
-test year, mean normalised RMSE (nRMSE) decreases by 25.8\% over the 19
+We attach a 1.65\,M-parameter U-Net to CRA5's decoded output.\footnote{Code and reproducibility: \url{https://github.com/tj567356/CRA5-Decoder-Correction}.}
+On the 2018 CONUS test year, mean normalised RMSE (nRMSE) decreases by 25.8\% over the 19
 FourCastNet variables directly represented by CRA5, without changing the
 per-frame bitstream. Including derived total column water vapour gives 27.8\%.
 We call this reduction \emph{model-recoverable error}: it depends on the chosen
@@ -33,12 +33,10 @@ from 18.1\% to 36.9\% between roughness endpoint deciles. The association
 persists within several elevation bands but does not isolate a terrain mechanism.
 Our earlier proxy-elevation analysis remains a sensitivity check.
 
-Our contributions are (i) a measured, mean-rate-matched MPCA/CRA5 comparison
-with the differing global/regional coding tasks made explicit; (ii) a study of
-decoder-side residual predictability and its vertical asymmetry, including a
-frozen 2022 out-of-training-window test and corrector controls; and (iii) an
-ERA5-orography analysis of terrain roughness versus correction gain, with
-elevation and geographic sensitivity checks. Checkpoints are selected using
-2017 validation data; paired temporal block-bootstrap intervals quantify
-uncertainty conditional on each fitted checkpoint and test year.
+We contribute (i) a CRA5/MPCA comparison using measured bitstreams at
+matched mean rate, distinguishing global and regional coding; (ii) vertical
+recoverability with frozen 2022 testing and corrector controls; and (iii)
+ERA5-orography roughness associations with elevation and geographic checks.
+Checkpoints are selected on 2017 data; temporal block-bootstrap intervals
+condition on each fitted model and test year.
 
