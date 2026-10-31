@@ -2,8 +2,9 @@
 \label{sec:setup}
 
 \subsection{Data and Metric}
-ERA5~\cite{hersbach2020} is cropped to $25$--$49^\circ$N and
-$130$--$70^\circ$W on its $0.25^\circ$ grid ($97\times241$ cells). We use the
+ERA5~\cite{hersbach2020} is represented on a regular $0.25^\circ$
+latitude--longitude grid and cropped to $25$--$49^\circ$N and
+$130$--$70^\circ$W ($97\times241$ cells). We use the
 20 FourCastNet variables~\cite{pathak2022}: five surface fields; winds and
 geopotential at 1000/850\,hPa; temperature and relative humidity at 850\,hPa;
 wind, geopotential, temperature, and relative humidity at 500\,hPa; geopotential
@@ -30,8 +31,8 @@ be learned by the corrector, so its gains partly repair this derivation.
 For channel errors $b_j$ before and $a_j$ after correction, the headline reduction
 is $G=1-\sum_j a_j/\sum_j b_j$. Equal-weight fractional gain is
 $\bar G=p^{-1}\sum_j(1-a_j/b_j)$. The former weights fractional gains by baseline
-error; the latter treats channels equally. Terrain uses the same $G$ unless
-explicitly labelled as a legacy pooled-error statistic.
+error; the latter treats channels equally. Terrain roughness uses $G$; the legacy proxy-elevation control instead uses
+$G_{\mathrm{pool}}$ (Section~\ref{sec:terrain}).
 
 \subsection{Correction Network}
 \label{sec:cnn}

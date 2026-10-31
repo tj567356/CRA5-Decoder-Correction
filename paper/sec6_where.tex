@@ -45,8 +45,10 @@ e97 & 5093 N & Near & 0.22290 & 0.19081 & 14.39 \\
 
 \subsubsection{Classical controls and architecture.}
 Near/upper $G$ ratios are 9.14 for CRA5, 1.72 for matched MPCA-only, and
-1.32--1.35 for non-matched MPCA+PCA (Table~\ref{tab:asymmetry}). Distinct
-checkpoint weights share an architecture and residual objective. This supports
+1.32--1.35 for non-matched MPCA+PCA (Table~\ref{tab:asymmetry}). The separate
+matched-rate MPCA+PCA point in Fig.~\ref{fig:main} is omitted from this group
+table: its overall correction is only 3.7\%, while MPCA-only is the main matched
+control. Distinct checkpoint weights share an architecture and residual objective. This supports
 a compressor-dependent pattern for this corrector, but its local receptive field
 may preferentially repair surface structure while missing broader upper-air
 errors. The MPCA architecture sweep does not isolate CRA5 receptive-field effects;
@@ -83,6 +85,7 @@ parameters: \emph{not parameter-matched}. The same recipe selects epoch 125 on
 prevent attributing the U-Net gap solely to nonlinearity.
 
 \subsubsection{Spatial diagnostic.}
-For a $5\times5$ box smoother $S_5$, fine-scale error fraction
+For a $5\times5$ box smoother $S_5$, the high-pass variance ratio
 $\mathrm{Var}(e-S_5(e))/\mathrm{Var}(e)$ is 57.6\%/27.6\% near/upper for CRA5,
-versus 22.2\%/5.5\% for unquantised e995. This diagnostic does not establish a mechanism.
+versus 22.2\%/5.5\% for unquantised e995. Since $S_5$ is not an orthogonal
+projection, this is not an additive variance partition or a causal mechanism.
