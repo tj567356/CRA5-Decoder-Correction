@@ -1,0 +1,77 @@
+name: Verify TAAI Poster 11-page PDF
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'paper/**/*.tex'
+      - 'paper/*.tex'
+      - 'paper/*.bib'
+      - 'paper/*.bbl'
+      - 'paper/figs/**'
+      - '.github/workflows/taai-latex.yml'
+
+concurrency:
+  group: taai-paper-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout LaTeX and original figures
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+      - name: Compile Springer LNCS PDF
+        uses: xu-cheng/latex-action@v4
+        with:
+          root_file: main.tex
+          working_directory: paper
+          texlive_version: 2026
+      - name: Validate <= 11 A4 pages
+        shell: bash
+        run: |
+          if ! command -v pdfinfo > /dev/null; then
+            sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+          fi
+          test -s paper/main.pdf
+          pdfinfo paper/main.pdf
+          pages=$(pdfinfo paper/main.pdf | awk '/^Pages:/ { print $2 }')
+          test -n "$pages"
+          if [ "$pages" -gt 11 ]; then
+            echo "::error::PDF has $pages pages; TAAI Poster target is 11."
+            exit 1
+          fi
+          echo "Validated TAAI Poster PDF: $pages pages."
+      - name: Update checked PDF and LaTeX ZIP in this PR
+        shell: bash
+        if: github.event.pull_request.head.repo.full_name == github.repository
+        run: |
+          python revision_2026/scripts/package_source.py --paper paper --out revision_2026/final/TAAI2026_source.zip
+          cp paper/main.pdf revision_2026/final/TAAI2026_camera_ready.pdf
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -f paper/main.pdf revision_2026/final/TAAI2026_camera_ready.pdf revision_2026/final/TAAI2026_source.zip revision_2026/final/TAAI2026_source.manifest.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Rebuild verified 11-page PDF and complete source ZIP'
+            git push origin HEAD:refs/heads/taai-11page-code-footnote-20261031
+          fi
+      - name: Upload the compiled, page-checked PDF
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: taai-paper-build
+          path: |
+            paper/main.pdf
+            paper/main.log
+            paper/*.tex
+            paper/*.bib
+            paper/*.bbl
+            paper/*.cls
+            paper/*.bst
+            paper/figs/*.pdf
+          if-no-files-found: warn
