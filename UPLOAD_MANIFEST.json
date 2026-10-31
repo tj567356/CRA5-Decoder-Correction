@@ -1,5 +1,5 @@
 {
-  "repository": "tj567356/NEWTAAI2026",
+  "repository": "tj567356/CRA5-Decoder-Correction",
   "release_tag": "camera-ready-2026-10-31",
   "files": [
     {
@@ -334,28 +334,28 @@
     },
     {
       "path": "paper/main.bbl",
-      "bytes": 3556,
-      "sha256": "6c0e9b83f2ab591d040fb31239195a805aa7c595c64c61e03de87220b797ec1c"
+      "bytes": 3517,
+      "sha256": "26baa0d7aea89495ea0b94f27a156424d91bd97d7d909dc76017062fea65f372"
     },
     {
       "path": "paper/main.pdf",
-      "bytes": 406723,
-      "sha256": "bf0b2746a83a37c54325b707c8d62d92f8de0344a79f8a553a6d91dec607872e"
+      "bytes": 410597,
+      "sha256": "d4dc6f6114db286d75d52cbf270c551d9e94227feb50c08938bd74a10d053477"
     },
     {
       "path": "paper/main.tex",
-      "bytes": 4556,
-      "sha256": "46264ce80f9a6dba5a8559ea5bed5451b046c61bf8cebe5c4869d0bb6f144451"
+      "bytes": 4540,
+      "sha256": "2aeac886d7f3b46272155f1cb4e63ab19be59e46e59d143a9fad8db7ead96283"
     },
     {
       "path": "paper/refs.bib",
-      "bytes": 6398,
-      "sha256": "6cc5db959b51e56d4eb6ae271b9b87eab3140c2505a338978a2fd029ea8b4e1e"
+      "bytes": 6350,
+      "sha256": "8293723935bec4ee08f0fbcdf732f14965faffff46246602f452b202cbc51d47"
     },
     {
       "path": "paper/sec1_intro.tex",
-      "bytes": 2853,
-      "sha256": "e1e8b99a59c29f5757a9afc8bd99f5ac05b2df3420c48d20b17ecfe5aac6978c"
+      "bytes": 2760,
+      "sha256": "7b902a21394033c3444168b4aaa4745f81d55361fa9477635d93a3cfac646a58"
     },
     {
       "path": "paper/sec2_related.tex",
@@ -364,8 +364,8 @@
     },
     {
       "path": "paper/sec3_setup.tex",
-      "bytes": 3979,
-      "sha256": "08cb2ed6e21817cc495656f1f5953c8b039bd8018bb27ed5052b7372694872ed"
+      "bytes": 4057,
+      "sha256": "66768b0bdf67242fb12aad9c416650b9b8f4fae013c733edc04187fc955c916a"
     },
     {
       "path": "paper/sec4_encoder.tex",
@@ -379,13 +379,13 @@
     },
     {
       "path": "paper/sec6_where.tex",
-      "bytes": 5016,
-      "sha256": "deaa2177d865d90e44a55782d9669e788be11a6e4b07dc808a59dcd2d0b632c3"
+      "bytes": 5263,
+      "sha256": "e5e083aca5fc90c8b5f03d1f733d8cf159276238ca104fdd16ed87ff4912ff49"
     },
     {
       "path": "paper/sec7_terrain.tex",
-      "bytes": 4539,
-      "sha256": "363e6132886cb30df0ce96ad83d21363eaf1a7e152030e47ead3841d73ca9145"
+      "bytes": 4715,
+      "sha256": "843d444db449e2ad89e1b83bdda1b58b8711c8d49b442fb858b60d04a8d2b90c"
     },
     {
       "path": "paper/sec8_limitations.tex",
@@ -394,8 +394,8 @@
     },
     {
       "path": "paper/sec9_conclusion.tex",
-      "bytes": 666,
-      "sha256": "3d5f563dd5d477973de7c8ea4a8e572305ada3d24acbca9de59e4d22b405c734"
+      "bytes": 931,
+      "sha256": "0f5201b59b4f118aa27f704e223b78691dfb6a6b38f2519cee51534239f7c7dc"
     },
     {
       "path": "paper/splncs04.bst",
@@ -1619,18 +1619,18 @@
     },
     {
       "path": "revision_2026/final/TAAI2026_camera_ready.pdf",
-      "bytes": 406723,
-      "sha256": "bf0b2746a83a37c54325b707c8d62d92f8de0344a79f8a553a6d91dec607872e"
+      "bytes": 410597,
+      "sha256": "d4dc6f6114db286d75d52cbf270c551d9e94227feb50c08938bd74a10d053477"
     },
     {
       "path": "revision_2026/final/TAAI2026_source.manifest.json",
       "bytes": 1593,
-      "sha256": "f8de7666f1773538b60f88f56c5a84d155aaa258d490c4222c0c6d308beee3b0"
+      "sha256": "a9e07f8c86dfe4f8042965d7175b548715ecd6e33818084692dda24b5428b139"
     },
     {
       "path": "revision_2026/final/TAAI2026_source.zip",
-      "bytes": 69754,
-      "sha256": "53f1b95be300e5f2c2cfc4ea9ec2d4fd6c73a5ea898d0acd805b63804013dd5e"
+      "bytes": 70015,
+      "sha256": "3864603377fa933d7c46b4d447616d0be8ac0069d6919a85383ba7697388ad12"
     },
     {
       "path": "revision_2026/FINAL_REPORT.md",
